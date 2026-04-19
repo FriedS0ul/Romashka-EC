@@ -1,0 +1,9156 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c2813ffe-1ba9-4cab-b9df-1fc3bce27cb1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Kicad symbols:EC_SW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EC_SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Kicad footprints:ecs_pad_1U_no_ring"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EC_SW_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -1.27)
+					(mid 0 -3.052)
+					(end -5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EC_SW_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:SK6812MINI"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_marbastlib-mx:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 67.31 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00169ac5-f1f1-4834-a000-6029c92d8c54")
+	)
+	(junction
+		(at 53.34 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "012eb96a-29aa-4182-b762-b46f49a561cd")
+	)
+	(junction
+		(at 58.42 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0245f9aa-45d2-4f98-9115-31d1894cc464")
+	)
+	(junction
+		(at 132.08 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "032863d6-1fc8-4425-93c8-1e2e6af40dfa")
+	)
+	(junction
+		(at 157.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a81a04-77a5-4a83-bfe2-9edc77890974")
+	)
+	(junction
+		(at 107.95 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0785f052-2917-4b18-9767-60ab1aa2574b")
+	)
+	(junction
+		(at 74.93 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07b3d56a-2fdc-475f-a1f8-369dca62b407")
+	)
+	(junction
+		(at 157.48 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09df5d1b-9f9e-42bb-9ae9-781688f806ab")
+	)
+	(junction
+		(at 199.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a281ab7-76b2-4420-a03f-7164b91427b9")
+	)
+	(junction
+		(at 181.61 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de49e38-8a92-4566-b497-61adced4a668")
+	)
+	(junction
+		(at 83.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12403b03-fbaf-4b53-bc2f-88d2a1d9d8de")
+	)
+	(junction
+		(at 140.97 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153290d9-06e7-46f8-bd8f-829095926990")
+	)
+	(junction
+		(at 53.34 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "174ce602-8a16-475b-8294-63ea10875125")
+	)
+	(junction
+		(at 104.14 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199dbb5e-ce6d-499d-907b-99d783265af8")
+	)
+	(junction
+		(at 99.06 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9cc8e2-dfc8-43a6-b7cf-2a4776b52edd")
+	)
+	(junction
+		(at 181.61 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202f1d9d-7eb2-4c92-aa90-6d6bbde7eb3b")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204ef0f7-20dd-4007-b97b-87f98afc7ee1")
+	)
+	(junction
+		(at 157.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21715e19-f8fd-45dc-b8d9-b5b86c4183a2")
+	)
+	(junction
+		(at 116.84 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2293201f-1973-4327-884a-72cade0a9e47")
+	)
+	(junction
+		(at 182.88 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24113f84-611b-4c52-a116-87f769035f8c")
+	)
+	(junction
+		(at 49.53 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2690e2f0-de10-4a07-8f60-36b740a4864a")
+	)
+	(junction
+		(at 124.46 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab24436-e260-4702-90be-965659d4fd2c")
+	)
+	(junction
+		(at 165.1 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bcce6e6-0b55-42c9-9ca8-bb66b51080da")
+	)
+	(junction
+		(at 67.31 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf7e64b-dfd4-4a99-a9e2-90261d4c8bc2")
+	)
+	(junction
+		(at 49.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dd5c1d2-b342-4196-ad83-a709bab91ecd")
+	)
+	(junction
+		(at 198.12 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7ef146-97ca-4218-8af0-97693d87369d")
+	)
+	(junction
+		(at 173.99 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f9bb0c6-ba39-4aab-8704-265264a68f04")
+	)
+	(junction
+		(at 58.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd7e513-0309-4b16-9681-13f8baaddb5f")
+	)
+	(junction
+		(at 198.12 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32d192c8-b68a-448c-9c19-2d50dd8ad985")
+	)
+	(junction
+		(at 173.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32dd2960-7616-4681-b377-736b14c5fba8")
+	)
+	(junction
+		(at 154.94 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368d0c25-1d5c-4d1b-94bd-6e081f4c7fd6")
+	)
+	(junction
+		(at 124.46 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c0c2379-1f7f-4b4b-bd4f-21fefea3e4df")
+	)
+	(junction
+		(at 58.42 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c481432-375a-4d3f-94d2-05ce6e9f07d9")
+	)
+	(junction
+		(at 207.01 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cedb25e-9d82-4185-a30a-b9ce63dee6f6")
+	)
+	(junction
+		(at 27.94 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e892195-5bda-4160-ab3c-eef5bd405c2e")
+	)
+	(junction
+		(at 74.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4157a39b-b059-4fdc-a554-4001e7ed5246")
+	)
+	(junction
+		(at 50.8 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f53016-9a5a-49cd-a579-d683a42ad39f")
+	)
+	(junction
+		(at 173.99 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4334e6f1-9054-430f-90e7-1691acdfc8b9")
+	)
+	(junction
+		(at 82.55 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45982d01-f476-49f0-b1de-544a6c49a788")
+	)
+	(junction
+		(at 166.37 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f706df-ebf5-44e6-bf93-ca61d76c3a0a")
+	)
+	(junction
+		(at 100.33 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46327322-0b47-4375-9469-2759c64eb000")
+	)
+	(junction
+		(at 115.57 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4737c144-083d-4dc2-a18e-87507217b9ef")
+	)
+	(junction
+		(at 78.74 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4767935e-658f-464c-8c64-417d63c35efc")
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4874e77b-52f1-469f-9a37-bf1639d7bf04")
+	)
+	(junction
+		(at 182.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c1a16d-100c-44a3-8f9c-a08f942307ab")
+	)
+	(junction
+		(at 49.53 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d25898a-8652-4685-96ac-48bd6a9a4f2e")
+	)
+	(junction
+		(at 99.06 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c4cbd4-f780-405e-b260-c1ffbdb79a49")
+	)
+	(junction
+		(at 133.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c1d574-0dd9-402a-a5a8-6405582671fa")
+	)
+	(junction
+		(at 166.37 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57b54a92-4ec0-4da2-aab2-b7fb38a4253c")
+	)
+	(junction
+		(at 223.52 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d86490-de43-4463-951c-063e18dd7d23")
+	)
+	(junction
+		(at 100.33 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4abdff-e0f4-40a5-9008-82ac964bcf32")
+	)
+	(junction
+		(at 116.84 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f556e15-d41e-4124-b98c-65bc3633af50")
+	)
+	(junction
+		(at 140.97 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636ec504-e9f2-4bcb-abb3-583272fcc5b0")
+	)
+	(junction
+		(at 129.54 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64624e5b-fce0-441f-ac53-1aa971272134")
+	)
+	(junction
+		(at 34.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64910461-81ed-49fc-b78a-23c08ba39389")
+	)
+	(junction
+		(at 82.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66237e48-2563-4dd3-8b55-f8f5558a71d0")
+	)
+	(junction
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66dcbf53-8235-43e7-9dc0-096370e21a84")
+	)
+	(junction
+		(at 129.54 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67c14ac7-1825-48ce-ba90-2eb49b836833")
+	)
+	(junction
+		(at 182.88 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6ea93b-6bac-4c76-be49-d5d7b8ab5353")
+	)
+	(junction
+		(at 190.5 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aaf0a7f-1377-4c2d-95a7-a4537cdc7792")
+	)
+	(junction
+		(at 74.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c0a44aa-7f70-4555-9781-07e98d8555f9")
+	)
+	(junction
+		(at 140.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7a8951-977c-44d3-837e-d0f5512b9210")
+	)
+	(junction
+		(at 115.57 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cb6d437-886f-4359-a078-9a8fe1e6c2c6")
+	)
+	(junction
+		(at 149.86 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc30127-e103-4934-a5db-30499f07c6c5")
+	)
+	(junction
+		(at 53.34 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e07cac1-f785-443d-9110-e862d2c3890e")
+	)
+	(junction
+		(at 223.52 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72283b2a-50ba-400a-9319-8a590e8a4a1a")
+	)
+	(junction
+		(at 132.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731667d0-a941-4f0f-b0e1-06c2134345bf")
+	)
+	(junction
+		(at 207.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73714cc9-7748-48f0-b7a5-4f982d8c57cd")
+	)
+	(junction
+		(at 166.37 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c42a6c-6029-4b92-ae37-30cf85d31585")
+	)
+	(junction
+		(at 190.5 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c1d1a7-8f78-4867-8402-b8ee5b8cc369")
+	)
+	(junction
+		(at 49.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f1a3c8-964a-4d7b-b4f7-e1c39571ae61")
+	)
+	(junction
+		(at 173.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ec8d41-1963-464d-ac15-2976d1d095b5")
+	)
+	(junction
+		(at 91.44 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8404524c-9941-499e-8159-9cae6083d5e8")
+	)
+	(junction
+		(at 190.5 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86689c98-3579-4322-986e-d58f985f71dd")
+	)
+	(junction
+		(at 104.14 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86a692e5-41bd-413c-a8d4-8c21a1d8195d")
+	)
+	(junction
+		(at 154.94 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8742bcd5-921e-4d81-9ec3-49b740c0c4ce")
+	)
+	(junction
+		(at 149.86 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f41f6b-7de1-4afe-b17f-4cb772be936e")
+	)
+	(junction
+		(at 129.54 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8925c0b6-b86a-400d-9a15-b3d23c83ed09")
+	)
+	(junction
+		(at 66.04 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89bf0740-6468-4f56-affe-0fe59ed57b80")
+	)
+	(junction
+		(at 116.84 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c444a83-c55d-4fd9-948e-df20904e5306")
+	)
+	(junction
+		(at 78.74 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d36fc5e-1dcb-4d28-a651-c8522eb2074d")
+	)
+	(junction
+		(at 124.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d75268c-a644-469b-9e3b-40b60dc60623")
+	)
+	(junction
+		(at 199.39 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90179da9-9a62-41b5-8a83-28186cb7beb3")
+	)
+	(junction
+		(at 99.06 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91222c6e-6376-4100-87d3-d97ab6e3081c")
+	)
+	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9307a5ff-9f3d-4c87-ab44-3d9683386a48")
+	)
+	(junction
+		(at 27.94 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9415963e-9b18-432a-b50d-0ecbcf9d185a")
+	)
+	(junction
+		(at 104.14 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96242881-2041-4fec-addd-f215aad24835")
+	)
+	(junction
+		(at 124.46 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "990dd6ec-3763-441e-8bd7-8b0990c2c6b8")
+	)
+	(junction
+		(at 181.61 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca1b21a-7270-4f2b-9d42-82477ccfdf66")
+	)
+	(junction
+		(at 207.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce7aca0-fd77-4049-a69b-130f4f40c19c")
+	)
+	(junction
+		(at 129.54 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d808850-d20d-4d52-a07a-c6e9f9652771")
+	)
+	(junction
+		(at 58.42 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a161971c-b8bf-4ea5-8614-b14f44d2c404")
+	)
+	(junction
+		(at 181.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1656678-0ca2-4389-9690-2005d5e6f4ee")
+	)
+	(junction
+		(at 74.93 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24565b8-e8bf-4b00-9b23-d3d764416871")
+	)
+	(junction
+		(at 149.86 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82cf5ae-2a86-48d9-985f-fb26929d82b0")
+	)
+	(junction
+		(at 223.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac442180-552d-4920-b152-883bc1c0037b")
+	)
+	(junction
+		(at 199.39 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d82f82-762a-4cad-8672-9aa87849bdd7")
+	)
+	(junction
+		(at 99.06 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57a871d-5689-41e0-9ca2-a92bc7650490")
+	)
+	(junction
+		(at 133.35 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b868174e-1a78-47cf-a076-3893e3cecf4c")
+	)
+	(junction
+		(at 53.34 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9372e87-0aef-4fbf-adc5-0957b07aafbd")
+	)
+	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a2fbf5-af03-453e-91a0-dd425ab235cd")
+	)
+	(junction
+		(at 190.5 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba9037f0-2d87-405b-a23a-b0fc58e1a77d")
+	)
+	(junction
+		(at 50.8 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc56759a-7914-4f38-b193-b472456c688f")
+	)
+	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd70de44-87e4-4e0a-aea2-7f3b5f7a9a6a")
+	)
+	(junction
+		(at 67.31 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd7bfcb1-97ac-4fcf-83ae-8571ea923b0c")
+	)
+	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be122d2f-af7f-4b27-9ecc-05cb01679745")
+	)
+	(junction
+		(at 34.29 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf51a6d4-c05c-4321-ab0d-db3d4223a85c")
+	)
+	(junction
+		(at 198.12 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c07b8c39-59a2-4759-856f-f84dcbdd0622")
+	)
+	(junction
+		(at 157.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d9ec79-8f93-459a-a8b3-ef28e0d922c8")
+	)
+	(junction
+		(at 165.1 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f69761-8d17-4c7b-a55c-da1c702b8588")
+	)
+	(junction
+		(at 214.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7080c3f-29a9-42c6-9e82-ad8c611b4ab0")
+	)
+	(junction
+		(at 67.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ca92e8-23f8-4143-9712-bbf3069fb7b6")
+	)
+	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ff1e29-e86f-4ece-a37c-0f4ab02a71e0")
+	)
+	(junction
+		(at 132.08 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8233ac4-d918-4a04-97f3-f27760c3eae0")
+	)
+	(junction
+		(at 199.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d80178-8735-46bb-80a2-f8fc318b09c5")
+	)
+	(junction
+		(at 182.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb0648fa-7688-424b-adb7-beb1acd9eeca")
+	)
+	(junction
+		(at 133.35 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd92912f-a61f-4705-801d-9c548623e199")
+	)
+	(junction
+		(at 66.04 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc78b1c-b903-43f6-b908-3f9329519641")
+	)
+	(junction
+		(at 83.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce013779-1485-4287-abc8-c6bab1d8d77a")
+	)
+	(junction
+		(at 148.59 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceea06c9-b597-4ed9-83f0-bcbabd0b4966")
+	)
+	(junction
+		(at 166.37 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4fd816-11da-4476-8de4-12164d640230")
+	)
+	(junction
+		(at 82.55 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1135f77-5ec8-44c8-9d14-02982a1fa97c")
+	)
+	(junction
+		(at 148.59 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d18cdd9b-cdf2-4c04-9ef5-b7bdcf6e5fdf")
+	)
+	(junction
+		(at 66.04 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1a2d3e3-3f57-45ad-ad32-05d5621ad41a")
+	)
+	(junction
+		(at 66.04 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57e757b-2b1a-413d-bd89-7c03179fb44d")
+	)
+	(junction
+		(at 107.95 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7ad9935-a4c7-4ed9-9768-478ad51e6a48")
+	)
+	(junction
+		(at 116.84 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc82d6a-c11d-4f79-974a-afc6a2294e39")
+	)
+	(junction
+		(at 148.59 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b95637-6149-4e5f-8bc1-2a43ab7c9ba8")
+	)
+	(junction
+		(at 34.29 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f61ea5-14e2-43e9-9259-a2914f687468")
+	)
+	(junction
+		(at 82.55 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e69fcefa-9b73-4a18-8cd5-93fec026543f")
+	)
+	(junction
+		(at 50.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed108162-5a7b-4c55-93f0-d29a00ccf87d")
+	)
+	(junction
+		(at 198.12 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed938f1e-a528-427c-bdb8-91ec520ec2c1")
+	)
+	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2b287c3-b595-4bb5-9845-58c869510b77")
+	)
+	(junction
+		(at 91.44 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58f33d4-688d-4a46-a089-c71fbdd153a6")
+	)
+	(junction
+		(at 104.14 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f862a5ef-c114-4d9f-b2e8-97ee32c90c7c")
+	)
+	(junction
+		(at 50.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87b80d7-fad2-49d7-8b94-56900230bf66")
+	)
+	(junction
+		(at 78.74 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae106fc-28e5-4c01-b09d-1605061d0fb8")
+	)
+	(junction
+		(at 140.97 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb90f68b-85bd-412c-a3eb-4210d81f6c07")
+	)
+	(junction
+		(at 207.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe52f2f1-382d-4208-b38b-d54efe7bb91a")
+	)
+	(junction
+		(at 78.74 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff333815-7029-4045-a583-fa37087f5d47")
+	)
+	(junction
+		(at 198.12 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe333b9-a7a1-4b50-91ca-1126cd7fd2c4")
+	)
+	(wire
+		(pts
+			(xy 27.94 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000c3b41-148c-4f1c-b2fd-d387fff01b61")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d923d5-a4e8-4ce3-812f-d02d153bf026")
+	)
+	(wire
+		(pts
+			(xy 198.12 82.55) (xy 214.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033ba6cf-0b72-4cae-b32e-fe20545c6c33")
+	)
+	(wire
+		(pts
+			(xy 199.39 35.56) (xy 199.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c2f9dd-c2e9-4863-b38e-e3f34f419a8f")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.96) (xy 181.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04db829a-e335-4485-b729-4df3a2620ab1")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c57cf8-b7eb-41bb-bea6-1e6fe34ae205")
+	)
+	(wire
+		(pts
+			(xy 82.55 52.07) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0723b89b-44c0-4d78-838d-2a234bd65a7c")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075caee2-f348-4d5b-bcf6-8546d859744b")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075d2ec9-0b5f-460a-b3c0-2aa19bbd9eca")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079df0ad-7963-4f0b-ac5e-085608b35cc8")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e88007-d32e-4ac8-bd41-e316978432ee")
+	)
+	(wire
+		(pts
+			(xy 78.74 193.04) (xy 104.14 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083c0fac-d6bd-4318-b7df-81cf7bafa477")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085cabbd-48ac-4bb9-99e7-554210b4d75f")
+	)
+	(wire
+		(pts
+			(xy 157.48 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fbce4b-7013-42c5-ad2d-0b650deda864")
+	)
+	(wire
+		(pts
+			(xy 133.35 45.72) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab1f30f-3249-4195-b8e4-58c090e3fd2f")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 223.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aebe4ed-1f5c-4b06-8c8a-8c61bca40680")
+	)
+	(wire
+		(pts
+			(xy 129.54 177.8) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d84ac6e-d64c-4e9a-86ce-14895ed7147b")
+	)
+	(wire
+		(pts
+			(xy 214.63 88.9) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2c0405-7491-4d04-9942-e09cc5a9703a")
+	)
+	(wire
+		(pts
+			(xy 60.96 185.42) (xy 71.12 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e895cfc-008b-4fa2-9695-6a08ce64ffc6")
+	)
+	(wire
+		(pts
+			(xy 223.52 81.28) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec20165-5d2a-454f-992f-41672b255360")
+	)
+	(wire
+		(pts
+			(xy 111.76 185.42) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef2669c-a217-429d-8b60-f55a22ae9bdb")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 74.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efccbd2-5566-43cd-91af-c28715a5eee3")
+	)
+	(wire
+		(pts
+			(xy 148.59 52.07) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb464ae-0352-4aa9-8ba7-da653373b61e")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff3b8e1-6a84-46e8-9922-b1a02356e8c5")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119642b6-fcc7-4c88-abae-e340a30fdbee")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12964c6c-3188-4ab5-a26a-10902b8a2dee")
+	)
+	(wire
+		(pts
+			(xy 154.94 170.18) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139d12f2-a220-48bb-afe5-6671cb11790e")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1541da76-f5f9-47ba-9e04-68a8ea1546ff")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169e767e-7c5d-468c-a537-4ce6e0f507fb")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f981d4-0c40-4255-bb7b-c6dd728076de")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ea5d9c-5169-4ace-abb8-b99a978809f6")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1907764a-d583-4704-b360-33d07ea4dc74")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 83.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a817e69-bb49-4f37-b874-3d7ba106d5af")
+	)
+	(wire
+		(pts
+			(xy 67.31 45.72) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f677d10-9b24-4230-b7fd-66c272a66d9c")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 74.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20216ebf-52ca-4394-8715-e0488548427f")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ae0979-c4ee-412b-bb16-bc10a52786f3")
+	)
+	(wire
+		(pts
+			(xy 78.74 177.8) (xy 104.14 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2231fb8a-c3e8-4f6e-a4be-f94a2c8e0ad9")
+	)
+	(wire
+		(pts
+			(xy 154.94 194.31) (xy 154.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229d4032-3868-4363-b3b6-4e99cf4bae04")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a135a4-dd79-4dcb-a5a9-fa03c085a274")
+	)
+	(wire
+		(pts
+			(xy 35.56 161.29) (xy 45.72 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c1e33d-2fb5-4dbb-9837-52d202c15d3b")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f9dba8-a29d-44ad-92dc-f3469c7fc085")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2611b760-c83d-409e-8a3f-67187587cf58")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268f17bc-f721-4f28-988d-3b0b15e6e848")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f380bb-0c4c-4f92-84b4-303dbcdc5be5")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2760d69b-d720-4bf1-bbe8-a3c032cc99b1")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292b12c3-3b33-40c0-ab46-6fcd5d5c5cc7")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b35834c-3408-4cd0-b12f-de8c968b54f1")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b42a452-4cf9-4bd4-b50f-574bfa4777cb")
+	)
+	(wire
+		(pts
+			(xy 53.34 193.04) (xy 78.74 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0293ac-0a71-4618-b0e9-57f0932da1c0")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 199.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebf2bfb-df83-44b9-aa55-ba1ad193c640")
+	)
+	(wire
+		(pts
+			(xy 199.39 45.72) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f42c5aa-ac01-49cc-935f-916589182333")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3070a1c2-261e-47d7-b39c-d8342b1dbf38")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aaf61c-507a-4cf0-8ccf-cd2f86a50c4c")
+	)
+	(wire
+		(pts
+			(xy 27.94 176.53) (xy 27.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cf9936-9ae2-4343-b27e-37989f42acd4")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32306363-baf3-4598-b809-59e2b3eab1c1")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324e0986-8129-4ce3-a402-f535a218bc60")
+	)
+	(wire
+		(pts
+			(xy 166.37 45.72) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3260676c-af53-4f29-9dd6-3b69b734be03")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33622b63-6a8a-4322-be35-04d0883e7ef9")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 214.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e20992-9fc6-4e0b-a22f-a55e08bd9941")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355ecca1-ae5c-47d3-9194-571cdf68becb")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3617aff1-335f-4344-8a58-53a2dad80014")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fb15fa-c749-46c8-996b-87062197714a")
+	)
+	(wire
+		(pts
+			(xy 82.55 76.2) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371a36a0-f033-4884-aef3-ff186478e5b5")
+	)
+	(wire
+		(pts
+			(xy 133.35 34.29) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38084f7c-7dbd-45f7-8137-38d7c1295b96")
+	)
+	(wire
+		(pts
+			(xy 132.08 45.72) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cf3f33-86e4-4489-a84b-8e23f1c6feb0")
+	)
+	(wire
+		(pts
+			(xy 198.12 73.66) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39167497-758d-4b52-8636-bd3a4db24ad5")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 49.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba2ac07-8739-47f7-866b-97c4f4152927")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbb7f75-519b-4b26-8603-f32239a26005")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 49.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beed56b-5bb2-47b5-ae68-616335b4e876")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4141c013-75d7-4b2b-9acd-6dd4f533dbcf")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48332ecb-a2c9-4a33-91e5-6febb9e330cc")
+	)
+	(wire
+		(pts
+			(xy 198.12 76.2) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a63944c-7d46-4152-8b9a-7d51f23df126")
+	)
+	(wire
+		(pts
+			(xy 74.93 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8ddb47-3215-4756-8b65-e4fad2b17ad2")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dffa87c-3634-4832-a64d-ff748336c73d")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f66e6d-48a5-47f1-847c-d0e54e95c2c0")
+	)
+	(wire
+		(pts
+			(xy 198.12 97.79) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529489ae-6ce7-40ac-bdbb-12e7ddf3ed71")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557c4ecb-5002-4130-82d8-d292191d2082")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5669364e-f1f1-4722-99eb-cbec0d389d77")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59745217-5225-4f3f-a584-0430f2d63e7f")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a02c99d-0d82-474c-ac58-16626b2d9380")
+	)
+	(wire
+		(pts
+			(xy 137.16 161.29) (xy 147.32 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa3a1b2-ebae-4275-a1c2-84e6028218ce")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 181.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa97fe5-61db-4965-9792-bf48edd06e8b")
+	)
+	(wire
+		(pts
+			(xy 34.29 76.2) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb3d185-3e5a-4c5f-a86b-ee30568558b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629df3fb-4ac7-44fa-9e77-25c2b96b1eaa")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.04) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6328f128-0d2b-413a-bb93-4b314c4daeca")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643d351d-6aa1-45bc-8a1a-7cfef0d188dd")
+	)
+	(wire
+		(pts
+			(xy 129.54 193.04) (xy 154.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b7e297-299b-470d-ae2f-28c63d4f47d7")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6630cfa7-db61-465d-be15-cd4474fe5b36")
+	)
+	(wire
+		(pts
+			(xy 74.93 96.52) (xy 74.93 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677f6006-3ebc-4b3e-9026-16b2b05d61c9")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a204789-4a80-4125-87d3-7c15f7fe0ffb")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c64ed3f-8229-403b-8e7d-b1c0867c11a6")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8b4681-ed86-4305-9301-a2884d3e25f1")
+	)
+	(wire
+		(pts
+			(xy 27.94 82.55) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc4e94a-ef57-4d46-8ace-83cd1d406fd3")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e89c7b0-9cf0-43d7-8d0f-9afd7e734a71")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3617ef-2cec-4d08-8849-737cccbb8ab8")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7207b534-da85-4c78-8677-e2ee7a085c18")
+	)
+	(wire
+		(pts
+			(xy 27.94 168.91) (xy 53.34 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746a931b-6812-48c8-a55d-38bcb9694b35")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b92b32-dd7f-4062-a393-78930fa702db")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75987604-2725-4a5b-90c5-07eb27dd6cc5")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b7a2cf-63ff-4e54-ae94-132c04871c92")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e88c75-c242-4099-a3d9-f92ff0ad6d2a")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 149.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7932fee0-610c-4a4e-89ce-3207722c8ea4")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798182a0-f6cd-406d-b875-38ecc57c7db2")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d166eec-a8eb-4ee6-8ec0-68bb05848ba2")
+	)
+	(wire
+		(pts
+			(xy 82.55 91.44) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1e0e3e-3e23-4630-b70b-c404ee12b2ba")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f595f37-8d7d-448b-9283-71415d0b0511")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7f94ef-3e11-43aa-b282-4e4ddb9e606e")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b10c0c-12fa-4c91-8f48-5a80eae3ba36")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fe2a5b-68fb-4251-b9bb-6e457a527357")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843b1be2-be26-4fcf-b090-62e80ed8c560")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 107.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850d9180-7936-4b41-8dc1-056d86ed29e7")
+	)
+	(wire
+		(pts
+			(xy 223.52 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857799b4-f3ba-4d30-b9d7-368c30154939")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859159ad-f623-4dda-8f20-a5b7503410b0")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860e7b06-32ef-49cf-8978-be2dc751fbd1")
+	)
+	(wire
+		(pts
+			(xy 223.52 50.8) (xy 223.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867f76ea-3519-4b34-858c-cd4a7b679f82")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870658e5-3209-4a1d-9917-f552e1506215")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883c9dbc-6baf-4381-ae49-9f035c3df6ed")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8884fa84-fb18-4c16-8872-698de8aee450")
+	)
+	(wire
+		(pts
+			(xy 27.94 177.8) (xy 53.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eb9e38-36ea-4e45-844c-f4c32ac56609")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 34.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2627a6-f9ba-447f-8c49-205d6a3f1609")
+	)
+	(wire
+		(pts
+			(xy 165.1 52.07) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb30c36-835d-4077-aee7-d6473757d13c")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc0aefa-60f3-4ed1-b97b-a0d42b8d8501")
+	)
+	(wire
+		(pts
+			(xy 214.63 60.96) (xy 214.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd33290-2bd0-46b0-97ce-5d073854caf2")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 49.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d341cda-2e6f-433c-b2a3-5817a667db2d")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928d5660-763f-4717-9d82-3ee7ec2d0d56")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ee4b6b-1ba0-41dd-8f82-3b4fa93e2948")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9346f5b7-cf72-4589-8cd6-095b6b7ae43c")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9347594c-2e40-4916-b9de-955f8625e7b3")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9356ac45-11a8-412b-9e65-7da693d97710")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945a3c27-06f0-49ea-ab62-af4bfe312811")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95017d9b-4e29-4f3e-8b1a-36328eaaf728")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96aa7b61-f159-4849-a169-6633a6cd025e")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c46a56-f64c-4f4f-babe-4fe88c9e0be8")
+	)
+	(wire
+		(pts
+			(xy 67.31 76.2) (xy 67.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97399082-5f5a-403d-adb0-c7377b47285f")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 214.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3c6b4b-3d63-458c-823a-041e3a03bba6")
+	)
+	(wire
+		(pts
+			(xy 140.97 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a588854-1da3-4d37-ad8d-0d269262d0f2")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4dda0e-ee9e-4f10-824f-844b212fc509")
+	)
+	(wire
+		(pts
+			(xy 148.59 91.44) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e99de12-5c87-462c-823b-9e28451e89db")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbe0da1-e93d-4d42-b804-46cd8d385577")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04fd9f4-baf6-4917-9766-203136c086f1")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a051a18e-8951-441a-8329-f28262a02aa5")
+	)
+	(wire
+		(pts
+			(xy 214.63 91.44) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1433e28-2da4-4a14-a38f-dc1774003655")
+	)
+	(wire
+		(pts
+			(xy 27.94 193.04) (xy 53.34 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a161b4a0-64bd-4eaf-b3ee-229885897ebe")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33d7d86-8fc0-4798-8e88-9d1d3d5034e5")
+	)
+	(wire
+		(pts
+			(xy 41.91 96.52) (xy 58.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6057ac0-6ef9-4085-8c12-69efdf90a7b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 193.04) (xy 129.54 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a59b9a-79dc-4321-a0d3-ef05f7b1a49a")
+	)
+	(wire
+		(pts
+			(xy 35.56 185.42) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdd60de-d87e-469f-8338-d88cc4c2b3ae")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1634e3-0552-46fe-9b32-42f72c872009")
+	)
+	(wire
+		(pts
+			(xy 78.74 168.91) (xy 104.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0163401-c3a2-4361-a2bf-35aed5ebb6eb")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23b3657-b159-47a0-a6fa-4c9bcbf96265")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3279990-2be5-460a-8a8e-0a2a38d9bd12")
+	)
+	(wire
+		(pts
+			(xy 148.59 45.72) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48d6d96-38b7-4e0b-982c-11007e5c501f")
+	)
+	(wire
+		(pts
+			(xy 198.12 67.31) (xy 214.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5374d34-3312-4146-b73e-1290904b6b4a")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b578a479-efe4-4f0f-8fd5-3d34449e0246")
+	)
+	(wire
+		(pts
+			(xy 41.91 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dac79f-a0e6-4583-9043-8faaeaeaa866")
+	)
+	(wire
+		(pts
+			(xy 181.61 52.07) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fe5231-a666-42fd-bb14-b67e8024ce2f")
+	)
+	(wire
+		(pts
+			(xy 173.99 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fa0a87-cf0a-4725-8222-cc4c2ff82495")
+	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b932d6-9936-4a1c-91fb-3e581f2e9142")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98b00d6-1918-47e8-9aae-0085bed36744")
+	)
+	(wire
+		(pts
+			(xy 166.37 34.29) (xy 166.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba14f70a-a18b-4d7f-9a4c-f6fec99c94a5")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa00548-3c94-489b-9668-1d1ac0cf5549")
+	)
+	(wire
+		(pts
+			(xy 27.94 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc05e3b7-d22f-4497-8e39-a5974d659b9d")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd978652-d359-4e85-8130-11874684ef0c")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be44a8df-42a7-4cbb-af1e-49d989ba8911")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4b2eaf-0768-4245-8e09-ec19cda0a325")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf71efdd-1595-49ea-8f09-daec0a3c9306")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb72b6d-1b25-4e8b-a5da-1656c31e5405")
+	)
+	(wire
+		(pts
+			(xy 129.54 168.91) (xy 154.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc11dbb-e34c-4a94-ad54-78ac6ff5332c")
+	)
+	(wire
+		(pts
+			(xy 27.94 152.4) (xy 27.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04c9654-0d69-4dc7-936d-9ff7b9f2e831")
+	)
+	(wire
+		(pts
+			(xy 104.14 177.8) (xy 129.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ce7c0b-790b-4595-ac2f-180a04df343a")
+	)
+	(wire
+		(pts
+			(xy 53.34 153.67) (xy 78.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fae1bc-cf45-4552-84b9-a88dde3cdf72")
+	)
+	(wire
+		(pts
+			(xy 181.61 67.31) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2814d02-10c1-459a-8274-e6effc9e84c7")
+	)
+	(wire
+		(pts
+			(xy 86.36 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29dc467-84c0-4ee8-bc1b-4473361ed6ae")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a65e4b-b30e-4cbd-b2ab-58bcd069e86b")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83c0096-4984-481d-b10f-e0c40a0ddf6e")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bf7cfc-2f5f-4ea7-bb23-dfa1d2018f53")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9044b6c-b032-4965-9bf2-2e50bce58d37")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae029b-06b7-452d-839e-5a2cddbf0d80")
+	)
+	(wire
+		(pts
+			(xy 27.94 97.79) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdda38f8-1730-4eed-803b-1932dbe69972")
+	)
+	(wire
+		(pts
+			(xy 223.52 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9d4aa6-919b-434a-83ff-2380d4511ad1")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebeb56a-17b3-4d61-ac4b-891bdf2b8e25")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 132.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf659409-881b-4692-91a7-157503157179")
+	)
+	(wire
+		(pts
+			(xy 60.96 161.29) (xy 71.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf746a82-c515-41cd-93e7-9b9c951f9d2f")
+	)
+	(wire
+		(pts
+			(xy 129.54 153.67) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f0a77-9bac-4aa7-a24d-96c0f52bbdf9")
+	)
+	(wire
+		(pts
+			(xy 104.14 153.67) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e32b2e-3b9c-403e-9af0-2b5d1c8d0f63")
+	)
+	(wire
+		(pts
+			(xy 104.14 168.91) (xy 129.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d301fffa-8dbb-46b6-a658-80256b0c0bac")
+	)
+	(wire
+		(pts
+			(xy 133.35 60.96) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46a9eaf-c0a7-47e5-8e35-755d6235f8d0")
+	)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b4f15e-6408-44f0-9e2e-829672444a2e")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 121.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ddd96b-7286-409f-bce7-8c80856a6cab")
+	)
+	(wire
+		(pts
+			(xy 207.01 50.8) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81637b9-deef-4e4c-b592-a09257d6a3a7")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8218c3f-4871-46a8-8f13-4fbda3aae421")
+	)
+	(wire
+		(pts
+			(xy 74.93 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf91571-9b1f-4f84-a085-e7d091126174")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 34.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0cd5d2-0515-4c26-8cec-0ab1e861e8a2")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc135236-881c-49f3-9df6-a2dd84f03ad5")
+	)
+	(wire
+		(pts
+			(xy 86.36 185.42) (xy 96.52 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccb9b16-4309-43a5-9e8f-bcc4b609f7a8")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb658e4-62c1-4b7c-abf6-13b2e80a390d")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 104.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1748249-6ec3-45fa-ba56-a0cfacb2314b")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 116.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1da051c-83d0-499d-a148-7b4cd2db948f")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d797e9-15c2-4864-9add-d282cb65e19a")
+	)
+	(wire
+		(pts
+			(xy 137.16 185.42) (xy 147.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38a41ac-6881-4686-8138-a0be7282028b")
+	)
+	(wire
+		(pts
+			(xy 41.91 66.04) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c2148c-3e39-4330-8ad4-a43f0b15ca58")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74c8801-ef35-4173-9c6d-bf2a6e11fe19")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84f92e6-7733-405c-a8e2-b332cce826a1")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa1e6c8-8d73-4927-8a33-1b482d58d56f")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8c4acb-cd1b-43d6-94fa-c3dc862c20ed")
+	)
+	(wire
+		(pts
+			(xy 53.34 177.8) (xy 78.74 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca29270-6d1a-4839-8b2a-d366280aef56")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 49.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edae1b27-6c20-4e60-90d5-b58368bb6d15")
+	)
+	(wire
+		(pts
+			(xy 66.04 60.96) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7857e6-2b0a-4f65-9241-43977e6a5ff4")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeec4352-8da7-4c16-8b07-e8e923386ed1")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef5c4f0-fd33-4c50-80de-9511339e555d")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7f8c66-0d9d-40f8-862c-2ab65434caa5")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc491fd-49b8-4f64-b127-b563a517f0dd")
+	)
+	(wire
+		(pts
+			(xy 41.91 50.8) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb4f8b-a727-4d2c-84d9-da9a526c0c5c")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10d76ba-5793-47e0-9f11-ad14cc4d08ff")
+	)
+	(wire
+		(pts
+			(xy 182.88 34.29) (xy 182.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ea3b5d-185f-4be7-a856-bf4218f8076e")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f314f0b8-f5c1-48ae-81ab-fe24ceb6f994")
+	)
+	(wire
+		(pts
+			(xy 53.34 168.91) (xy 78.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39fe0ec-8640-4fa4-9dbd-d98c99a93126")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f489884d-0875-4b4c-9e4f-256761070861")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4af1b0e-124f-436e-82bf-bde8238090c3")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6268b83-d3bf-4cf3-af1e-0606c37e92e3")
+	)
+	(wire
+		(pts
+			(xy 34.29 34.29) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f680437a-7b18-43cc-965b-fa0cced20618")
+	)
+	(wire
+		(pts
+			(xy 107.95 50.8) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85104fe-a0d3-479f-aa9c-f188639d198e")
+	)
+	(wire
+		(pts
+			(xy 198.12 52.07) (xy 214.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f860fde9-5bc6-4a5b-bb53-db9fe0bc5015")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8704542-9acf-4352-bd88-f5fc8887d660")
+	)
+	(wire
+		(pts
+			(xy 27.94 153.67) (xy 53.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9feb468-3607-4299-b18f-191ef691e5c7")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc18b56-d42a-4155-8ab7-8e1e7c5f5858")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc28f35-ded3-492e-8f89-788b19cf7508")
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 34.29 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d07528d-786e-441b-b010-8e3f3059fc0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 133.35 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59fb36fe-eeb5-4a1a-ad80-4f98de65324d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 27.94 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61491b3e-fb43-4501-b7bd-14802a57775d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.6934 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 116.84 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "669fe271-4ded-4f76-a566-bff4c8fa2cdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_START"
+		(shape input)
+		(at 20.32 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69f33229-0f2e-4d19-984c-44327b2a3945")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.0539 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 27.94 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9842e7ce-13f4-4405-9a96-9de17406538a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.6934 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 182.88 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bfb6ce9-c76d-4dce-b33c-b9e2918a3721")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 27.94 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6ac2dea-5b6f-440a-b450-4e1c8dd369be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.6934 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 50.8 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa8550c7-25fe-4530-aa8f-cdeb8349be3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10"
+		(shape input)
+		(at 199.39 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b62def94-94db-4547-b397-fa368fd21cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 26.5272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 83.82 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c586c309-9aa7-4161-806e-589074df7be8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 67.31 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c743d018-28d2-4691-9150-6576eb246750")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 100.33 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce62f8f7-ec04-4df1-9e77-64c481de2b42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_FINISH"
+		(shape input)
+		(at 162.56 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d023d06b-efd7-43b1-8427-c71632f6416a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.4915 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 149.86 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0f5f72e-03db-4fc8-b231-107c52e98452")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 166.37 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7e5c042-9b5c-4dbb-8d7a-87c28c3efbbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 26.4667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 162.56 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecb5684b-df63-4fe9-90ef-87a806d5ae54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3552 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 20.32 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1ed623e-b9e0-4996-94eb-6bc460663137")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5248 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 27.94 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffe7ad97-663e-4ea9-9a92-a020b20b09a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.6934 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 58.42 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d30c88-381f-451e-9fa0-0bfd349b6fba")
+		(property "Reference" "SW14"
+			(at 58.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 58.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f45e81-7de0-4b12-827e-93d296e9eab6")
+		)
+		(pin "2"
+			(uuid "6336dada-287e-44b0-b325-f46f7c521535")
+		)
+		(pin "3"
+			(uuid "fc5cba3c-2fff-4055-9803-60ad2e304f69")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 53.34 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05c6c10d-8df6-4398-a5ca-cdc389461666")
+		(property "Reference" "D8"
+			(at 66.04 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 66.04 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 54.61 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 55.88 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 53.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10625701-4738-4199-b063-ae75f3fe4a90")
+		)
+		(pin "2"
+			(uuid "1d5ffb49-07de-420f-9594-498eedc2f50b")
+		)
+		(pin "4"
+			(uuid "97037817-da89-4163-b84f-0bcd0f328228")
+		)
+		(pin "1"
+			(uuid "87bda687-cfdf-4ad7-8e18-80e24e19e6da")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 41.91 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fee660b-fa8f-4b52-a177-673fd1866091")
+		(property "Reference" "SW13"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6dfab34-c730-4fce-a6b0-55664a441d4b")
+		)
+		(pin "2"
+			(uuid "0f5e8def-79aa-4c62-a3b6-7e8e85794203")
+		)
+		(pin "3"
+			(uuid "6ef33a83-328a-45e1-a201-5bd9b1ad5f0e")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 124.46 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f6e629-1ac6-4ca7-ae86-2ca6cb071689")
+		(property "Reference" "SW49"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_7.144"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d44cc8ec-aea8-4868-a248-fd098d10d092")
+		)
+		(pin "2"
+			(uuid "9cac37bf-f81d-4f29-8ca5-e00bc08ba0fe")
+		)
+		(pin "3"
+			(uuid "6fb8d3c5-7347-417f-a58c-bdca6b7b5db7")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 173.99 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24bc064a-ed13-4407-bfe1-313a72744495")
+		(property "Reference" "SW9"
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4546932e-434b-48ae-b077-513fb3a5eed5")
+		)
+		(pin "2"
+			(uuid "2ffcb2ac-9a3f-48ce-ae13-dcc21831d182")
+		)
+		(pin "3"
+			(uuid "619b578d-b159-44fd-a66e-b70cc8434c6b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2662b3c5-1b8f-41b2-a927-f31b8d8a355a")
+		(property "Reference" "SW36"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V2"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39c3b845-eb93-4909-a3e5-5219e92d9d70")
+		)
+		(pin "2"
+			(uuid "c881dfc6-453d-45a5-b485-da32b974199d")
+		)
+		(pin "3"
+			(uuid "daa8ae21-abda-4e10-8b25-bfe97627d234")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc5519b-fcde-46af-aeb0-3696e9aaaf1a")
+		(property "Reference" "SW40"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51275b60-5ac8-4878-8626-e052f073f909")
+		)
+		(pin "2"
+			(uuid "c1886785-b546-4c55-a10b-e53443eb048e")
+		)
+		(pin "3"
+			(uuid "b98479b0-18c0-4acc-9235-a7b352784e79")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 190.5 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c238d7e-9598-4bd1-ab30-61e07b341acd")
+		(property "Reference" "SW42"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dfb473b-cd68-4ce3-8694-724bec1140ae")
+		)
+		(pin "2"
+			(uuid "559d04a2-e0f7-4f67-a34d-92130d62d4ae")
+		)
+		(pin "3"
+			(uuid "6ec16af1-977b-41c3-b758-9eac319f55d8")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cb83573-47e8-4c58-9dba-11d87cc06f3b")
+		(property "Reference" "SW26"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dce5a48a-ba7e-448d-baca-8df8da23481e")
+		)
+		(pin "2"
+			(uuid "45429611-69b6-4888-ae8a-46b503a515d1")
+		)
+		(pin "3"
+			(uuid "912271b0-f847-4a2f-94aa-5a29dca1618c")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 140.97 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dee5d46-5833-4051-b23d-7c402f6e9909")
+		(property "Reference" "SW7"
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "017e7da5-eba2-47a1-a1a7-fa5a7d99b461")
+		)
+		(pin "2"
+			(uuid "95819961-80b3-41af-be35-14273b3e9de2")
+		)
+		(pin "3"
+			(uuid "9a6f5acf-c98c-4f2d-9bf0-a597fc8a87fd")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2e25316d-8a8c-466f-9e95-08dd50e8e9b2")
+		(property "Reference" "SW41"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60b0a621-0868-4a59-89ce-d5ceaf1a95c3")
+		)
+		(pin "2"
+			(uuid "6bc85594-319f-49bb-8ff6-792be8caf472")
+		)
+		(pin "3"
+			(uuid "b3d8efd3-fe22-4a53-bcab-c63b3a35b003")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 74.93 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5c3453-ab7f-432f-b089-8957bcc3d622")
+		(property "Reference" "SW3"
+			(at 74.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca355e3-1ce4-48f1-b5cc-93a9f3389ac5")
+		)
+		(pin "2"
+			(uuid "f5dd7e9e-45e9-43c2-ad38-c2ac835ff0c7")
+		)
+		(pin "3"
+			(uuid "ac9e15e4-5750-4434-a4d2-38dab8846b8a")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 173.99 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "314ede9a-e042-4a08-b677-9c45986cfad9")
+		(property "Reference" "SW47"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V2"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a25816f-a268-4d4b-95e9-34be90f50f07")
+		)
+		(pin "2"
+			(uuid "ccbfaeb5-96cb-45d9-8107-0705097439fa")
+		)
+		(pin "3"
+			(uuid "bf1f2a85-f786-4bb4-b251-dcb3fce9f41a")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 95.25 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31636742-b357-4ad8-9939-474078c95a79")
+		(property "Reference" "S38"
+			(at 101.6 105.2829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 101.6 107.8229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.25u"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "S38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 207.01 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42e8b089-fb86-4ef6-bfba-0ba5fa97a4ab")
+		(property "Reference" "SW12"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1a593f-6ebf-41bd-beab-71ea29d5763a")
+		)
+		(pin "2"
+			(uuid "60df85bd-f784-4377-b9ae-ee016148b507")
+		)
+		(pin "3"
+			(uuid "b41b2e27-8940-4b74-93fd-d39bbc5a93b3")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 41.91 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452d9cfc-1af8-46b4-9209-673c4e556b75")
+		(property "Reference" "SW24"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08af2189-c3b9-4421-9a8a-9df5faac7c96")
+		)
+		(pin "2"
+			(uuid "df95e464-276e-4e97-a000-6f6a8cfd6bd4")
+		)
+		(pin "3"
+			(uuid "688ff7c4-c2b5-48db-a21c-132f45f6dea1")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 78.74 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "453020f8-5071-40e4-8cb9-86d15a4a7cb6")
+		(property "Reference" "D9"
+			(at 91.44 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 91.44 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 80.01 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 81.28 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e798598-2e06-44c4-845f-ba766b65a863")
+		)
+		(pin "2"
+			(uuid "d2eb94ec-f182-48ef-9be1-2a2df9fa345f")
+		)
+		(pin "4"
+			(uuid "8faf2a7f-bcb5-4fa3-bf3a-cdf6dca21403")
+		)
+		(pin "1"
+			(uuid "ca07f84d-f276-43f1-b6e1-f24e37d7a36b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 107.95 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4868597e-cac7-4e89-b85b-423ec059eefe")
+		(property "Reference" "SW17"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92944e61-3f51-4309-894d-0efc4e0d6b71")
+		)
+		(pin "2"
+			(uuid "08eca890-979a-4385-b2a5-7c59240a94a1")
+		)
+		(pin "3"
+			(uuid "9f4b8ae9-f350-49d1-af0f-bd5a13f52781")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c356e40-23fb-4331-a225-aed3c2c46a63")
+		(property "Reference" "SW30"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 140.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f937b92e-81a8-456c-9fc5-e41ec6037f79")
+		)
+		(pin "2"
+			(uuid "731b880b-a7fb-46c4-a784-f5c52b037bbd")
+		)
+		(pin "3"
+			(uuid "4360c067-8546-40d2-977d-ed8c220dae8f")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 173.99 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "507dbec2-9183-4861-aa03-08b094fc91d3")
+		(property "Reference" "SW21"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a18c116f-3766-42b0-a635-1ff85f6f30f2")
+		)
+		(pin "2"
+			(uuid "ad5a4843-37c0-4bca-a73c-bf9404830b6d")
+		)
+		(pin "3"
+			(uuid "06ecda6d-ddbe-490d-bfc2-1e6d39ade3e8")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 124.46 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5acd8160-1765-4972-92e0-767e28faf639")
+		(property "Reference" "SW29"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab704372-38fd-421b-ad6f-a216e254a5be")
+		)
+		(pin "2"
+			(uuid "5dee4cb2-0a1d-4efb-9dd7-e5ad90ad264c")
+		)
+		(pin "3"
+			(uuid "c05e23a4-bd33-40fb-b3dd-12c82368f203")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 41.91 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b5beb6a-f2ba-407c-88ab-599f44b2bfb8")
+		(property "Reference" "SW1"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88038add-d775-4011-88bf-77a0e922cdb6")
+		)
+		(pin "2"
+			(uuid "289ffdea-0467-4983-9bc0-864c067263c1")
+		)
+		(pin "3"
+			(uuid "caaa5947-f61a-40a6-83a7-d7147acb5d45")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 190.5 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bbecb0f-cc12-45bb-b04d-e6fddff5f5bf")
+		(property "Reference" "SW22"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e787f3af-7778-44ca-8cac-3bf66fa8d6b0")
+		)
+		(pin "2"
+			(uuid "31f04a2f-b291-4ebe-8994-e49cc2ccbef9")
+		)
+		(pin "3"
+			(uuid "295ec1da-0342-4957-8bee-4ec4539b0a7b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 157.48 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8916b9-4a45-4491-ac49-3eb27a2dea33")
+		(property "Reference" "SW31"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44c84392-cbfa-4ee8-b85d-288745b57cfd")
+		)
+		(pin "2"
+			(uuid "8a46158d-84f9-4225-b550-639b562b5262")
+		)
+		(pin "3"
+			(uuid "8cf060cc-9271-4cd4-9d76-13878f32aacf")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b895ff-a588-4197-987e-974c4cc36ebe")
+		(property "Reference" "#PWR026"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ade2eac-0bd0-47a1-b77e-19e9b08ec610")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ab7fcb-a943-4489-aa47-6a09cde799af")
+		(property "Reference" "#PWR044"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 27.94 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a23dfd-044a-4447-9691-8f116b080d4d")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 129.54 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64cd6282-3790-4990-878c-fd50401aa7bc")
+		(property "Reference" "D11"
+			(at 142.24 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 142.24 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 130.81 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 132.08 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "062769da-659b-4e8b-a565-9b897ee189fb")
+		)
+		(pin "2"
+			(uuid "33b50dc2-b54d-476b-9069-d2ed34a7d843")
+		)
+		(pin "4"
+			(uuid "af0945df-b06e-4aca-812a-326e9027f8e9")
+		)
+		(pin "1"
+			(uuid "377850db-0e8a-4902-a015-3a200c12340b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 74.93 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "64d43bea-4f06-4a57-8525-603e28aec757")
+		(property "Reference" "SW37"
+			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aca47f07-6e4b-4244-a85f-eecbf168b506")
+		)
+		(pin "2"
+			(uuid "ecbb3ef7-b89e-46aa-835f-d9483fdf9de0")
+		)
+		(pin "3"
+			(uuid "90cf7672-284e-4a10-a44c-d193b2ba8a43")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 207.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652e892b-1126-4b0b-9c71-918eb0933901")
+		(property "Reference" "SW11"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc9f1a76-8b77-41ad-882e-15a0243bf67c")
+		)
+		(pin "2"
+			(uuid "aaa1123d-9562-43e0-8f3d-8c27f2120142")
+		)
+		(pin "3"
+			(uuid "5f954ddf-9d07-4072-a0dc-0aff8e056969")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 91.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69c887f9-fb1a-4d80-a909-2161e8ae2bef")
+		(property "Reference" "SW27"
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2_switched_sides"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15b10ca8-016d-41b2-af82-4705650ebe53")
+		)
+		(pin "2"
+			(uuid "a854ed1d-cb70-4d78-a0be-bc3ad29a7478")
+		)
+		(pin "3"
+			(uuid "ae2778bb-d0a1-4c58-9207-bf3a6f539075")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 27.94 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a176f42-c9e0-4bd8-9014-3ce10131bdfd")
+		(property "Reference" "D1"
+			(at 40.64 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 40.64 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 30.48 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea6d9cfe-a232-4c53-8327-5002f94db959")
+		)
+		(pin "2"
+			(uuid "9ffa2d7b-f903-44b5-b3b7-30173efb494a")
+		)
+		(pin "4"
+			(uuid "4f4eb3fe-c211-4845-a26d-7f778c7e46d7")
+		)
+		(pin "1"
+			(uuid "e98855c1-d881-4319-a706-645ec85a6f50")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 107.95 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a989486-ec34-4bb7-9d15-5b9001238820")
+		(property "Reference" "SW5"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f9c79a4-75b8-4435-8d48-4f9a56aaab47")
+		)
+		(pin "2"
+			(uuid "e538e34a-68a7-4a50-88c6-bfd53f3bbc73")
+		)
+		(pin "3"
+			(uuid "e7a9b259-b0f5-442a-8766-21261b4688fb")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 91.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf5a48a-89e2-4bd5-bc9a-9f414f980ca9")
+		(property "Reference" "SW4"
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e189a4f-d6e7-44b7-ac0a-524f551b8a2b")
+		)
+		(pin "2"
+			(uuid "2a6d292f-7d23-4f62-8495-36613445d14f")
+		)
+		(pin "3"
+			(uuid "1d656263-6099-495a-a03c-1ef4145bcdc2")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 190.5 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b62219-5312-436d-a074-2ae8c5e4349e")
+		(property "Reference" "SW43"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V2"
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "376c592a-6944-40e7-adb6-7ebab86c4473")
+		)
+		(pin "2"
+			(uuid "39da77f6-a219-446c-b50d-2212cbbc9045")
+		)
+		(pin "3"
+			(uuid "61792df1-c8ee-4cd3-bd27-b23d19f47172")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 58.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7292b116-55a5-4ab0-bcf7-b735d05a1dee")
+		(property "Reference" "SW25"
+			(at 58.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 58.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75ab4d90-e12b-40f8-bb12-a69a3f633235")
+		)
+		(pin "2"
+			(uuid "ecae0dee-ca09-4cd3-ab10-f419eb59bea3")
+		)
+		(pin "3"
+			(uuid "4e65568e-7889-4a91-b73b-a2e3fa6e2961")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 95.25 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7490b4da-1702-401a-bd88-40989f968a34")
+		(property "Reference" "S46"
+			(at 101.6 120.5229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 101.6 123.0629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_6.25u"
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "S46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f3dea6-b4e7-4b45-81bd-51e295ab6cfc")
+		(property "Reference" "SW38"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0c9b66a-56a6-4232-92ce-5ce066f710e1")
+		)
+		(pin "2"
+			(uuid "4151eb96-dec5-4390-8f1f-1ab5f75852a4")
+		)
+		(pin "3"
+			(uuid "3e7c179d-3b83-44c7-9f31-57f9145fa8f4")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79b1845c-88f5-418e-b12e-136ae61eebcc")
+		(property "Reference" "SW2"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b28bef59-3c0e-43a4-a344-ed54d2aa55db")
+		)
+		(pin "2"
+			(uuid "524dbc30-fa9a-436f-87ef-1f3e795c484c")
+		)
+		(pin "3"
+			(uuid "296e73a1-a3b7-4a4a-8f3c-6d06153dde2a")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 154.94 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "804fc2b3-6d07-48fd-a9a8-94d91663e90e")
+		(property "Reference" "D12"
+			(at 167.64 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 167.64 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 156.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 157.48 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 154.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "edbf424d-2f69-47c1-a71c-22c8c082892e")
+		)
+		(pin "2"
+			(uuid "77622f1f-ac6c-447e-b86a-e2dfb7f34eb6")
+		)
+		(pin "4"
+			(uuid "93e8fded-01ae-43f8-93c8-1eb2c078bcef")
+		)
+		(pin "1"
+			(uuid "84db78d5-d3db-4629-986f-c1dd63f798b0")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 190.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8805a259-aa85-4693-b6ae-919265b2c124")
+		(property "Reference" "SW33"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6f50d4d-2148-4789-bd85-75a5aee25f75")
+		)
+		(pin "2"
+			(uuid "6fabb2b5-4b41-4410-b37c-ff91f3f9fc74")
+		)
+		(pin "3"
+			(uuid "431a50ee-a80d-4681-bc4b-5bb41eaf2c7c")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 74.93 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90295e3a-8561-49ac-a3a6-a86507728b32")
+		(property "Reference" "SW45"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V2"
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "217a91db-d54b-43db-9549-a4f9b0ff57c5")
+		)
+		(pin "2"
+			(uuid "94737d6d-8f66-4ec2-8301-b5632f9ab025")
+		)
+		(pin "3"
+			(uuid "aa9e986f-2e01-4385-8f9f-ae44c50c4c4d")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 129.54 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "912337a0-46b4-4ecf-b907-e42f02df2901")
+		(property "Reference" "D5"
+			(at 142.24 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 142.24 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 130.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 132.08 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 129.54 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d2eae9e2-aa60-4477-99fd-ead5b0cb4805")
+		)
+		(pin "2"
+			(uuid "42cb8842-0473-4c2f-bd50-535d46e06d7c")
+		)
+		(pin "4"
+			(uuid "943a8f97-a5b6-4535-93b7-1ed421bc43d8")
+		)
+		(pin "1"
+			(uuid "700aaddf-cb9d-4af6-938a-247b5f9bb4a5")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 157.48 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997586b0-d5cc-4084-9e74-d171251a1bcf")
+		(property "Reference" "SW8"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 157.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "475734b5-be90-44f0-a8e2-a6fc311ffffb")
+		)
+		(pin "2"
+			(uuid "eff75027-55e6-4169-93fb-8ff6b6556a31")
+		)
+		(pin "3"
+			(uuid "29afab25-2ad0-48a0-ae76-ad1b46367f33")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 53.34 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a90d7e8-a84d-4c48-8d98-c1ce01e31c7c")
+		(property "Reference" "D2"
+			(at 66.04 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 66.04 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 54.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 55.88 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e8b465de-b1da-42e9-a062-9e1813dcf678")
+		)
+		(pin "2"
+			(uuid "998735da-4607-4d4a-b10e-9d2a929fd8d8")
+		)
+		(pin "4"
+			(uuid "ab8fd96e-d67e-48bc-ba3b-bac784e07096")
+		)
+		(pin "1"
+			(uuid "b5936199-1d6e-4f64-90c4-5f0cda6b1e55")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 95.25 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e965e23-95b6-4d25-b2e6-4dbda8992ad5")
+		(property "Reference" "S49"
+			(at 101.6 128.1429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 101.6 130.6829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_7u"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "S49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 78.74 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a99cf722-d671-41a6-b589-486faf76f576")
+		(property "Reference" "D3"
+			(at 91.44 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 91.44 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 80.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 81.28 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0656783e-64a6-4c2c-a4ee-16fd28c620c6")
+		)
+		(pin "2"
+			(uuid "b082b47d-e09d-45e5-bcab-fdcdbca910d1")
+		)
+		(pin "4"
+			(uuid "afa8083d-fb3c-4ff8-a775-dfd2fe9e0795")
+		)
+		(pin "1"
+			(uuid "886dff1a-8e49-4f0c-9204-d716561068d9")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 95.25 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae195e1d-2808-4997-b0f3-36d506d8c231")
+		(property "Reference" "S39"
+			(at 101.6 112.9029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 101.6 115.4429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.75u"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "S39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 207.01 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b117cb1f-65be-4de8-8b64-2110ed4be993")
+		(property "Reference" "SW34"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cb42e28-abd8-4d46-8bee-8b0fb1191705")
+		)
+		(pin "2"
+			(uuid "afa8273f-81f9-401a-997c-e2a36939ac64")
+		)
+		(pin "3"
+			(uuid "ae9c84d2-6324-40d4-a5cf-49e10a68f5e3")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 27.94 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2e2a087-a884-4cbb-bdf2-941f0276cba4")
+		(property "Reference" "D7"
+			(at 40.64 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 40.64 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 29.21 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 30.48 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 27.94 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f0efacf-ab25-424b-aa6d-5fcf4342847a")
+		)
+		(pin "2"
+			(uuid "f891f974-cb96-4363-bff2-a194efbfedcd")
+		)
+		(pin "4"
+			(uuid "82b529c8-5f66-48f4-9010-4218454c1fa1")
+		)
+		(pin "1"
+			(uuid "dc678c97-e917-4210-91a8-f46d219560df")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 154.94 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8a28193-b756-4f28-bc1d-eb5860ac8de2")
+		(property "Reference" "D6"
+			(at 167.64 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 167.64 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 157.48 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0112b88c-925d-4926-a107-b272ed10cb7e")
+		)
+		(pin "2"
+			(uuid "84f38e79-6283-476f-b86f-c192240112a8")
+		)
+		(pin "4"
+			(uuid "c03e92c0-c896-46af-9424-271c05da853c")
+		)
+		(pin "1"
+			(uuid "f78bda3d-367b-4e70-94a5-2582e6a22ed0")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 157.48 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef78a22-9a7e-4f7c-ab6b-f11d4560e961")
+		(property "Reference" "SW20"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d206fb50-e75f-49ba-80d8-3a440030c572")
+		)
+		(pin "2"
+			(uuid "f7a7f9c3-a83c-4e1c-860f-919de4a69396")
+		)
+		(pin "3"
+			(uuid "aa0217fc-05dd-4e5b-8d55-cfa07ddafeb3")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 91.44 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c00bfc8f-8d02-4d00-bfd9-3ddd6fa12479")
+		(property "Reference" "SW16"
+			(at 91.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15e1307a-dcf9-4c2b-934d-d70b34f05186")
+		)
+		(pin "2"
+			(uuid "dbc74a12-8fcf-4d0e-acf0-4f38a8251057")
+		)
+		(pin "3"
+			(uuid "09705fcb-d30a-42cf-a873-f88834adb02b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 107.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d815090b-6641-418d-be88-4224543d9346")
+		(property "Reference" "SW28"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb7b4111-52ea-4602-9a2f-c57d91faf27c")
+		)
+		(pin "2"
+			(uuid "f26058b5-a133-427b-ab12-f2497e98c54e")
+		)
+		(pin "3"
+			(uuid "494cac6e-fe42-4159-9ce4-2df123e104a2")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 74.93 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8757033-3b92-48e3-987a-9f1ed43cb00e")
+		(property "Reference" "SW15"
+			(at 74.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00697fd5-0c60-4211-8d19-389c6ee1c96f")
+		)
+		(pin "2"
+			(uuid "b8fa879c-f0cd-4f51-8a5c-6c17e4a77d07")
+		)
+		(pin "3"
+			(uuid "c5ffd0bd-82b6-45d8-aa2a-382ff0332998")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 190.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0c6e7f-5424-431b-83d1-298038719a46")
+		(property "Reference" "SW10"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda32903-161c-415d-a8db-7232e4087f6a")
+		)
+		(pin "2"
+			(uuid "92fb5c80-24e0-46bc-a294-f9fd6bd39964")
+		)
+		(pin "3"
+			(uuid "3b1c3c23-9967-40ab-a1a5-af7633e02328")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 124.46 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "def4cd23-938b-4628-92c7-a7d95a3ac8d0")
+		(property "Reference" "SW46"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2_switched_sides"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4635ed-7df6-4031-a80f-129a41a68f2b")
+		)
+		(pin "2"
+			(uuid "aa01359d-7e95-4dac-b273-1592aa90eff0")
+		)
+		(pin "3"
+			(uuid "51d04937-fbb3-4d41-a9a7-a31e5df8e21e")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df636a21-2aa5-4be4-9175-5c7f62588554")
+		(property "Reference" "SW32"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcc74dab-6c63-4d7e-93da-e9a87089c141")
+		)
+		(pin "2"
+			(uuid "744eb169-4dce-4607-acfa-ff9631bc1370")
+		)
+		(pin "3"
+			(uuid "824e0e4b-8cdd-432d-8b70-0cafd7c04d5d")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 104.14 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df910bcd-6a8e-4bf9-af55-147b0115dd06")
+		(property "Reference" "D10"
+			(at 116.84 178.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 116.84 181.5398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 105.41 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 106.68 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 104.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e500a3a7-2892-4645-8a6a-a11c4b1f388c")
+		)
+		(pin "2"
+			(uuid "22a635de-ed00-42d6-87ca-e00fb466b108")
+		)
+		(pin "4"
+			(uuid "e3f82915-8377-4303-92ff-bfeb2c1542e8")
+		)
+		(pin "1"
+			(uuid "d77684c8-7c5b-468c-b680-109dcdaacaa3")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c9a14b-5c72-4bc2-bb7a-9452bf1281aa")
+		(property "Reference" "#PWR042"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c896775d-aa65-48c6-aa92-d6afaa0c21ca")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 124.46 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e48be327-250e-4b0f-a4b6-9b840022e3d2")
+		(property "Reference" "SW18"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c321f0-abbe-46c2-91d3-951613fc2419")
+		)
+		(pin "2"
+			(uuid "d53b4457-d824-48b1-8f17-201f8dac3206")
+		)
+		(pin "3"
+			(uuid "55a2a659-c645-417b-beda-1d5e31af22e5")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 104.14 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4a75ac8-564e-4be1-8798-f99c3e23297d")
+		(property "Reference" "D4"
+			(at 116.84 154.8698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 116.84 157.4098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 106.68 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 104.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2732994b-b6a5-4627-aac5-fc3a386f8047")
+		)
+		(pin "2"
+			(uuid "490c26c5-59c8-4feb-8115-7c916ee6eb95")
+		)
+		(pin "4"
+			(uuid "f781229a-8ef8-4f0e-9e1b-99e5b3140b2e")
+		)
+		(pin "1"
+			(uuid "1f5b7abd-8542-442c-84dd-044eed022e52")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 140.97 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c1f98c-99a6-453c-9c75-e0340346483d")
+		(property "Reference" "SW19"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4b02a41-8202-4bb5-9fb5-c6594f51c514")
+		)
+		(pin "2"
+			(uuid "31ef04de-c108-4044-9b52-fcfae492f58f")
+		)
+		(pin "3"
+			(uuid "1bc32fa0-3ec9-4469-aea3-72a9bc297a41")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 207.01 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9d3328e-4087-4e17-a3d9-9fd64e8bec2d")
+		(property "Reference" "SW23"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b912f63-c758-4201-bb8f-9c71e37c7c7e")
+		)
+		(pin "2"
+			(uuid "68a9670a-cc8a-4cf8-8da1-acbb892e27d4")
+		)
+		(pin "3"
+			(uuid "422c4149-cd7e-4414-ab69-a7f39c468eee")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb48cd80-4784-49da-ab5b-484c14aec2bc")
+		(property "Reference" "SW44"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V2"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "463da3f5-b70a-43e8-af68-07049367f664")
+		)
+		(pin "2"
+			(uuid "580779ab-5af7-4f52-bad0-5dd31ca0a9c0")
+		)
+		(pin "3"
+			(uuid "111ff462-1500-4032-aa32-95985cf57f9b")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ece558dd-3609-4f0f-b3bc-cea4312c33ca")
+		(property "Reference" "#PWR043"
+			(at 154.94 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 198.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8de54d9-9618-4501-85d4-ff2009d1a26c")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 41.91 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efcfe922-ef7b-4a0f-a7e4-39eee4436942")
+		(property "Reference" "SW35"
+			(at 41.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edc8dea4-d037-49f2-8021-b1706f318fae")
+		)
+		(pin "2"
+			(uuid "d1a62581-9880-4044-a861-14202a59cad6")
+		)
+		(pin "3"
+			(uuid "16ee6c19-9939-498a-908b-4dddcdc3ea79")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 140.97 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38237ce-695c-4f97-8e60-d7893ab99f89")
+		(property "Reference" "SW39"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2_switched_sides"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50bd5808-5043-4dbc-9462-ea8475302940")
+		)
+		(pin "2"
+			(uuid "87a42f29-2222-41f9-a91a-541be1397305")
+		)
+		(pin "3"
+			(uuid "f59dc525-494c-4678-853b-715a040e565e")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 124.46 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa9f7037-2d3c-4c49-ae59-64fb926bd7cf")
+		(property "Reference" "SW6"
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e37d038-0a02-4f2a-b833-ee684af23ba5")
+		)
+		(pin "2"
+			(uuid "e2f95495-197a-43b4-a4c6-920886f4012c")
+		)
+		(pin "3"
+			(uuid "ebd0b026-4673-473a-bafd-5e0292af14fe")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kicad symbols:EC_SW")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fbe1fadf-54bc-4ef7-bb48-01ad5dcc0b47")
+		(property "Reference" "SW48"
+			(at 58.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC_SW"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V2"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdd3781e-ce0f-4629-a833-af24394ceef1")
+		)
+		(pin "2"
+			(uuid "41fcdbe9-44a6-4820-8ba0-76d50475cc39")
+		)
+		(pin "3"
+			(uuid "20850f7d-d9df-476f-9148-308f8c0d37a6")
+		)
+		(instances
+			(project "Romashka EC"
+				(path "/79df9245-28fa-4214-80a4-79a28288065b/7a61691e-f684-4a13-9b9a-0f4104ce27f7"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
