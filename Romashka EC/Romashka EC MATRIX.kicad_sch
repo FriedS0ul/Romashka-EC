@@ -4593,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_7.144"
+		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_7.144_V3"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 207.01 76.2 0)
 			(effects
 				(font
