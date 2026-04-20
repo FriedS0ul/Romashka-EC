@@ -1,4 +1,4 @@
-28340947565259847
+28351607712682485
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67865,13 +67865,6 @@ ecs_pad_1U
 6
 3
 Kicad footprints
-ecs_pad_1U_hybrid_hotswap_7.144
- StepUp generated footprint
-
-0
-18
-3
-Kicad footprints
 ecs_pad_1U_hybrid_hotswap_V2
  StepUp generated footprint
 
@@ -67880,6 +67873,20 @@ ecs_pad_1U_hybrid_hotswap_V2
 3
 Kicad footprints
 ecs_pad_1U_hybrid_hotswap_V2_switched_sides
+ StepUp generated footprint
+
+0
+12
+3
+Kicad footprints
+ecs_pad_1U_hybrid_hotswap_V3
+ StepUp generated footprint
+
+0
+12
+3
+Kicad footprints
+ecs_pad_1U_hybrid_hotswap_V3_switched_sides
  StepUp generated footprint
 
 0
@@ -67905,6 +67912,20 @@ ecs_pad_hybrid_hotswap_2.381_V2
 
 0
 22
+3
+Kicad footprints
+ecs_pad_hybrid_hotswap_2.381_V3
+ StepUp generated footprint
+
+0
+22
+3
+Kicad footprints
+ecs_pad_hybrid_hotswap_7.144
+ StepUp generated footprint
+
+0
+18
 3
 Kicad footprints
 ffc-fpc_4pin_1mm
@@ -72506,13 +72527,6 @@ ecs_pad_1U
 6
 3
 My_footprints
-ecs_pad_1U_hybrid_hotswap_7.144
- StepUp generated footprint
-
-0
-18
-3
-My_footprints
 ecs_pad_1U_hybrid_hotswap_V2
  StepUp generated footprint
 
@@ -72521,6 +72535,20 @@ ecs_pad_1U_hybrid_hotswap_V2
 3
 My_footprints
 ecs_pad_1U_hybrid_hotswap_V2_switched_sides
+ StepUp generated footprint
+
+0
+12
+3
+My_footprints
+ecs_pad_1U_hybrid_hotswap_V3
+ StepUp generated footprint
+
+0
+12
+3
+My_footprints
+ecs_pad_1U_hybrid_hotswap_V3_switched_sides
  StepUp generated footprint
 
 0
@@ -72546,6 +72574,20 @@ ecs_pad_hybrid_hotswap_2.381_V2
 
 0
 22
+3
+My_footprints
+ecs_pad_hybrid_hotswap_2.381_V3
+ StepUp generated footprint
+
+0
+22
+3
+My_footprints
+ecs_pad_hybrid_hotswap_7.144
+ StepUp generated footprint
+
+0
+18
 3
 My_footprints
 ffc-fpc_4pin_1mm
