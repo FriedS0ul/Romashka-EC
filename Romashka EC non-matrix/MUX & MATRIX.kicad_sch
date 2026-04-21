@@ -1699,6 +1699,10 @@
 		(color 0 0 0 0)
 		(uuid "fa0dc44b-b928-4451-840b-e8793d49b2c4")
 	)
+	(no_connect
+		(at 154.94 53.34)
+		(uuid "fd8a42f6-30a5-4564-97a9-6c8913d24eb3")
+	)
 	(wire
 		(pts
 			(xy 213.36 218.44) (xy 214.63 218.44)
@@ -3147,7 +3151,7 @@
 	)
 	(global_label "EC_SW8"
 		(shape input)
-		(at -26.67 128.27 90)
+		(at 96.52 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3161,7 @@
 		)
 		(uuid "141ad046-9ccf-4f1b-9e68-4c46adc19b3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -26.67 118.0278 90)
+			(at 96.52 88.8178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3283,7 @@
 	)
 	(global_label "EC_SW9"
 		(shape input)
-		(at 76.2 97.79 90)
+		(at 77.47 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3289,7 +3293,7 @@
 		)
 		(uuid "1f7d6fb2-28ca-4638-8d1e-13807c2ea8dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 87.5478 90)
+			(at 77.47 109.1378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3569,7 @@
 	)
 	(global_label "EC_SW24"
 		(shape input)
-		(at 148.59 120.65 90)
+		(at -31.75 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3575,7 +3579,7 @@
 		)
 		(uuid "29aa5bc1-eccb-48f1-968f-f614524e43b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 109.1983 90)
+			(at -31.75 133.3283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3765,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW21"
+	(global_label "EC_SW19"
 		(shape input)
 		(at 154.94 50.8 0)
 		(fields_autoplaced yes)
@@ -3805,7 +3809,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW20"
+	(global_label "EC_SW15"
 		(shape input)
 		(at 154.94 48.26 0)
 		(fields_autoplaced yes)
@@ -3849,7 +3853,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW18"
+	(global_label "EC_SW17"
 		(shape input)
 		(at 154.94 43.18 0)
 		(fields_autoplaced yes)
@@ -3961,7 +3965,7 @@
 	)
 	(global_label "EC_SW20"
 		(shape input)
-		(at 95.25 139.7 90)
+		(at 148.59 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3971,7 +3975,7 @@
 		)
 		(uuid "479ca5ae-b0c4-47dc-8b00-f55f060a7e7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 128.2483 90)
+			(at 148.59 149.8383 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +3987,7 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 110.49 118.11 90)
+		(at 111.76 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3993,7 +3997,7 @@
 		)
 		(uuid "48ca79e2-c0c5-4fa7-83ca-382170224e05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 103.5739 90)
+			(at 111.76 125.1639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4141,7 @@
 	)
 	(global_label "EC_SW11"
 		(shape input)
-		(at 76.2 118.11 90)
+		(at 77.47 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4147,51 +4151,7 @@
 		)
 		(uuid "4da42215-1f78-487f-becc-93257a5aca13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 106.6583 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRIVE_MUX1"
-		(shape input)
-		(at -27.94 185.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50aff126-4860-48ac-b216-0eed842c78dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -27.94 170.8839 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRIVE_MUX1"
-		(shape input)
-		(at 110.49 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52952101-41ea-47e5-92fb-af86c53b9219")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 125.1639 90)
+			(at 77.47 128.2483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4273,7 @@
 	)
 	(global_label "EC_SW12"
 		(shape input)
-		(at 95.25 118.11 90)
+		(at 96.52 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4323,7 +4283,7 @@
 		)
 		(uuid "5823f3a7-d091-438c-bb0f-9849eb486cf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 106.6583 90)
+			(at 96.52 128.2483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4293,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW10"
+	(global_label "EC_SW9"
 		(shape input)
 		(at 104.14 43.18 0)
 		(fields_autoplaced yes)
@@ -4345,7 +4305,7 @@
 		)
 		(uuid "5944e7f4-5f88-4b8f-aa55-10c581aacc7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5917 43.18 0)
+			(at 114.3822 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,28 +4372,6 @@
 		(uuid "61fae6ec-924c-455a-a22c-8213c6665b9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 370.84 132.7839 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EC_SW22"
-		(shape input)
-		(at 154.94 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62d59b58-52fa-429b-855d-bdddcacafaaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.3917 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4449,7 @@
 	)
 	(global_label "EC_SW15"
 		(shape input)
-		(at -43.18 185.42 90)
+		(at 129.54 140.97 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4521,7 +4459,7 @@
 		)
 		(uuid "6a7a126c-0a64-4cdf-bfec-8c6cd4e4b077")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -43.18 173.9683 90)
+			(at 129.54 129.5183 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4515,7 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 91.44 118.11 90)
+		(at 92.71 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4587,7 +4525,7 @@
 		)
 		(uuid "6f762a35-5722-4de6-82f3-14e7872df52c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 103.5739 90)
+			(at 92.71 125.1639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,6 +4548,28 @@
 		(uuid "6fdec58c-0e5f-403f-ad63-e0a644c55695")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 266.9032 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX1"
+		(shape input)
+		(at 111.76 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71aa5f41-71fe-4f50-abc9-9999f1f4d62c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 84.5239 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,9 +4667,9 @@
 			)
 		)
 	)
-	(global_label "EC_SW20"
+	(global_label "EC_SW12"
 		(shape input)
-		(at 104.14 58.42 0)
+		(at 104.14 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4719,7 +4679,7 @@
 		)
 		(uuid "78daa0bc-452f-44c7-9a2c-cd8880b0e915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5917 58.42 0)
+			(at 115.5917 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,28 +4702,6 @@
 		(uuid "794e27c4-20a8-44ac-a228-5a1c38d7032e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 126.4339 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRIVE_MUX1"
-		(shape input)
-		(at 91.44 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a6bdeee-f843-4fdd-99a5-2643ab9cb44e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 125.1639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4755,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW12"
+	(global_label "EC_SW7"
 		(shape input)
 		(at 104.14 48.26 0)
 		(fields_autoplaced yes)
@@ -4829,7 +4767,29 @@
 		)
 		(uuid "7e48a492-735f-4a01-a6e1-87c4da4af6fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5917 48.26 0)
+			(at 114.3822 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX2"
+		(shape input)
+		(at 163.83 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e61299e-b4e7-47ac-bf2e-5a2eb8e7ab7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 126.4339 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4845,7 @@
 	)
 	(global_label "DRIVE_MUX2"
 		(shape input)
-		(at 144.78 100.33 90)
+		(at 144.78 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4893,31 +4853,9 @@
 			)
 			(justify left)
 		)
-		(uuid "83958cdf-113a-4d5f-b6d1-29d5629aac12")
+		(uuid "834a2152-4808-4f2a-9213-9ee5c2f0d16c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 85.7939 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRIVE_MUX1"
-		(shape input)
-		(at -8.89 185.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "844b2cdb-532d-449e-8651-2cec58232d41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -8.89 170.8839 90)
+			(at 144.78 146.7539 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4887,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW17"
+	(global_label "EC_SW16"
 		(shape input)
 		(at 154.94 40.64 0)
 		(fields_autoplaced yes)
@@ -5017,7 +4955,7 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 91.44 160.02 90)
+		(at 92.71 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5027,7 +4965,7 @@
 		)
 		(uuid "8c2700b9-8d94-4f0f-9555-d1795b70dff9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 145.4839 90)
+			(at 92.71 145.4839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +5021,7 @@
 	)
 	(global_label "EC_SW22"
 		(shape input)
-		(at 95.25 160.02 90)
+		(at 96.52 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5093,7 +5031,7 @@
 		)
 		(uuid "8fa219c4-b0d6-44c4-bc9a-a3b6f45f2f96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 148.5683 90)
+			(at 96.52 148.5683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5195,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW21"
+	(global_label "EC_SW11"
 		(shape input)
 		(at 104.14 50.8 0)
 		(fields_autoplaced yes)
@@ -5281,7 +5219,7 @@
 	)
 	(global_label "EC_SW10"
 		(shape input)
-		(at 95.25 97.79 90)
+		(at 96.52 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5291,7 +5229,7 @@
 		)
 		(uuid "9ab98e7e-afcb-43ee-ad44-c41109963efb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 86.3383 90)
+			(at 96.52 107.9283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5307,7 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 110.49 97.79 90)
+		(at 111.76 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5379,7 +5317,7 @@
 		)
 		(uuid "9c4d5be7-088a-44cb-bfc4-de2c5384f21d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 83.2539 90)
+			(at 111.76 104.8439 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5371,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW9"
+	(global_label "EC_SW8"
 		(shape input)
 		(at 104.14 40.64 0)
 		(fields_autoplaced yes)
@@ -5512,6 +5450,28 @@
 		(uuid "a1a7ae79-bf57-4d22-b4ea-f5bbd2ac8766")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.14 134.5983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX2"
+		(shape input)
+		(at 163.83 161.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2a1b0bf-d81b-49cb-9cf1-8601be4eca88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 146.7539 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5767,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW24"
+	(global_label "EC_SW21"
 		(shape input)
 		(at 154.94 58.42 0)
 		(fields_autoplaced yes)
@@ -5919,7 +5879,7 @@
 	)
 	(global_label "EC_SW21"
 		(shape input)
-		(at 76.2 139.7 90)
+		(at 129.54 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5929,7 +5889,7 @@
 		)
 		(uuid "bc248d58-7dfd-4fd3-98c5-c1bdae64e16e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 128.2483 90)
+			(at 129.54 149.8383 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5899,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW19"
+	(global_label "EC_SW18"
 		(shape input)
 		(at 154.94 45.72 0)
 		(fields_autoplaced yes)
@@ -6137,28 +6097,6 @@
 			)
 		)
 	)
-	(global_label "DRIVE_MUX2"
-		(shape input)
-		(at 163.83 120.65 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c76d8896-c4b9-4b5b-b15c-99925d85a520")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 106.1139 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRIVE_MUX3"
 		(shape input)
 		(at 194.31 120.65 90)
@@ -6271,7 +6209,7 @@
 	)
 	(global_label "EC_SW23"
 		(shape input)
-		(at 76.2 160.02 90)
+		(at 77.47 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6281,7 +6219,7 @@
 		)
 		(uuid "cbd92537-892a-42f3-8ea8-72ace7ba72bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 148.5683 90)
+			(at 77.47 148.5683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6229,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW23"
+	(global_label "EC_SW20"
 		(shape input)
 		(at 154.94 55.88 0)
 		(fields_autoplaced yes)
@@ -6535,7 +6473,7 @@
 	)
 	(global_label "EC_SW16"
 		(shape input)
-		(at -24.13 185.42 90)
+		(at 148.59 140.97 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6545,7 +6483,7 @@
 		)
 		(uuid "dd1c2abf-feea-4a40-978e-2b799c0549d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -24.13 173.9683 90)
+			(at 148.59 129.5183 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6495,29 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 91.44 97.79 90)
+		(at 92.71 99.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddbfbaf8-69dd-4b98-b571-efbfde243e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 84.5239 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX1"
+		(shape input)
+		(at 92.71 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6567,7 +6527,29 @@
 		)
 		(uuid "dfc4ef8d-0c7c-4838-923e-fe02342e6fa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 83.2539 90)
+			(at 92.71 104.8439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX2"
+		(shape input)
+		(at 144.78 140.97 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1e46184-0439-48cc-b94b-2bfd8dea072c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 126.4339 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6581,7 @@
 			)
 		)
 	)
-	(global_label "EC_SW11"
+	(global_label "EC_SW10"
 		(shape input)
 		(at 104.14 45.72 0)
 		(fields_autoplaced yes)
@@ -6645,7 +6627,7 @@
 	)
 	(global_label "EC_SW23"
 		(shape input)
-		(at 104.14 55.88 0)
+		(at 104.14 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,7 +6637,7 @@
 		)
 		(uuid "e8c40de1-4a52-4271-925c-cd164ef0fea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5917 55.88 0)
+			(at 115.5917 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,6 +6660,28 @@
 		(uuid "e8c92581-036d-4868-8d89-deb7ee85b8f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.9433 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVE_MUX2"
+		(shape input)
+		(at 144.78 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e906c82f-18f5-4cab-be61-4ee668f5d414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 85.7939 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6759,7 @@
 	)
 	(global_label "EC_SW7"
 		(shape input)
-		(at -45.72 128.27 90)
+		(at 77.47 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6765,7 +6769,7 @@
 		)
 		(uuid "f01cb2e9-26e5-4350-b206-10422765ab4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -45.72 118.0278 90)
+			(at 77.47 88.8178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6803,7 @@
 	)
 	(global_label "DRIVE_MUX1"
 		(shape input)
-		(at 110.49 160.02 90)
+		(at 111.76 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6809,7 +6813,7 @@
 		)
 		(uuid "f56f8936-fb47-4a2a-abfc-199d274bb9ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 145.4839 90)
+			(at 111.76 145.4839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6935,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 156.21 120.65 0)
+		(at -24.13 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6940,7 +6944,7 @@
 		(fields_autoplaced yes)
 		(uuid "001bd595-04ce-4dd3-a4f4-32300b37a476")
 		(property "Reference" "SW24"
-			(at 156.21 113.03 0)
+			(at -24.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6952,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 156.21 115.57 0)
+			(at -24.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6960,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 156.21 120.65 0)
+			(at -24.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +6969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 120.65 0)
+			(at -24.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +6977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 120.65 0)
+			(at -24.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -35.56 190.5 0)
+		(at 137.16 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7078,7 +7082,7 @@
 		(fields_autoplaced yes)
 		(uuid "03dcb593-aa52-4c1a-afe0-4d345642c6ed")
 		(property "Reference" "#PWR072"
-			(at -35.56 196.85 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -35.56 195.58 0)
+			(at 137.16 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -35.56 190.5 0)
+			(at 137.16 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -35.56 190.5 0)
+			(at 137.16 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -35.56 190.5 0)
+			(at 137.16 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7494,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 83.82 160.02 0)
+		(at 85.09 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7499,7 +7503,7 @@
 		(fields_autoplaced yes)
 		(uuid "08fe1516-6aff-4a0f-80a2-f70fb3d328d3")
 		(property "Reference" "SW23"
-			(at 83.82 152.4 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7511,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 83.82 154.94 0)
+			(at 85.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7519,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 83.82 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8173,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at -38.1 128.27 0)
+		(at 85.09 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8178,7 +8182,7 @@
 		(fields_autoplaced yes)
 		(uuid "17c42d77-9be7-476b-b77e-4fbdbc36e097")
 		(property "Reference" "SW7"
-			(at -38.1 120.65 0)
+			(at 85.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8190,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at -38.1 123.19 0)
+			(at 85.09 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8198,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
-			(at -38.1 128.27 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -38.1 128.27 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -38.1 128.27 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8311,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 144.78 0)
+		(at 137.16 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8316,7 +8320,7 @@
 		(fields_autoplaced yes)
 		(uuid "1996eefc-fa8c-46d4-9065-3731d42122c6")
 		(property "Reference" "#PWR078"
-			(at 83.82 151.13 0)
+			(at 137.16 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 149.86 0)
+			(at 137.16 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 144.78 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 144.78 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 144.78 0)
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9251,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at -35.56 185.42 0)
+		(at 137.16 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9256,7 +9260,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eaf3644-9f19-4edc-a7b8-559ea00cecce")
 		(property "Reference" "SW15"
-			(at -35.56 177.8 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +9268,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at -35.56 180.34 0)
+			(at 137.16 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9276,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at -35.56 185.42 0)
+			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -35.56 185.42 0)
+			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -35.56 185.42 0)
+			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9454,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 102.87 97.79 0)
+		(at 104.14 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9459,7 +9463,7 @@
 		(fields_autoplaced yes)
 		(uuid "310dede3-147b-47e5-b976-bee159dc6f60")
 		(property "Reference" "SW10"
-			(at 102.87 90.17 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9471,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 102.87 92.71 0)
+			(at 104.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9479,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 102.87 97.79 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 97.79 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 97.79 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +10054,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 83.82 139.7 0)
+		(at 137.16 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10059,7 +10063,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af1f5c6-b1bd-437f-a358-73563f6c3e84")
 		(property "Reference" "SW21"
-			(at 83.82 132.08 0)
+			(at 137.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10071,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 83.82 134.62 0)
+			(at 137.16 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,7 +10079,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 83.82 139.7 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 139.7 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 139.7 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -38.1 133.35 0)
+		(at 85.09 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10194,7 +10198,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f410363-cb9d-4449-bfec-93e2f69a9ac1")
 		(property "Reference" "#PWR043"
-			(at -38.1 139.7 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -38.1 138.43 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -38.1 133.35 0)
+			(at 85.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -38.1 133.35 0)
+			(at 85.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,7 +10233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -38.1 133.35 0)
+			(at 85.09 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 125.73 0)
+		(at -24.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10827,7 +10831,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a164d85-fa96-4be7-9594-03c6043f63fc")
 		(property "Reference" "#PWR081"
-			(at 156.21 132.08 0)
+			(at -24.13 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 130.81 0)
+			(at -24.13 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +10848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 125.73 0)
+			(at -24.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +10857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 125.73 0)
+			(at -24.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,7 +10866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 125.73 0)
+			(at -24.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11895,7 +11899,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -16.51 190.5 0)
+		(at 156.21 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11904,7 +11908,7 @@
 		(fields_autoplaced yes)
 		(uuid "6308f060-00eb-47e7-9014-76bccd9bd92d")
 		(property "Reference" "#PWR073"
-			(at -16.51 196.85 0)
+			(at 156.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,7 +11917,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -16.51 195.58 0)
+			(at 156.21 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11921,7 +11925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -16.51 190.5 0)
+			(at 156.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11930,7 +11934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -16.51 190.5 0)
+			(at 156.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,7 +11943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -16.51 190.5 0)
+			(at 156.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,7 +12566,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 144.78 0)
+		(at 156.21 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12571,7 +12575,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b4198cb-1856-440b-bc48-460a4be4646f")
 		(property "Reference" "#PWR077"
-			(at 102.87 151.13 0)
+			(at 156.21 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,7 +12584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 149.86 0)
+			(at 156.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 144.78 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 144.78 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 144.78 0)
+			(at 156.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13620,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 83.82 118.11 0)
+		(at 85.09 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13625,7 +13629,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e1afe86-db1a-4c9e-b8ef-0eaf0b8d28c8")
 		(property "Reference" "SW11"
-			(at 83.82 110.49 0)
+			(at 85.09 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +13637,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 83.82 113.03 0)
+			(at 85.09 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13641,7 +13645,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 83.82 118.11 0)
+			(at 85.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 118.11 0)
+			(at 85.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,7 +13662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 118.11 0)
+			(at 85.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 123.19 0)
+		(at 85.09 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14179,7 +14183,7 @@
 		(fields_autoplaced yes)
 		(uuid "8880a060-219d-4522-83c2-ade15a07a7ce")
 		(property "Reference" "#PWR068"
-			(at 83.82 129.54 0)
+			(at 85.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 128.27 0)
+			(at 85.09 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14196,7 +14200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 123.19 0)
+			(at 85.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14205,7 +14209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 123.19 0)
+			(at 85.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +14218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 123.19 0)
+			(at 85.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14372,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 83.82 97.79 0)
+		(at 85.09 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14377,7 +14381,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cef493c-c1ba-45c1-ab81-61553a5fbeb6")
 		(property "Reference" "SW9"
-			(at 83.82 90.17 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,7 +14389,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 83.82 92.71 0)
+			(at 85.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14393,7 +14397,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 83.82 97.79 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,7 +14406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 97.79 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,7 +14414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 97.79 0)
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14844,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 102.87 160.02 0)
+		(at 104.14 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14849,7 +14853,7 @@
 		(fields_autoplaced yes)
 		(uuid "93299fd0-6fb0-40a2-bf4a-73423131c431")
 		(property "Reference" "SW22"
-			(at 102.87 152.4 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,7 +14861,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 102.87 154.94 0)
+			(at 104.14 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14865,7 +14869,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 102.87 160.02 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,7 +14878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 160.02 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,7 +14886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 160.02 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14978,7 +14982,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at -16.51 185.42 0)
+		(at 156.21 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14987,7 +14991,7 @@
 		(fields_autoplaced yes)
 		(uuid "98344d72-a477-4d37-8ef9-f18ef640717a")
 		(property "Reference" "SW16"
-			(at -16.51 177.8 0)
+			(at 156.21 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +14999,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at -16.51 180.34 0)
+			(at 156.21 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +15007,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at -16.51 185.42 0)
+			(at 156.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +15016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -16.51 185.42 0)
+			(at 156.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,7 +15024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -16.51 185.42 0)
+			(at 156.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15157,7 +15161,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 123.19 0)
+		(at 104.14 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15166,7 +15170,7 @@
 		(fields_autoplaced yes)
 		(uuid "9be05d28-3ea3-4afa-996e-944ec44e4c3e")
 		(property "Reference" "#PWR069"
-			(at 102.87 129.54 0)
+			(at 104.14 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +15179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 128.27 0)
+			(at 104.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 123.19 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +15196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 123.19 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 123.19 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15493,7 +15497,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 165.1 0)
+		(at 104.14 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15502,7 +15506,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1664ec2-ef2d-4a60-a847-14e04af98353")
 		(property "Reference" "#PWR0105"
-			(at 102.87 171.45 0)
+			(at 104.14 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 170.18 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +15523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,7 +15532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15537,7 +15541,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 165.1 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15559,7 +15563,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 102.87 118.11 0)
+		(at 104.14 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15568,7 +15572,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1f03977-910e-4dfe-8991-4fa1cc3806b7")
 		(property "Reference" "SW12"
-			(at 102.87 110.49 0)
+			(at 104.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15576,7 +15580,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 102.87 113.03 0)
+			(at 104.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15584,7 +15588,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 102.87 118.11 0)
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 118.11 0)
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,7 +15605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 118.11 0)
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,7 +17110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 102.87 0)
+		(at 104.14 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17115,7 +17119,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdb4f6e6-8afb-49a6-84fa-d6f4a58fa615")
 		(property "Reference" "#PWR067"
-			(at 102.87 109.22 0)
+			(at 104.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,7 +17128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 107.95 0)
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,7 +17136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 102.87 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17141,7 +17145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 102.87 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17150,7 +17154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 102.87 0)
+			(at 104.14 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17242,7 +17246,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at -19.05 128.27 0)
+		(at 104.14 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17251,7 +17255,7 @@
 		(fields_autoplaced yes)
 		(uuid "c26eeda7-691b-4e91-8d5d-21e587a2cca5")
 		(property "Reference" "SW8"
-			(at -19.05 120.65 0)
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17259,7 +17263,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at -19.05 123.19 0)
+			(at 104.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17271,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at -19.05 128.27 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,7 +17280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -19.05 128.27 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17284,7 +17288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -19.05 128.27 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,7 +17516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 102.87 0)
+		(at 85.09 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17521,7 +17525,7 @@
 		(fields_autoplaced yes)
 		(uuid "c859d851-14f7-41f4-bcbc-3ca6d67b5177")
 		(property "Reference" "#PWR066"
-			(at 83.82 109.22 0)
+			(at 85.09 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17530,7 +17534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 107.95 0)
+			(at 85.09 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +17542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 102.87 0)
+			(at 85.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17547,7 +17551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 102.87 0)
+			(at 85.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,7 +17560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 102.87 0)
+			(at 85.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17921,7 +17925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -19.05 133.35 0)
+		(at 104.14 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17930,7 +17934,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf94927a-6e44-4ff8-b40e-e589e2bb85d7")
 		(property "Reference" "#PWR044"
-			(at -19.05 139.7 0)
+			(at 104.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17939,7 +17943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -19.05 138.43 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17947,7 +17951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -19.05 133.35 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17956,7 +17960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -19.05 133.35 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17965,7 +17969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -19.05 133.35 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19593,7 +19597,7 @@
 	)
 	(symbol
 		(lib_id "Kicad symbols:EC_SW")
-		(at 102.87 139.7 0)
+		(at 156.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19602,7 +19606,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe2fb27-e1af-4dfd-8075-12690c313ed6")
 		(property "Reference" "SW20"
-			(at 102.87 132.08 0)
+			(at 156.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19610,7 +19614,7 @@
 			)
 		)
 		(property "Value" "EC_SW"
-			(at 102.87 134.62 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19618,7 +19622,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
-			(at 102.87 139.7 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +19631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 139.7 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 139.7 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19801,7 +19805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 165.1 0)
+		(at 85.09 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19810,7 +19814,7 @@
 		(fields_autoplaced yes)
 		(uuid "eefdaaa3-51ac-4579-b8c8-20cd2319a7f0")
 		(property "Reference" "#PWR080"
-			(at 83.82 171.45 0)
+			(at 85.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19819,7 +19823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +19831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 165.1 0)
+			(at 85.09 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19836,7 +19840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 165.1 0)
+			(at 85.09 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19845,7 +19849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 165.1 0)
+			(at 85.09 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
