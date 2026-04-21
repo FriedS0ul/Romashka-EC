@@ -386,7 +386,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA2376xxD"
+		(symbol "Amplifier_Operational:TLV9061xDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -394,7 +394,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at -1.27 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -402,8 +402,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA2376xxD"
-				(at 0 -5.08 0)
+			(property "Value" "TLV9061xDBV"
+				(at -1.27 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -411,7 +411,26 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -15.24 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -420,7 +439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
+			(property "ki_keywords" "single opamp rail to rail input output"
 				(at 0 0 0)
 				(effects
 					(font
@@ -429,7 +448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -438,33 +457,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPA2376xxD_1_1"
+			(symbol "TLV9061xDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -477,6 +470,44 @@
 						(type background)
 					)
 				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9061xDBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -505,7 +536,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -524,112 +555,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA2376xxD_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA2376xxD_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1538,34 +1463,46 @@
 		(uuid daf68328-949f-4289-8b5c-32f705007148)
 	)
 	(junction
-		(at 201.93 208.28)
+		(at 176.53 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00346e00-4661-4900-b245-cca571a18b32")
+		(uuid "02bcea1d-b63c-4aaf-a127-9d2bc9d74d7b")
 	)
 	(junction
-		(at 186.69 214.63)
+		(at 53.34 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00f06293-bacd-4ae0-83b1-bceca73f705b")
+		(uuid "03c9196f-00c6-45a5-b537-9b341d1dcafb")
 	)
 	(junction
-		(at 48.26 214.63)
+		(at 177.8 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04b1a044-3b63-49fa-b693-8df63aa96b20")
+	)
+	(junction
+		(at 48.26 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09b69527-3d73-4919-b19e-0286a066fc1e")
 	)
 	(junction
-		(at 213.36 218.44)
+		(at 167.64 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "265fb9bb-35fa-424f-b6c6-864cba4effb7")
+		(uuid "14dee868-49e8-4624-a37a-6112465c255e")
 	)
 	(junction
-		(at 201.93 248.92)
+		(at 96.52 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26a03eb7-b97a-46b3-8129-e8da4400c73a")
+		(uuid "1ef2e1c3-937e-481e-9b9e-775549e2db7d")
+	)
+	(junction
+		(at 63.5 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3370dc42-8620-4a67-85ee-6cd62917423f")
 	)
 	(junction
 		(at 292.1 78.74)
@@ -1580,16 +1517,40 @@
 		(uuid "3f5f15d7-36da-43f7-9ca7-1a9690275f8f")
 	)
 	(junction
-		(at 48.26 255.27)
+		(at 48.26 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40adc4ef-92b0-4a7e-a23c-0e4b9f356049")
 	)
 	(junction
-		(at 120.65 255.27)
+		(at 114.3 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "583d853e-19a2-42a1-bd52-8a4d96c9fc5f")
+		(uuid "454ed17a-4337-4ac2-bbfc-8712e6271d73")
+	)
+	(junction
+		(at 161.29 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a7efe67-cde9-4b6d-a0a4-c5d9c06922e1")
+	)
+	(junction
+		(at 105.41 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6345be87-7b4e-42a8-a698-5a2beccb4386")
+	)
+	(junction
+		(at 95.25 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc2bffb-3e5a-49e4-a3fd-f26b51f176e1")
+	)
+	(junction
+		(at 99.06 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70668df5-c555-41dc-bc84-da3a691333f6")
 	)
 	(junction
 		(at 294.64 29.21)
@@ -1604,10 +1565,10 @@
 		(uuid "8509b338-239f-4b1c-a8dc-2659e3b9be94")
 	)
 	(junction
-		(at 63.5 208.28)
+		(at 162.56 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86543a6a-cb95-4b47-90cd-e7065a68afdb")
+		(uuid "912aed66-d3f3-4c09-afd6-aa239202288a")
 	)
 	(junction
 		(at 139.7 78.74)
@@ -1616,13 +1577,13 @@
 		(uuid "9bc39474-0002-40c5-b3ea-8dc68b22ff96")
 	)
 	(junction
-		(at 186.69 255.27)
+		(at 44.45 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e03c8d0-2a0a-40b2-8a88-fa2b6905b99a")
+		(uuid "a8ebbfd0-e225-48f0-827a-7edb71e08068")
 	)
 	(junction
-		(at 74.93 218.44)
+		(at 53.34 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab51f1b4-7440-4b50-a1c0-24d8036f9179")
@@ -1634,10 +1595,10 @@
 		(uuid "b0d05227-ad9d-4fdc-913b-d908b6d716a3")
 	)
 	(junction
-		(at 147.32 218.44)
+		(at 63.5 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b72dcd14-242b-4860-a22f-d4cdd48f037a")
+		(uuid "b1fdf7df-5a3a-43b4-8a5a-7469b31721c3")
 	)
 	(junction
 		(at 38.1 78.74)
@@ -1646,10 +1607,28 @@
 		(uuid "b7456991-81fd-46ee-9ddd-d167c65e7900")
 	)
 	(junction
+		(at 158.75 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbd3c9a-bdfa-4ff3-956a-cf8793f93f6b")
+	)
+	(junction
+		(at 100.33 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdb44584-6958-4385-a232-bb8840ad1d3b")
+	)
+	(junction
 		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf6891c-ac47-4ccd-b6a5-bed4f7cd2ebc")
+	)
+	(junction
+		(at 104.14 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef38ef3-86be-445b-b546-4a3ac07d8756")
 	)
 	(junction
 		(at 193.04 29.21)
@@ -1658,16 +1637,16 @@
 		(uuid "c4dd814d-146e-4ab1-b071-e363700ecc42")
 	)
 	(junction
-		(at 135.89 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3a120b9-88b3-4fb7-829b-cc6f55bd6755")
-	)
-	(junction
 		(at 91.44 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db3c0af9-7646-4d8c-a9fc-7bcd19a479a5")
+	)
+	(junction
+		(at 44.45 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7dd089-1cc1-48f0-a9e3-e948769ec3de")
 	)
 	(junction
 		(at 142.24 29.21)
@@ -1676,16 +1655,22 @@
 		(uuid "dee54b75-55ac-4aeb-9748-cd1aaccf4a01")
 	)
 	(junction
-		(at 120.65 214.63)
+		(at 166.37 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2d7d776-3613-4a33-82e9-bf098a828a2e")
+		(uuid "e813340a-96f2-473c-923c-a35257474c12")
 	)
 	(junction
-		(at 135.89 248.92)
+		(at 115.57 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4854f18-d462-41c4-8a13-0bafb3f01fd2")
+		(uuid "e9bd4a0f-1607-4acb-b7cc-1b9e98d5b223")
+	)
+	(junction
+		(at 157.48 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec4ab49d-5b41-4b02-9fb1-261fb1f02bf7")
 	)
 	(junction
 		(at 241.3 78.74)
@@ -1693,39 +1678,33 @@
 		(color 0 0 0 0)
 		(uuid "ef5f053b-bae0-4425-8f14-4f8a6d186a73")
 	)
-	(junction
-		(at 63.5 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa0dc44b-b928-4451-840b-e8793d49b2c4")
-	)
 	(no_connect
 		(at 154.94 53.34)
 		(uuid "fd8a42f6-30a5-4564-97a9-6c8913d24eb3")
 	)
 	(wire
 		(pts
-			(xy 213.36 218.44) (xy 214.63 218.44)
+			(xy 167.64 243.84) (xy 167.64 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "002893b3-7694-4d5f-9f86-c8a2ed0e33b0")
+		(uuid "020974c8-5290-456f-8e4c-84d5aca40ff4")
 	)
 	(wire
 		(pts
-			(xy 186.69 222.25) (xy 186.69 220.98)
+			(xy 62.23 196.85) (xy 59.69 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03275200-adaf-441a-94d4-80bfdc0f2048")
+		(uuid "04059a4d-596c-4cad-be8e-e684ed600d0c")
 	)
 	(wire
 		(pts
-			(xy 48.26 222.25) (xy 48.26 220.98)
+			(xy 48.26 224.79) (xy 48.26 223.52)
 		)
 		(stroke
 			(width 0)
@@ -1735,17 +1714,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 255.27) (xy 134.62 255.27)
+			(xy 96.52 259.08) (xy 105.41 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "055961f2-b26d-4805-8ef4-3fd49998c1aa")
+		(uuid "04d03ada-8600-468a-a7ca-1c7535641cf9")
 	)
 	(wire
 		(pts
-			(xy 63.5 248.92) (xy 63.5 255.27)
+			(xy 63.5 248.92) (xy 63.5 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1754,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 214.63) (xy 62.23 214.63)
+			(xy 99.06 208.28) (xy 95.25 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3580da-802e-44db-9e8e-08de1bdc639b")
+	)
+	(wire
+		(pts
+			(xy 63.5 217.17) (xy 60.96 217.17)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1774,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 217.17) (xy 74.93 218.44)
+			(xy 95.25 219.71) (xy 95.25 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c119830-f9a2-48f8-b885-e2cd694ec33b")
+	)
+	(wire
+		(pts
+			(xy 53.34 236.22) (xy 53.34 237.49)
 		)
 		(stroke
 			(width 0)
@@ -1805,33 +1804,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 256.54) (xy 186.69 255.27)
+			(xy 182.88 212.09) (xy 184.15 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f3c893d-7ffe-4da4-b04f-3bd70ae8631a")
+		(uuid "0fe0a3eb-62f9-49f2-81ec-0fe02cbdb6d4")
 	)
 	(wire
 		(pts
-			(xy 83.82 219.71) (xy 83.82 218.44)
+			(xy 162.56 260.35) (xy 170.18 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10fa096c-b814-41db-a52d-fca4716688f1")
+		(uuid "10c1a44d-b88e-490c-8fe5-edbaf6c70575")
 	)
 	(wire
 		(pts
-			(xy 186.69 214.63) (xy 195.58 214.63)
+			(xy 162.56 248.92) (xy 158.75 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12b09432-4e02-40ba-b017-6a182fad1378")
+		(uuid "1396d7df-fac8-40ff-ab4f-ff93183386ee")
 	)
 	(wire
 		(pts
@@ -1845,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 228.6) (xy 161.29 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162333e4-9a38-48a0-b29a-e819f2a74a59")
+	)
+	(wire
+		(pts
 			(xy 187.96 29.21) (xy 193.04 29.21)
 		)
 		(stroke
@@ -1852,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "170a2024-4d28-4e9b-8b9a-601834179a7b")
-	)
-	(wire
-		(pts
-			(xy 186.69 251.46) (xy 186.69 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cc981e-4791-4e83-8c15-5f6e62b4fcb7")
 	)
 	(wire
 		(pts
@@ -1875,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 222.25) (xy 74.93 218.44)
+			(xy 53.34 241.3) (xy 53.34 237.49)
 		)
 		(stroke
 			(width 0)
@@ -1885,13 +1884,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 210.82) (xy 186.69 214.63)
+			(xy 166.37 200.66) (xy 167.64 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ee4265e-61a4-414b-b329-0d2c56fd4e29")
+		(uuid "1ca4ef53-c480-4dea-b7dc-139c54eb1382")
+	)
+	(wire
+		(pts
+			(xy 158.75 259.08) (xy 167.64 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2095df0a-ff55-4f99-8d0d-6cf0a2c2c942")
 	)
 	(wire
 		(pts
@@ -1905,23 +1914,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 248.92) (xy 135.89 255.27)
+			(xy 99.06 219.71) (xy 106.68 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22b9c45e-5ab0-4742-8140-a8c0da6aeaed")
-	)
-	(wire
-		(pts
-			(xy 186.69 205.74) (xy 182.88 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23198a1c-7d0e-46bc-91f4-42fe2bd70635")
+		(uuid "22b52210-d045-45b0-a062-767c553f4348")
 	)
 	(wire
 		(pts
@@ -1935,7 +1934,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 256.54) (xy 48.26 255.27)
+			(xy 162.56 267.97) (xy 162.56 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b958d3d-52c3-427c-8242-5d7e580167d4")
+	)
+	(wire
+		(pts
+			(xy 48.26 259.08) (xy 48.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -1945,13 +1954,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 208.28) (xy 209.55 208.28)
+			(xy 44.45 256.54) (xy 44.45 252.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e36b87a-7c9d-4d61-a045-7f1c765684de")
+		(uuid "3039d742-cd0c-42d6-b544-993d9397cfac")
+	)
+	(wire
+		(pts
+			(xy 105.41 243.84) (xy 105.41 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c2139f-f69c-403b-b795-e1a475bc9f2d")
 	)
 	(wire
 		(pts
@@ -1965,16 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 213.36) (xy 116.84 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3350d4e8-eaef-4112-9ba8-366840dc47c9")
-	)
-	(wire
-		(pts
 			(xy 241.3 80.01) (xy 241.3 78.74)
 		)
 		(stroke
@@ -1982,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "346245a5-ba30-4fb3-833a-278a0ccc9a0b")
+	)
+	(wire
+		(pts
+			(xy 44.45 256.54) (xy 53.34 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a09009-8b36-4658-b4c0-66afa7fc2876")
 	)
 	(wire
 		(pts
@@ -1995,6 +2014,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 209.55) (xy 157.48 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352e01a9-01b7-4b62-a700-03e6984c4587")
+	)
+	(wire
+		(pts
 			(xy 243.84 29.21) (xy 243.84 33.02)
 		)
 		(stroke
@@ -2005,7 +2034,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 218.44) (xy 81.28 218.44)
+			(xy 176.53 220.98) (xy 173.99 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3636b93a-82c9-4db5-804d-af41a3b0369a")
+	)
+	(wire
+		(pts
+			(xy 62.23 237.49) (xy 59.69 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2025,43 +2064,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 208.28) (xy 203.2 208.28)
+			(xy 176.53 240.03) (xy 173.99 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37d2a27c-5dce-4955-a58d-3c65bb763047")
-	)
-	(wire
-		(pts
-			(xy 135.89 214.63) (xy 134.62 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38962ec8-d0f5-48d7-89c2-de8abc9bc479")
-	)
-	(wire
-		(pts
-			(xy 120.65 214.63) (xy 129.54 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39077563-885b-487d-a29a-1427d0b52440")
-	)
-	(wire
-		(pts
-			(xy 120.65 256.54) (xy 120.65 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3adb476e-be7d-44e5-8335-727af7569929")
+		(uuid "3a515633-b816-4863-8fb1-5c4cb736b347")
 	)
 	(wire
 		(pts
@@ -2075,16 +2084,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 238.76) (xy 74.93 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b83a537-3858-4f04-b277-b504cdfdd6af")
-	)
-	(wire
-		(pts
 			(xy 231.14 29.21) (xy 233.68 29.21)
 		)
 		(stroke
@@ -2092,6 +2091,36 @@
 			(type default)
 		)
 		(uuid "3d31161e-c200-411a-a223-e3b70d578d9c")
+	)
+	(wire
+		(pts
+			(xy 95.25 208.28) (xy 95.25 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e948b5d-2ecd-47fd-b22b-2edbb2bdb2d7")
+	)
+	(wire
+		(pts
+			(xy 104.14 199.39) (xy 105.41 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb3efd1-75d0-4d61-9f79-be5e6d4fcea6")
+	)
+	(wire
+		(pts
+			(xy 158.75 248.92) (xy 158.75 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f202d1d-5375-41e7-aa7f-f03a5ed1b957")
 	)
 	(wire
 		(pts
@@ -2105,6 +2134,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 214.63) (xy 161.29 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4099040a-2fd7-42fc-b50d-c29056282d92")
+	)
+	(wire
+		(pts
+			(xy 115.57 260.35) (xy 113.03 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42be39b3-85f2-45d2-8a39-bbc144fc9f96")
+	)
+	(wire
+		(pts
 			(xy 35.56 29.21) (xy 40.64 29.21)
 		)
 		(stroke
@@ -2115,43 +2164,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 246.38) (xy 120.65 246.38)
+			(xy 158.75 259.08) (xy 158.75 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44b491d9-e3c5-4e3e-a6cc-55e1e8ab0b48")
+		(uuid "44f33574-b94a-41b5-b9a4-7b72bbe06481")
 	)
 	(wire
 		(pts
-			(xy 186.69 255.27) (xy 195.58 255.27)
+			(xy 53.34 195.58) (xy 53.34 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44bac9a6-67b0-4de0-9dc9-67322b8b0880")
-	)
-	(wire
-		(pts
-			(xy 120.65 205.74) (xy 116.84 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45647f0a-231d-4be1-b887-c3c5b35a1164")
-	)
-	(wire
-		(pts
-			(xy 120.65 210.82) (xy 120.65 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45afbf41-f9ed-4612-8139-5e9c2404876a")
+		(uuid "45e33b04-343e-4f02-b02b-a921a13f3ee7")
 	)
 	(wire
 		(pts
@@ -2165,23 +2194,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 208.28) (xy 137.16 208.28)
+			(xy 157.48 219.71) (xy 157.48 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46fc5927-0b9d-45c4-b885-f33e44c84fcf")
+		(uuid "48ae420d-4410-4503-b73e-b2f6536ce9fc")
 	)
 	(wire
 		(pts
-			(xy 135.89 208.28) (xy 135.89 214.63)
+			(xy 96.52 248.92) (xy 96.52 250.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49c4b702-8fe3-46a8-ac34-056a550eb1d7")
+		(uuid "493ec522-1c6a-4c0f-8c32-b3f65350cbe6")
 	)
 	(wire
 		(pts
@@ -2195,43 +2224,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 255.27) (xy 200.66 255.27)
+			(xy 99.06 213.36) (xy 99.06 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d566d14-dcf7-4022-ac7f-eba2d84079ec")
+		(uuid "4d75387d-3be5-4528-bf9f-f52b69211fa3")
 	)
 	(wire
 		(pts
-			(xy 116.84 254) (xy 116.84 252.73)
+			(xy 100.33 260.35) (xy 107.95 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e10af6f-aa74-426c-b5c6-816bb08874f7")
-	)
-	(wire
-		(pts
-			(xy 147.32 222.25) (xy 147.32 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e50b5eb-07b9-407f-a1ec-2cfc7df82997")
-	)
-	(wire
-		(pts
-			(xy 222.25 218.44) (xy 219.71 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4337f2-1663-4491-930c-ddceb072c1fb")
+		(uuid "4d755c2a-b745-4dd7-907b-0cfa8855f1d2")
 	)
 	(wire
 		(pts
@@ -2245,7 +2254,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 210.82) (xy 48.26 214.63)
+			(xy 99.06 227.33) (xy 99.06 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503bacf8-60de-4f94-bfa3-956d132261ff")
+	)
+	(wire
+		(pts
+			(xy 48.26 210.82) (xy 48.26 217.17)
 		)
 		(stroke
 			(width 0)
@@ -2275,13 +2294,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 217.17) (xy 147.32 218.44)
+			(xy 95.25 218.44) (xy 95.25 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54b018f9-0a45-4da8-942d-17058a155d9e")
+		(uuid "542589a3-25bb-4af2-ab3b-463b57b47d6c")
+	)
+	(wire
+		(pts
+			(xy 184.15 251.46) (xy 185.42 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a3c14e-b8d0-49d2-ae28-6673fab39e5e")
 	)
 	(wire
 		(pts
@@ -2295,23 +2324,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 246.38) (xy 186.69 246.38)
+			(xy 120.65 210.82) (xy 121.92 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "559ec7c9-5eee-4cb6-9d34-6c652f986178")
+		(uuid "56e5fc56-d961-42c8-9ba1-2b449e669538")
 	)
 	(wire
 		(pts
-			(xy 213.36 222.25) (xy 213.36 218.44)
+			(xy 53.34 196.85) (xy 54.61 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bad8650-8cbb-480c-9531-ce671acb56e6")
+		(uuid "5786815f-364d-402d-8cbf-cbfb7ae0fbc4")
+	)
+	(wire
+		(pts
+			(xy 162.56 254) (xy 162.56 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b098d90-5fb0-4062-aa45-92cf7c81e42b")
 	)
 	(wire
 		(pts
@@ -2335,47 +2374,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 222.25) (xy 120.65 220.98)
+			(xy 96.52 259.08) (xy 96.52 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "617cac1d-77b3-4b1d-a2fd-883f9bc13d9f")
+		(uuid "627dacd7-1f4c-447c-b4ff-6c50870c9d06")
 	)
 	(wire
 		(pts
-			(xy 213.36 217.17) (xy 213.36 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ab74e8-a0e1-4669-b36b-e226b281528c")
-	)
-	(wire
-		(pts
-			(xy 156.21 218.44) (xy 153.67 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63457410-63d8-43d9-89a4-d18804c5ea81")
-	)
-	(wire
-		(pts
-			(xy 186.69 215.9) (xy 186.69 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649929e1-19a8-4dbc-8ba7-ac450d203178")
-	)
-	(wire
-		(pts
-			(xy 48.26 214.63) (xy 57.15 214.63)
+			(xy 48.26 217.17) (xy 55.88 217.17)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 262.89) (xy 48.26 261.62)
+			(xy 48.26 265.43) (xy 48.26 264.16)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 215.9) (xy 48.26 214.63)
+			(xy 48.26 218.44) (xy 48.26 217.17)
 		)
 		(stroke
 			(width 0)
@@ -2415,16 +2424,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 218.44) (xy 148.59 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68aef553-b700-42a8-a853-86fa1e584f45")
-	)
-	(wire
-		(pts
 			(xy 69.85 248.92) (xy 71.12 248.92)
 		)
 		(stroke
@@ -2435,37 +2434,37 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 205.74) (xy 182.88 207.01)
+			(xy 96.52 260.35) (xy 96.52 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70b17966-f668-42c8-a453-93d644cea942")
+		(uuid "71f69875-ce6b-4524-841b-bd59152d38c9")
 	)
 	(wire
 		(pts
-			(xy 147.32 238.76) (xy 147.32 237.49)
+			(xy 44.45 215.9) (xy 44.45 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74c5fcc4-21b9-40e6-8258-a4e0d6ce3733")
+		(uuid "76a8473d-b64a-4c06-8295-6c9287d7d0cd")
 	)
 	(wire
 		(pts
-			(xy 120.65 215.9) (xy 120.65 214.63)
+			(xy 177.8 260.35) (xy 175.26 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d362c1c-b382-4581-9c5f-932bab5e984f")
+		(uuid "7803df30-cf7c-4b4d-aca2-48d14d1cda3e")
 	)
 	(wire
 		(pts
-			(xy 48.26 251.46) (xy 48.26 255.27)
+			(xy 48.26 251.46) (xy 48.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2475,23 +2474,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 254) (xy 44.45 252.73)
+			(xy 114.3 240.03) (xy 111.76 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7f20ca-60ab-486f-8093-c3fb7a5a38e1")
+	)
+	(wire
+		(pts
+			(xy 44.45 257.81) (xy 44.45 256.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80c5ea93-bfb1-47f5-8939-e527b7bbdfa7")
-	)
-	(wire
-		(pts
-			(xy 201.93 214.63) (xy 200.66 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82641b56-f2ca-4570-a330-4a701c0125a0")
 	)
 	(wire
 		(pts
@@ -2515,7 +2514,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 255.27) (xy 62.23 255.27)
+			(xy 167.64 240.03) (xy 168.91 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8530565c-fffa-4c0c-9758-e73a3e31afc4")
+	)
+	(wire
+		(pts
+			(xy 63.5 257.81) (xy 62.23 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2532,6 +2541,16 @@
 			(type default)
 		)
 		(uuid "868e9295-f699-412e-832b-ef1bc411f4f9")
+	)
+	(wire
+		(pts
+			(xy 113.03 199.39) (xy 110.49 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886d721c-51be-48c8-82dc-bae15fa88b68")
 	)
 	(wire
 		(pts
@@ -2565,27 +2584,47 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 262.89) (xy 120.65 261.62)
+			(xy 167.64 238.76) (xy 167.64 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dccd269-72e5-4b5b-88b7-6b370b5e3bd6")
+		(uuid "95933767-5bd1-4262-b72c-ec159f44e161")
 	)
 	(wire
 		(pts
-			(xy 222.25 219.71) (xy 222.25 218.44)
+			(xy 176.53 212.09) (xy 176.53 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dd28a62-2c41-4ab7-ba14-deeb4690d97c")
+		(uuid "99f166ec-45ea-4dbe-9737-322b1eca0bbc")
 	)
 	(wire
 		(pts
-			(xy 63.5 208.28) (xy 63.5 214.63)
+			(xy 175.26 200.66) (xy 172.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a071daee-eb1b-4d97-af2b-38f30ec3bef1")
+	)
+	(wire
+		(pts
+			(xy 115.57 251.46) (xy 116.84 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2981662-9c31-4828-9cfe-513862dd7ebb")
+	)
+	(wire
+		(pts
+			(xy 63.5 208.28) (xy 63.5 217.17)
 		)
 		(stroke
 			(width 0)
@@ -2595,13 +2634,53 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 213.36) (xy 44.45 212.09)
+			(xy 162.56 261.62) (xy 162.56 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31d4698-86f2-423b-bdc2-056115bdb92a")
+	)
+	(wire
+		(pts
+			(xy 44.45 217.17) (xy 44.45 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a52d50e8-039f-49e2-bfab-07fa5db95c5f")
+	)
+	(wire
+		(pts
+			(xy 177.8 251.46) (xy 177.8 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f4569d-924f-4b0f-84c9-71c46197b907")
+	)
+	(wire
+		(pts
+			(xy 100.33 254) (xy 100.33 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c66fbb-0f3e-482e-b535-38747a01800a")
+	)
+	(wire
+		(pts
+			(xy 166.37 199.39) (xy 166.37 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3d6513-0cd0-41b9-a60b-cc252f1fa814")
 	)
 	(wire
 		(pts
@@ -2612,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "aedc0957-7b2f-45dd-b556-23772e586c1f")
+	)
+	(wire
+		(pts
+			(xy 100.33 267.97) (xy 100.33 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d34768-66d9-41c6-b180-a6f99e9a418b")
 	)
 	(wire
 		(pts
@@ -2645,6 +2734,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 203.2) (xy 104.14 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d52117-e6a2-44cb-adfc-d8750e812cdc")
+	)
+	(wire
+		(pts
 			(xy 48.26 205.74) (xy 44.45 205.74)
 		)
 		(stroke
@@ -2675,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 240.03) (xy 106.68 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80c25d0-6f3e-4eee-bbed-e26923caba14")
+	)
+	(wire
+		(pts
 			(xy 292.1 78.74) (xy 294.64 78.74)
 		)
 		(stroke
@@ -2695,13 +2804,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 248.92) (xy 203.2 248.92)
+			(xy 100.33 248.92) (xy 96.52 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbdbb607-8964-48c2-b151-3e3daf475dd6")
+		(uuid "bc09a964-f755-41d2-bfc8-68d8d6905d53")
 	)
 	(wire
 		(pts
@@ -2725,6 +2834,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 200.66) (xy 53.34 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c473eb24-975a-4411-976f-366abd4c75ae")
+	)
+	(wire
+		(pts
+			(xy 99.06 220.98) (xy 99.06 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59cf01e-8a1d-4d2b-aecd-fc460dafdceb")
+	)
+	(wire
+		(pts
 			(xy 63.5 208.28) (xy 64.77 208.28)
 		)
 		(stroke
@@ -2735,33 +2864,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 246.38) (xy 116.84 247.65)
+			(xy 114.3 210.82) (xy 115.57 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cac9a937-1079-4bfc-9697-5acf2310ead2")
-	)
-	(wire
-		(pts
-			(xy 142.24 248.92) (xy 143.51 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb1890ad-402b-4376-a929-c92af86f39f9")
-	)
-	(wire
-		(pts
-			(xy 120.65 255.27) (xy 129.54 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7a5479-bc9c-416e-90d9-a20b14b23a9c")
+		(uuid "cb3c29ce-aa70-479c-876e-a7022d77f805")
 	)
 	(wire
 		(pts
@@ -2775,73 +2884,83 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 219.71) (xy 156.21 218.44)
+			(xy 161.29 220.98) (xy 168.91 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd3a4ac2-c8c7-40cf-8562-2bc814018fbf")
+		(uuid "cc341de8-7520-4938-833b-0cd7a3b10884")
 	)
 	(wire
 		(pts
-			(xy 182.88 254) (xy 182.88 252.73)
+			(xy 100.33 261.62) (xy 100.33 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfbe3c9c-bef9-4170-9661-b10099c08bc6")
+		(uuid "d37e3bd4-2edc-4425-a47f-4473dde19194")
 	)
 	(wire
 		(pts
-			(xy 201.93 208.28) (xy 201.93 214.63)
+			(xy 176.53 212.09) (xy 177.8 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0d60b52-8673-4331-8285-20c0b80bd553")
+		(uuid "d6c786dd-7c61-493b-9acf-9961645766f8")
 	)
 	(wire
 		(pts
-			(xy 142.24 208.28) (xy 143.51 208.28)
+			(xy 158.75 260.35) (xy 158.75 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e9e1cf-eb5d-4e16-b808-2fc4e5388464")
+		(uuid "d9ced440-b666-4547-99cc-aee5e1902031")
 	)
 	(wire
 		(pts
-			(xy 213.36 238.76) (xy 213.36 237.49)
+			(xy 161.29 222.25) (xy 161.29 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4388c9f-8acb-4a74-a93a-cb26e10bc492")
+		(uuid "dbdfd807-7c9a-47ba-8640-00e085e85b59")
 	)
 	(wire
 		(pts
-			(xy 182.88 213.36) (xy 182.88 212.09)
+			(xy 157.48 219.71) (xy 166.37 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d59e2a97-775b-4f45-98fa-c0904ab5e84c")
+		(uuid "dbf95d26-919a-42c7-a5fd-2f9d5bf40aed")
 	)
 	(wire
 		(pts
-			(xy 182.88 246.38) (xy 182.88 247.65)
+			(xy 157.48 220.98) (xy 157.48 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1b6435-7bde-4da9-942d-ca34f2b8a3d5")
+		(uuid "dc5a5657-94aa-4ed2-b5b2-9a3049408a2a")
+	)
+	(wire
+		(pts
+			(xy 161.29 209.55) (xy 157.48 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf9515d-b267-4109-adb5-01673dcc7244")
 	)
 	(wire
 		(pts
@@ -2855,13 +2974,53 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 251.46) (xy 120.65 255.27)
+			(xy 177.8 251.46) (xy 179.07 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea875bd0-3cef-495b-a536-3b8c332b6e93")
+		(uuid "e14ff8f9-5ba4-43bc-860a-5af350b85795")
+	)
+	(wire
+		(pts
+			(xy 166.37 204.47) (xy 166.37 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e04cd1-d747-4a8e-b49e-e82d15ed6e12")
+	)
+	(wire
+		(pts
+			(xy 104.14 198.12) (xy 104.14 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e10cda-c2af-4011-8fd3-5788ffbfa80d")
+	)
+	(wire
+		(pts
+			(xy 114.3 210.82) (xy 114.3 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e804b01a-c2f2-48c5-be36-261808665c38")
+	)
+	(wire
+		(pts
+			(xy 95.25 218.44) (xy 104.14 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a120d4-4688-4aec-bde5-5bbb8a043402")
 	)
 	(wire
 		(pts
@@ -2875,7 +3034,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 255.27) (xy 57.15 255.27)
+			(xy 115.57 251.46) (xy 115.57 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1020b8-9382-4978-9df8-774ed2e03f92")
+	)
+	(wire
+		(pts
+			(xy 48.26 257.81) (xy 57.15 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2885,13 +3054,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 205.74) (xy 116.84 207.01)
+			(xy 105.41 238.76) (xy 105.41 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f03d945c-e1dc-4659-973a-c2b2a070164e")
+		(uuid "ef73539b-ffb8-4e1b-9a01-8e352d8c2e11")
 	)
 	(wire
 		(pts
@@ -2915,53 +3084,43 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 248.92) (xy 209.55 248.92)
+			(xy 121.92 251.46) (xy 123.19 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f57aa389-78bd-4ff2-88ec-c2e7eb54aa8f")
+		(uuid "f4ecba20-084e-4520-88a3-f6ce330200cf")
 	)
 	(wire
 		(pts
-			(xy 135.89 248.92) (xy 137.16 248.92)
+			(xy 114.3 219.71) (xy 111.76 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f91e438c-1322-431b-9707-61cf16ee3ae2")
+		(uuid "f5450bcc-bc68-4a8d-82b1-7849ecb15d37")
 	)
 	(wire
 		(pts
-			(xy 74.93 218.44) (xy 76.2 218.44)
+			(xy 44.45 215.9) (xy 53.34 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75d298f-e0d0-4831-9ffc-6020c9a48023")
+	)
+	(wire
+		(pts
+			(xy 53.34 237.49) (xy 54.61 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9e59a93-11b1-4ec6-9a36-c0a17b64bbda")
-	)
-	(wire
-		(pts
-			(xy 186.69 262.89) (xy 186.69 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7a02e6-0583-4658-a9da-1d5529ee1878")
-	)
-	(wire
-		(pts
-			(xy 201.93 248.92) (xy 201.93 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf3acb1-57ab-4832-b2af-675660dd8ff4")
 	)
 	(wire
 		(pts
@@ -3281,6 +3440,28 @@
 			)
 		)
 	)
+	(global_label "ADC5"
+		(shape input)
+		(at 185.42 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ba9d2aa-585a-4ed9-a175-f083c9d3ec1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.2433 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EC_SW9"
 		(shape input)
 		(at 77.47 119.38 90)
@@ -3501,28 +3682,6 @@
 			)
 		)
 	)
-	(global_label "COM3"
-		(shape input)
-		(at 116.84 246.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29767136-0f88-4518-bbc5-0f501caeb9ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5934 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EC_SW4"
 		(shape input)
 		(at 45.72 120.65 90)
@@ -3567,6 +3726,28 @@
 			)
 		)
 	)
+	(global_label "COM5"
+		(shape input)
+		(at 158.75 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a5c723-1dcd-45d6-9ba5-ae5d2d1fa8c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.5034 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EC_SW24"
 		(shape input)
 		(at -31.75 144.78 90)
@@ -3607,28 +3788,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COM2"
-		(shape input)
-		(at 116.84 205.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d31cafc-58ad-47e6-9771-93cd0bdfea21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5934 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3699,28 +3858,6 @@
 			)
 		)
 	)
-	(global_label "COM5"
-		(shape input)
-		(at 182.88 246.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32f98c88-afab-417d-8c14-db871687f564")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6334 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MUX_S0"
 		(shape input)
 		(at 307.34 66.04 0)
@@ -3783,28 +3920,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COM4"
-		(shape input)
-		(at 182.88 205.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a53b3c9-b1c3-4dd6-94b1-d7406d09e37a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.6334 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4227,6 +4342,28 @@
 			)
 		)
 	)
+	(global_label "ADC2"
+		(shape input)
+		(at 121.92 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53feabb9-9cf4-481f-ab80-950eafcc1441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7433 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EC_SW19"
 		(shape input)
 		(at 129.54 120.65 90)
@@ -4509,6 +4646,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COM4"
+		(shape input)
+		(at 157.48 209.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d500e10-dd32-4654-90da-e454dcad18a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.2334 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5261,28 +5420,6 @@
 			)
 		)
 	)
-	(global_label "ADC4"
-		(shape input)
-		(at 209.55 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9af7a6fa-5cdb-421c-8f51-9076637e2d21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3733 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRIVE_MUX4"
 		(shape input)
 		(at 246.38 146.05 90)
@@ -5719,6 +5856,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COM3"
+		(shape input)
+		(at 96.52 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1e980b8-c72d-4ec9-9e0c-4eda77e78e32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.2734 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6383,28 +6542,6 @@
 			)
 		)
 	)
-	(global_label "ADC2"
-		(shape input)
-		(at 143.51 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5971359-5041-4fc4-b91f-42e4eeeccfb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3333 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRIVE_MUX5"
 		(shape input)
 		(at 370.84 60.96 90)
@@ -6449,9 +6586,9 @@
 			)
 		)
 	)
-	(global_label "ADC5"
+	(global_label "ADC3"
 		(shape input)
-		(at 209.55 248.92 0)
+		(at 123.19 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6459,9 +6596,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d8ecb1d3-2a0c-4354-a026-7ee763625754")
+		(uuid "d9ae0226-d2e0-4050-85a9-511e86811f80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3733 248.92 0)
+			(at 131.0133 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,6 +6916,28 @@
 			)
 		)
 	)
+	(global_label "COM2"
+		(shape input)
+		(at 95.25 208.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2bf33fc-20fe-4ad2-af8d-da4c6348620f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.0034 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EC_SW47"
 		(shape input)
 		(at 307.34 55.88 0)
@@ -6867,28 +7026,6 @@
 			)
 		)
 	)
-	(global_label "ADC3"
-		(shape input)
-		(at 143.51 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9aebe6a-08ac-489a-8e76-a796e5e310f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3333 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DRIVE_MUX3"
 		(shape input)
 		(at 213.36 120.65 90)
@@ -6924,6 +7061,28 @@
 		(uuid "fd08f442-e71f-440d-ba40-20e11fa5a0ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 26.67 110.4078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC4"
+		(shape input)
+		(at 184.15 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd4f1427-61d9-49a2-b8fb-9974ddb2cba1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.9733 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,6 +7231,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 251.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "015a8de2-5165-405e-859d-81f2cc52132a")
+		(property "Reference" "R20"
+			(at 180.3399 254 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 182.8799 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dd592c4-142f-4ab8-aedc-21456d096da5")
+		)
+		(pin "1"
+			(uuid "c59125e4-5071-431d-854c-04ae444d215e")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 146.05 0)
 		(unit 1)
@@ -7204,72 +7433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05cbabbe-5d18-4b71-b3e1-6e9d698dabff")
-		(property "Reference" "#PWR0119"
-			(at 120.65 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "797dfbcb-90f8-4d5d-bf41-934f361e57fc")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Kicad symbols:EC_SW")
 		(at 53.34 120.65 0)
 		(unit 1)
@@ -7334,94 +7497,6 @@
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "SW4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 77.47 229.87 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0642cdb7-b84a-43f5-beca-a10bffb2132e")
-		(property "Reference" "U10"
-			(at 76.2 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 76.2 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 77.47 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 77.47 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 77.47 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f86")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633641")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282d6")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d372278")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655d8")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b1b")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0b7")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fcd")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U10")
-					(unit 3)
 				)
 			)
 		)
@@ -7636,7 +7711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c0ca957-971a-424a-8e65-60f784f620b3")
-		(property "Reference" "C28"
+		(property "Reference" "C31"
 			(at 41.91 251.4665 0)
 			(effects
 				(font
@@ -7690,7 +7765,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C28")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7767,16 +7842,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 139.7 248.92 90)
-		(mirror x)
+		(at 100.33 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0fa6e6fa-295d-4aca-b93c-575d2b67cf5f")
-		(property "Reference" "R22"
-			(at 138.4299 251.46 0)
+		(uuid "0dc01f7b-7974-467b-8dd2-6d42c053e72f")
+		(property "Reference" "R25"
+			(at 102.87 262.8899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7785,7 +7859,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 140.9699 251.46 0)
+			(at 102.87 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7868,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 139.7 248.92 0)
+			(at 100.33 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +7877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 248.92 0)
+			(at 100.33 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7886,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 139.7 248.92 0)
+			(at 100.33 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,15 +7895,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "71dadb3c-c80c-486a-a36b-0cbb9c1aa23c")
+			(uuid "22142153-3220-41dc-bf5f-d37500e6db49")
 		)
 		(pin "1"
-			(uuid "9596e15c-7319-4238-8cc8-d94adce8dc77")
+			(uuid "3eec4c0c-7868-4b3b-8ddb-072d0e23aa61")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R22")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7902,34 +7976,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 116.84 209.55 0)
+		(lib_id "power:GND")
+		(at 114.3 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "13e3a86f-f5bc-4632-a4d0-61f7825199ad")
-		(property "Reference" "C29"
-			(at 114.3 210.8265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50-100pF"
-			(at 114.3 208.2865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 209.55 0)
+		(fields_autoplaced yes)
+		(uuid "14481d97-9186-40a0-a2e9-b782157f3ff0")
+		(property "Reference" "#PWR0118"
+			(at 114.3 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,8 +7994,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 116.84 209.55 0)
+		(property "Value" "GND"
+			(at 114.3 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,8 +8011,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 209.55 0)
+		(property "Datasheet" ""
+			(at 114.3 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,15 +8030,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a609f97c-3273-4973-959c-5155543a9be2")
-		)
-		(pin "2"
-			(uuid "d6616fe4-f132-47ce-94d3-780c8920448c")
+			(uuid "6cb155ee-434d-4256-990d-658baf398f98")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C29")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -8040,72 +8111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 213.36 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1649d9eb-9738-4562-b681-4ff23e94c31e")
-		(property "Reference" "#PWR0121"
-			(at 213.36 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 213.36 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 213.36 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "984e58a5-3bb4-4307-ae4f-e19ec48ed42a")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 80.01 0)
 		(unit 1)
@@ -8166,6 +8171,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 166.37 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1678d555-346c-412f-8d22-e5cbe6092655")
+		(property "Reference" "#PWR0121"
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16f7cde0-3a1e-4adb-99c3-d6b312da1c5c")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -8512,72 +8583,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e14d3ca-3ca3-43f8-957c-6dfb75700398")
-		(property "Reference" "#PWR0124"
-			(at 213.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "454365c0-5e8f-4674-9944-e3825aebdd53")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 205.74 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8712,76 +8717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 205.74 208.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "230f1d12-7480-493d-a4db-020e995ef606")
-		(property "Reference" "R25"
-			(at 204.4699 210.82 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 207.0099 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 205.74 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 205.74 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f709f516-a4d1-47c3-8f3b-c0715dca0cbc")
-		)
-		(pin "1"
-			(uuid "dca12b7b-c2b8-40bf-8937-64047577446c")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 125.73 0)
 		(unit 1)
@@ -8841,72 +8776,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 147.32 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ef3c14-a4dd-4069-a409-cb0fe0845030")
-		(property "Reference" "#PWR0114"
-			(at 147.32 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 147.32 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 147.32 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc935533-a25e-4ef5-8349-8c0efce9f5f8")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -9054,7 +8923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29b1f99b-c8e0-4240-b12b-577caaf3e773")
-		(property "Reference" "C22"
+		(property "Reference" "C13"
 			(at 133.3435 31.75 0)
 			(effects
 				(font
@@ -9108,7 +8977,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C22")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9178,6 +9047,74 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 171.45 220.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b095ae1-1bb7-4fe3-b4dc-9141d169da30")
+		(property "Reference" "R15"
+			(at 171.45 226.06 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33K"
+			(at 171.45 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 171.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 171.45 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a99e78-c923-4d4c-bc3c-0ea91200cecd")
+		)
+		(pin "1"
+			(uuid "64200203-27f3-403b-ae31-0407e5978fd1")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9320,7 +9257,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 255.27 270)
+		(at 59.69 257.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9328,8 +9265,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ff03a62-d501-4c71-96bf-ab3a2785b30e")
-		(property "Reference" "R17"
-			(at 59.69 260.35 90)
+		(property "Reference" "R21"
+			(at 59.69 262.89 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9337,7 +9274,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 59.69 257.81 90)
+			(at 59.69 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9282,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.69 255.27 0)
+			(at 59.69 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 255.27 0)
+			(at 59.69 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9300,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 255.27 0)
+			(at 59.69 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +9317,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R17")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -9588,8 +9525,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "321eef77-5b7f-407d-9a57-475d40db0a0a")
+		(property "Reference" "C27"
+			(at 154.94 214.6365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50-100pF"
+			(at 154.94 212.0965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 157.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6892fac6-c6c1-4623-83b6-c5a56bd2e51c")
+		)
+		(pin "2"
+			(uuid "8a2ec93d-4915-4305-961c-3f41244aa18f")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 48.26 262.89 0)
+		(at 48.26 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9598,7 +9604,7 @@
 		(fields_autoplaced yes)
 		(uuid "32ddbc05-156d-422e-8987-b5b2985b5688")
 		(property "Reference" "#PWR0111"
-			(at 48.26 269.24 0)
+			(at 48.26 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 267.97 0)
+			(at 48.26 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,7 +9621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 262.89 0)
+			(at 48.26 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 262.89 0)
+			(at 48.26 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 262.89 0)
+			(at 48.26 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,73 +9727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36415546-b7d7-4c99-a5fe-23772f01e22f")
-		(property "Reference" "#PWR0108"
-			(at 74.93 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fc63cd2-18bb-4e3e-8a38-7825adcfd586")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 219.71 0)
+		(at 62.23 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9796,7 +9736,7 @@
 		(fields_autoplaced yes)
 		(uuid "365119e1-c62e-4396-9220-c680a1ff1bce")
 		(property "Reference" "#PWR0107"
-			(at 83.82 226.06 0)
+			(at 62.23 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 224.79 0)
+			(at 62.23 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 219.71 0)
+			(at 62.23 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +9762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 219.71 0)
+			(at 62.23 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 219.71 0)
+			(at 62.23 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,138 +9855,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "SW45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3953ec25-adab-48f2-b12d-c52c216f0872")
-		(property "Reference" "#PWR0125"
-			(at 182.88 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee1bfbd9-0fa0-4df4-85f3-72bb2019bdc0")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "395f4762-45c4-4eee-96ff-ad6b1b3d0e10")
-		(property "Reference" "#PWR0126"
-			(at 186.69 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e090103-40db-40be-88be-d36b24a0ffaa")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -10182,6 +9990,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf6a62b-6cdd-4fda-b806-0e289ef70709")
+		(property "Reference" "#PWR0119"
+			(at 96.52 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa8860f6-a396-40b8-9196-cc84d0989bd5")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -10332,7 +10206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "410a4275-c672-41ea-a739-49bb1d006fa0")
-		(property "Reference" "C21"
+		(property "Reference" "C12"
 			(at 82.5435 31.75 0)
 			(effects
 				(font
@@ -10386,7 +10260,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C21")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10394,7 +10268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 222.25 0)
+		(at 48.26 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10403,7 +10277,7 @@
 		(fields_autoplaced yes)
 		(uuid "41cad665-8083-46f1-9a20-49387182471d")
 		(property "Reference" "#PWR0109"
-			(at 48.26 228.6 0)
+			(at 48.26 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 227.33 0)
+			(at 48.26 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 222.25 0)
+			(at 48.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 222.25 0)
+			(at 48.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 222.25 0)
+			(at 48.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +10342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4320ca9d-78c2-4a31-9287-2c878e51d769")
-		(property "Reference" "C24"
+		(property "Reference" "C20"
 			(at 234.9435 31.75 0)
 			(effects
 				(font
@@ -10522,40 +10396,50 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C24")
+					(reference "C20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 132.08 214.63 270)
-		(mirror x)
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 106.68 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "43ba5d02-915e-4eb0-816f-ddc8fcf8a74a")
-		(property "Reference" "R20"
-			(at 132.08 219.71 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "33K"
-			(at 132.08 217.17 90)
+		(fields_autoplaced yes)
+		(uuid "45d523b5-8a26-44c8-9776-4d748eaef3cd")
+		(property "Reference" "U11"
+			(at 119.38 204.3998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 214.63 0)
+		(property "Value" "TLV9061xDBV"
+			(at 119.38 206.9398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 91.44 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 106.68 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10563,34 +10447,34 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 214.63 0)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 106.68 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c560dcb9-9edd-413f-acc4-0c4f0f3ea3ce")
 		)
 		(pin "1"
-			(uuid "6f481010-ab59-446c-9f20-6626c9b3359c")
+			(uuid "9082b22a-f82b-41eb-ac14-6ce6ed9424a2")
+		)
+		(pin "3"
+			(uuid "355950c5-dfdc-40b4-8ac3-649f1f95b468")
+		)
+		(pin "5"
+			(uuid "d11c27af-52af-4165-af42-64fa3b920486")
+		)
+		(pin "2"
+			(uuid "a1ef0c62-fa76-40e2-b792-3efd81a9dac0")
+		)
+		(pin "4"
+			(uuid "4fb15495-4256-4b22-a497-28b8e3c42047")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R20")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -10735,92 +10619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 128.27 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "491a2138-74c3-45b4-98d1-b76a1c36c0df")
-		(property "Reference" "U11"
-			(at 128.27 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 128.27 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 128.27 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 128.27 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f87")
-		)
-		(pin "3"
-			(uuid "d2a5f423-0326-41de-a859-c44c12759dbe")
-		)
-		(pin "2"
-			(uuid "c06a9cf0-d6d1-48ca-b06d-c8f88eac0d41")
-		)
-		(pin "1"
-			(uuid "6e3cccea-b9bb-4aa6-a16e-fbb84d64c9ff")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655d9")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b1c")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0b8")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fce")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -24.13 149.86 0)
 		(unit 1)
@@ -10887,17 +10685,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 213.36 0)
+		(lib_id "power:+3.3VA")
+		(at 105.41 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a89706c-b7fd-418c-8ea3-07c745f64fe8")
-		(property "Reference" "#PWR0113"
-			(at 116.84 219.71 0)
+		(uuid "4b363449-f64f-4668-b737-f159b9c4271a")
+		(property "Reference" "#PWR0117"
+			(at 105.41 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,8 +10703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 116.84 218.44 0)
+		(property "Value" "+3.3VA"
+			(at 105.41 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +10712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 213.36 0)
+			(at 105.41 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +10721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 213.36 0)
+			(at 105.41 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,8 +10729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 213.36 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 105.41 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,12 +10739,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "27dd21b3-bbb6-4c18-9ded-afa775a3ecb3")
+			(uuid "83ca290d-0021-4883-be91-a29c7e71dc7f")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0113")
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1e5aa9-0ec6-42d2-a3fe-2b029459625d")
+		(property "Reference" "#PWR0116"
+			(at 99.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0580afb4-e691-45d0-9794-d0e1a400ad84")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -11017,35 +10881,100 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 208.28 90)
-		(mirror x)
+		(lib_id "power:+3.3VA")
+		(at 104.14 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4fa68fb2-e98e-4f26-b72a-407509f45c8e")
-		(property "Reference" "R19"
-			(at 138.4299 210.82 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 140.9699 210.82 0)
+		(fields_autoplaced yes)
+		(uuid "4f81dcb3-9e39-4576-a23b-d99cd31b3936")
+		(property "Reference" "#PWR0113"
+			(at 104.14 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 139.7 208.28 0)
+		(property "Value" "+3.3VA"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 104.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7b0d1ff-aaf4-47dc-928c-a733ffa82bf0")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5055dab0-1624-4066-ab8a-a1f21cb25572")
+		(property "Reference" "C26"
+			(at 92.71 213.3665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50-100pF"
+			(at 92.71 210.8265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 95.25 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +10983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 208.28 0)
+			(at 95.25 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,25 +10991,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 139.7 208.28 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "5631b17d-f24d-4d4c-adc1-e641814737a8")
 		)
 		(pin "1"
-			(uuid "0ba24303-86c2-4439-b268-93dc362cab6f")
+			(uuid "9c68f7fa-ee35-4679-81e1-0365a1b56368")
+		)
+		(pin "2"
+			(uuid "17916977-dea0-40c6-8061-a4f372d91613")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R19")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11162,7 +11091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51eac12c-f98b-4835-9b08-b97987950f87")
-		(property "Reference" "C20"
+		(property "Reference" "C11"
 			(at 31.7435 31.75 0)
 			(effects
 				(font
@@ -11216,7 +11145,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C20")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11352,6 +11281,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f2e076-43ca-4339-b07e-b0c801467f76")
+		(property "Reference" "#PWR0120"
+			(at 100.33 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51d897c-5852-4b20-bff7-644bda1dacc9")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11698,72 +11693,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fdfe092-48db-4dee-b23c-fa6a3f6e7658")
-		(property "Reference" "#PWR0115"
-			(at 156.21 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e3da617-decc-4856-959a-bd69e782527c")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 288.29 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11823,75 +11752,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 116.84 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "623e8d8a-e161-4c39-bec2-fc138c02824c")
-		(property "Reference" "C31"
-			(at 114.3 251.4665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50-100pF"
-			(at 114.3 248.9265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a38bbd6c-22d1-4f52-871a-af42cb4e53bd")
-		)
-		(pin "2"
-			(uuid "46ff7ffa-3039-4ef1-8fbc-b51140143e1f")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12090,6 +11950,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d7bc0c-5b6b-4359-a78f-ac90cd8d7719")
+		(property "Reference" "#PWR0115"
+			(at 95.25 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d36305-b871-4d0f-ad04-5bb68091f8aa")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -12496,75 +12422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 186.69 259.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a4ee2e0-53f1-49c9-b5a0-7c54e12ab103")
-		(property "Reference" "R30"
-			(at 189.23 257.8099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 189.23 260.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 186.69 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c409f649-057a-4248-95a6-6abfe006dafb")
-		)
-		(pin "1"
-			(uuid "e8bbbf4c-e6b2-4ecc-80f5-30f54c552ca2")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 166.37 0)
 		(unit 1)
@@ -12632,7 +12489,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 254 0)
+		(at 44.45 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12641,7 +12498,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b78f641-e700-4f8f-bcd8-b359e695335d")
 		(property "Reference" "#PWR0112"
-			(at 44.45 260.35 0)
+			(at 44.45 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 259.08 0)
+			(at 44.45 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 254 0)
+			(at 44.45 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 254 0)
+			(at 44.45 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 254 0)
+			(at 44.45 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,74 +12554,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bf7019a-39bb-48d9-902b-d0c5d770975d")
-		(property "Reference" "#PWR0122"
-			(at 222.25 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff491245-da82-4bb6-bb7a-b19fe7640296")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 78.74 218.44 270)
+		(at 57.15 237.49 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12772,8 +12563,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb288cd-4ffa-4d2f-b266-4c12326d914a")
-		(property "Reference" "C26"
-			(at 77.4635 220.98 0)
+		(property "Reference" "C28"
+			(at 55.8735 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,7 +12573,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 80.0035 220.98 0)
+			(at 58.4135 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12582,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 78.74 218.44 0)
+			(at 57.15 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 218.44 0)
+			(at 57.15 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +12600,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 218.44 0)
+			(at 57.15 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12826,7 +12617,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C26")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12969,33 +12760,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 259.08 0)
+		(at 172.72 260.35 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "70dc2567-0ae9-46e9-b147-5cb91276f422")
-		(property "Reference" "R18"
-			(at 50.8 257.8099 0)
+		(uuid "6f2937fb-9967-445b-8cdf-b7eeef27ed23")
+		(property "Reference" "R23"
+			(at 172.72 265.43 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "330R"
-			(at 50.8 260.3499 0)
+		(property "Value" "33K"
+			(at 172.72 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 259.08 0)
+			(at 172.72 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +12794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 259.08 0)
+			(at 172.72 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +12803,76 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 259.08 0)
+			(at 172.72 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2143e2ab-d337-443d-ad3b-27d9c4cd6071")
+		)
+		(pin "1"
+			(uuid "bdeb7351-fd62-4b18-b00d-3291076d6810")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 48.26 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70dc2567-0ae9-46e9-b147-5cb91276f422")
+		(property "Reference" "R24"
+			(at 50.8 260.3499 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 50.8 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 48.26 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +12889,155 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R18")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 119.38 251.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71965a98-c08d-4f37-a28e-abd648144748")
+		(property "Reference" "R19"
+			(at 118.1099 254 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 120.6499 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 119.38 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0631626a-ba9c-4f2d-aff9-f8ceb4f413d8")
+		)
+		(pin "1"
+			(uuid "ee2d42b5-0b8e-40f0-b395-8f2edb9ed231")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 168.91 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71f5d7b4-506d-4947-853d-c1dd4be5c2d8")
+		(property "Reference" "U12"
+			(at 181.61 205.6698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDBV"
+			(at 181.61 208.2098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 153.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 168.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 168.91 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd4fa08f-832c-4893-bee0-add17c8c3771")
+		)
+		(pin "3"
+			(uuid "6473437f-54d5-48ad-b4e7-1f403315ba66")
+		)
+		(pin "5"
+			(uuid "188394d7-d034-406e-b611-180811df01ff")
+		)
+		(pin "2"
+			(uuid "057376a6-bd3c-4a76-89b0-290c2ac74eb7")
+		)
+		(pin "4"
+			(uuid "60d7108e-6da3-4dd6-8fa4-ebe7025a4573")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -13104,72 +13111,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "744ceaa7-963b-4d2f-b078-4880eba1bc2d")
-		(property "Reference" "#PWR0116"
-			(at 120.65 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ca91cc5-c909-49bc-b4a9-6655456b5639")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 307.34 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13229,76 +13170,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 217.17 218.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74b9672f-02e7-4dfd-9292-7413df779952")
-		(property "Reference" "C33"
-			(at 215.8935 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 218.4335 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 217.17 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471e6f69-895f-495b-b6ab-5686b9a2eb8e")
-		)
-		(pin "2"
-			(uuid "958f2edb-1231-4517-b575-a107e97997b4")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -13440,16 +13311,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 120.65 218.44 0)
+		(lib_id "power:GND")
+		(at 176.53 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d5f4f9e-6f48-4f91-ab6d-4c8c9361f897")
-		(property "Reference" "R21"
-			(at 123.19 217.1699 0)
+		(fields_autoplaced yes)
+		(uuid "7a8309f7-6951-4836-ad7c-c989747c80b3")
+		(property "Reference" "#PWR0126"
+			(at 176.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ddffab-4fe2-4a81-a778-9128aa8ccca8")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d75c1ed-123a-49da-95ad-4073dab881c8")
+		(property "Reference" "R26"
+			(at 165.1 262.8899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13458,7 +13395,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 123.19 219.7099 0)
+			(at 165.1 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13404,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 218.44 0)
+			(at 162.56 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 218.44 0)
+			(at 162.56 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,7 +13422,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 218.44 0)
+			(at 162.56 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,15 +13431,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "97d97538-f737-4aef-be48-c09e8851f751")
+			(uuid "feaf32e5-ca59-447e-a15a-7ac171e95d22")
 		)
 		(pin "1"
-			(uuid "34469aa3-ced2-4da8-aaba-0e8d4bef73d0")
+			(uuid "9d98f783-aab3-4a73-a92d-8884427ceaa6")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13534,7 +13471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 294.64 55.88 0)
 			(effects
 				(font
@@ -13754,42 +13691,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 194.31 208.28 0)
+		(lib_id "Device:R_Small")
+		(at 161.29 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f242af6-fbc2-41a3-9fc9-d0a179d0bfca")
-		(property "Reference" "U12"
-			(at 194.31 198.12 0)
+		(uuid "80608d12-74df-43c7-8768-254dbb56abbe")
+		(property "Reference" "R17"
+			(at 163.83 223.5199 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 163.83 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "OPA2365"
-			(at 194.31 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 194.31 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 194.31 208.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 161.29 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,8 +13726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 194.31 208.28 0)
+		(property "Datasheet" "~"
+			(at 161.29 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,34 +13735,25 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f88")
-		)
-		(pin "3"
-			(uuid "d3fdd310-48bf-418c-b024-7d51b7377f15")
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f355c9cd-5725-4c6e-ac95-33dc24e5e568")
+			(uuid "637986a1-e555-4302-a2f0-0266c508fcb0")
 		)
 		(pin "1"
-			(uuid "5e4d6d7c-44d9-42a7-b90f-02b7f393cdd4")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655da")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b1d")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0b9")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fcf")
+			(uuid "ec7809ca-7920-4ad7-b958-ef5cb8d3498b")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13972,16 +13892,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 186.69 218.44 0)
+		(lib_id "power:GND")
+		(at 162.56 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "84784f6d-09ee-49e0-83bb-0fd47cb22778")
-		(property "Reference" "R27"
-			(at 189.23 217.1699 0)
+		(fields_autoplaced yes)
+		(uuid "8615e608-6361-455c-88a0-9f39458a7b97")
+		(property "Reference" "#PWR0130"
+			(at 162.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40291033-81ad-4bdd-b51a-4590adbe67ce")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 99.06 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86db4378-8926-4475-bcae-1ec0ef09d653")
+		(property "Reference" "R16"
+			(at 101.6 222.2499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13990,7 +13976,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 189.23 219.7099 0)
+			(at 101.6 224.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13999,7 +13985,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 218.44 0)
+			(at 99.06 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14008,7 +13994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 218.44 0)
+			(at 99.06 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,7 +14003,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 218.44 0)
+			(at 99.06 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14026,15 +14012,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7566c685-fae0-41de-a146-493a7af938ed")
+			(uuid "0428a762-9fb4-435c-a8d9-6b3849229758")
 		)
 		(pin "1"
-			(uuid "c4033f58-6c69-4bfd-82ba-4a2892a5a1a2")
+			(uuid "ab431e8c-7b8c-464c-9de4-78adc39942e7")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R27")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14305,72 +14291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ada1e3a-981d-4035-8792-f56c2b519ee4")
-		(property "Reference" "#PWR0120"
-			(at 182.88 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd82495b-b0e2-4b1b-86c4-2804c6568b64")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Kicad symbols:EC_SW")
 		(at 85.09 119.38 0)
 		(unit 1)
@@ -14449,7 +14369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e97b20f-7990-4e29-8a4c-c79e65c76a4f")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 66.0399 210.82 0)
 			(effects
 				(font
@@ -14503,7 +14423,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14584,7 +14504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8eecc605-83b1-42b4-be94-1e4388d3522c")
-		(property "Reference" "C27"
+		(property "Reference" "C25"
 			(at 41.91 210.8265 0)
 			(effects
 				(font
@@ -14638,7 +14558,73 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C27")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "905d524a-3691-49da-932b-dd468eeed2c6")
+		(property "Reference" "#PWR0123"
+			(at 157.48 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da82ca4-99ae-4245-a815-e6689f4c5175")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -14768,75 +14754,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 120.65 259.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92bc4d73-069f-49ad-a451-b7a30f41b5a9")
-		(property "Reference" "R24"
-			(at 123.19 257.8099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 123.19 260.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 120.65 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "243b6646-13c9-4577-a722-3c1a0189425c")
-		)
-		(pin "1"
-			(uuid "0c9c9ba7-9af7-49ed-a050-1ff327af5dba")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14981,6 +14898,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 199.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96add232-dbf3-46c3-ba4f-3e9efa1d5058")
+		(property "Reference" "C23"
+			(at 106.6735 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.2135 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.95 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b41e3f98-8705-479f-ad3a-02698b0be14a")
+		)
+		(pin "2"
+			(uuid "e4208768-529d-4267-9d27-00e482a8a122")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Kicad symbols:EC_SW")
 		(at 156.21 140.97 0)
 		(unit 1)
@@ -15075,7 +15062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 91.44 55.88 0)
 			(effects
 				(font
@@ -15295,6 +15282,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 167.64 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d61b593-0506-4b96-8f9f-9c225f0ce3f7")
+		(property "Reference" "#PWR0125"
+			(at 167.64 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 167.64 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 167.64 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcede683-5cf0-48b9-ab18-484449c2be48")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 125.73 0)
 		(unit 1)
@@ -15355,75 +15408,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a054fd29-cac4-4571-8f2d-db9572a112cd")
-		(property "Reference" "C32"
-			(at 180.34 210.8265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50-100pF"
-			(at 180.34 208.2865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45c9850a-34c9-4919-9457-0b0fcd47c1e7")
-		)
-		(pin "2"
-			(uuid "36193cfe-1644-4a43-9328-80a78179d497")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -15496,6 +15480,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 55.88 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b47d5a-aa77-4cd4-833d-85e7e61a2e76")
+		(property "Reference" "U13"
+			(at 68.58 242.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDBV"
+			(at 68.58 245.0398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 40.64 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 55.88 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 55.88 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8eb7fce-2376-4e0f-be32-e840b9f7f7f8")
+		)
+		(pin "3"
+			(uuid "7cd2792b-5a5e-4489-8f24-624bf699249f")
+		)
+		(pin "5"
+			(uuid "38ab5480-47fe-46fa-acad-60ffb8b0903d")
+		)
+		(pin "2"
+			(uuid "7c8e4f21-71fd-4226-937a-3c3dacbba31f")
+		)
+		(pin "4"
+			(uuid "60a9b3a7-952e-4eaa-9d72-e32fb98a925c")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 165.1 0)
 		(unit 1)
@@ -15556,6 +15618,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1912ce9-d526-4915-aa6d-1d94742ec4cd")
+		(property "Reference" "#PWR0114"
+			(at 113.03 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "110256d1-a0d6-48cf-af71-4c54da395afa")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -15700,6 +15828,220 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 170.18 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a327401e-081c-4004-8c39-9eda59fa844a")
+		(property "Reference" "U15"
+			(at 182.88 245.0398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDBV"
+			(at 182.88 247.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 154.94 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 170.18 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 170.18 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff2fe356-9a1e-4397-97ee-167da1d4d6ea")
+		)
+		(pin "3"
+			(uuid "2370c707-c214-47dc-a68c-c1851177b526")
+		)
+		(pin "5"
+			(uuid "27c6eef2-7173-43b6-9cd2-f4be79161939")
+		)
+		(pin "2"
+			(uuid "71bbacbb-ba58-4efc-8e40-18bdd8a269bf")
+		)
+		(pin "4"
+			(uuid "303f7b4a-a138-4224-8664-1b748c0641d1")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3eac341-f595-4e83-8f9a-f1f64caa56c0")
+		(property "Reference" "#PWR0108"
+			(at 62.23 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de405612-477e-4543-93d4-3419d3dd204a")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 109.22 240.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a568ec8a-77ab-4638-b357-904ae3ffd0f9")
+		(property "Reference" "C29"
+			(at 107.9435 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.4835 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 109.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 109.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27458271-2a5d-440c-9578-1996a7f4dcd7")
+		)
+		(pin "2"
+			(uuid "0f07be30-f5ca-4da9-9ccd-5206e81556bd")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Kicad symbols:EC_SW")
 		(at 307.34 118.11 0)
 		(unit 1)
@@ -15764,92 +16106,6 @@
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "SW44")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 194.31 248.92 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6820267-5d89-4289-9034-2eac3fbc460c")
-		(property "Reference" "U12"
-			(at 194.31 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 194.31 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 194.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 194.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 194.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f89")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633643")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282d8")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d37227a")
-		)
-		(pin "5"
-			(uuid "c945030d-9870-4d48-a203-331bb7303fb3")
-		)
-		(pin "6"
-			(uuid "9c41176b-547a-4f0f-b46b-dbd6dd3b4a22")
-		)
-		(pin "7"
-			(uuid "a56a4438-7128-4c2d-bb84-d2a08ea20661")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fd0")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U12")
-					(unit 2)
 				)
 			)
 		)
@@ -16252,178 +16508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 55.88 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2f5c1cd-f041-48d1-bcf5-0a8082cb81d6")
-		(property "Reference" "U10"
-			(at 55.88 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 55.88 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 55.88 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 55.88 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 55.88 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f8a")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633642")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282d7")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d372279")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655db")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b1e")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0ba")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fd1")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 128.27 248.92 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b38f91a6-7054-478a-a9a5-7ff7b9f9c280")
-		(property "Reference" "U11"
-			(at 128.27 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 128.27 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 128.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 128.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 128.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f8b")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633644")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282d9")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d37227b")
-		)
-		(pin "5"
-			(uuid "b533659e-0e7f-420a-a8fc-e3e3817127d1")
-		)
-		(pin "6"
-			(uuid "391bf20f-821f-4e3a-a93e-651ab26f33c2")
-		)
-		(pin "7"
-			(uuid "8c08b58f-4724-4eff-8de1-f9ef43de9b71")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fd2")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U11")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 110.49 0)
 		(unit 1)
@@ -16491,73 +16575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b66735fb-5fc5-4aaf-a89c-c6c38f6234a9")
-		(property "Reference" "#PWR0123"
-			(at 186.69 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6002777c-a292-4677-95e5-258fefc1ccb3")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 213.36 0)
+		(at 44.45 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16566,7 +16584,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8aa19c3-7d88-42cd-87e4-3dc6afd3518b")
 		(property "Reference" "#PWR0110"
-			(at 44.45 219.71 0)
+			(at 44.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 218.44 0)
+			(at 44.45 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16583,7 +16601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 213.36 0)
+			(at 44.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16592,7 +16610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 213.36 0)
+			(at 44.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,7 +16619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 213.36 0)
+			(at 44.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16647,7 +16665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 243.84 55.88 0)
 			(effects
 				(font
@@ -16892,7 +16910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -16977,6 +16995,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3c9c23-0a48-442d-b0b5-89aa2924bd04")
+		(property "Reference" "#PWR0129"
+			(at 158.75 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05cf3afe-c62e-477a-8bc0-0ad872b51952")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 55.88 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb6e6a5-8bf0-4047-84cc-7331b06ce058")
+		(property "Reference" "U10"
+			(at 68.58 201.8598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDBV"
+			(at 68.58 204.3998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 40.64 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 55.88 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 55.88 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddeceba2-3d53-4f0a-9dd4-5d84e2e82f6a")
+		)
+		(pin "3"
+			(uuid "0b6ec939-d906-409f-85f9-fabfd8d16311")
+		)
+		(pin "5"
+			(uuid "826008a1-7517-4a66-beb4-7893bdb95d31")
+		)
+		(pin "2"
+			(uuid "42fc647b-f3f6-44f7-b64e-2073b8409f0e")
+		)
+		(pin "4"
+			(uuid "851757b8-5656-48aa-9a6b-b64d812e4c3e")
+		)
+		(instances
+			(project ""
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 193.04 27.94 0)
 		(unit 1)
@@ -17037,6 +17199,75 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 96.52 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcf29539-2d50-4fa7-bc14-12bdef20eed5")
+		(property "Reference" "C32"
+			(at 93.98 254.0065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50-100pF"
+			(at 93.98 251.4665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 96.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48123db-0d56-45a9-8ac9-e11e6423c43d")
+		)
+		(pin "2"
+			(uuid "5babf786-bb87-4164-82a6-723cb5908562")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -17176,34 +17407,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 205.74 248.92 90)
+		(at 110.49 260.35 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c1815903-8cf7-4655-a377-b340aec3935d")
-		(property "Reference" "R28"
-			(at 204.4699 251.46 0)
+		(uuid "c06e8f0f-fa33-4b93-ab67-1117ceec777b")
+		(property "Reference" "R22"
+			(at 110.49 265.43 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "330R"
-			(at 207.0099 251.46 0)
+		(property "Value" "33K"
+			(at 110.49 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 205.74 248.92 0)
+			(at 110.49 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17212,7 +17441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 248.92 0)
+			(at 110.49 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17221,7 +17450,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 205.74 248.92 0)
+			(at 110.49 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17230,15 +17459,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "30f7a136-a65e-4c27-bd30-32d4bdbd8203")
+			(uuid "97b87ad9-e078-4a07-80f3-baf7c131a82d")
 		)
 		(pin "1"
-			(uuid "49cb2dd6-1da3-4d7e-8638-19510d7f0f34")
+			(uuid "b29fd892-1d56-4470-a08e-6394ee9d69f7")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R28")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -17374,6 +17603,76 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 171.45 240.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4792edf-6b4a-44a0-824e-6a16fca53edd")
+		(property "Reference" "C30"
+			(at 170.1735 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.7135 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 171.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81129210-f50b-44ad-a831-b4e338da2a5d")
+		)
+		(pin "2"
+			(uuid "8f2f36a3-83cd-4503-a3bc-4b4548b1d2b7")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17575,76 +17874,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 151.13 218.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c91b2e33-db0f-4fd9-8fe0-0647e724792b")
-		(property "Reference" "C30"
-			(at 149.8535 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 152.3935 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 151.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "788bbcad-d7c0-4621-92b7-9b305ef5a321")
-		)
-		(pin "2"
-			(uuid "033098e8-dbb2-4948-9563-f730ac6fcad9")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -18056,6 +18285,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06e484c-7778-4950-9814-a7cfe023d62e")
+		(property "Reference" "#PWR0122"
+			(at 175.26 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ecde0ca-0da3-460d-9194-4b2474f605db")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4051")
 		(at 142.24 55.88 0)
 		(mirror y)
@@ -18081,7 +18376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -18166,6 +18461,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9061xDBV")
+		(at 107.95 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2ef6c18-f887-4f18-ab6a-7d09439ca13c")
+		(property "Reference" "U14"
+			(at 120.65 245.0398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9061xDBV"
+			(at 120.65 247.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 92.71 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9061.pdf"
+			(at 107.95 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5"
+			(at 107.95 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7562fb6e-6e7e-4055-b915-3692823ddb60")
+		)
+		(pin "3"
+			(uuid "315096a0-d38a-448e-8958-e2e3ea7a9b8c")
+		)
+		(pin "5"
+			(uuid "7d2ab5ea-03ff-48c3-8c23-f32db25b0214")
+		)
+		(pin "2"
+			(uuid "4f8d7e5d-658e-4e85-85ae-b357741f242b")
+		)
+		(pin "4"
+			(uuid "d43d11c1-79d0-431c-aac9-3032f953b0a5")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 67.31 248.92 90)
 		(mirror x)
@@ -18175,7 +18548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3bcbda5-25b5-4c08-919a-13e2b620e517")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 66.0399 251.46 0)
 			(effects
 				(font
@@ -18229,7 +18602,7 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -18302,74 +18675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f000ce-b5f6-4c1d-b8f8-038b328597f5")
-		(property "Reference" "#PWR0118"
-			(at 116.84 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "432c4559-89b8-4d4a-8da2-178963fc1786")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 218.44 0)
+		(at 48.26 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18377,7 +18684,7 @@
 		(dnp no)
 		(uuid "d8fc9ce0-9265-41c5-844f-a52ddd5eb5ea")
 		(property "Reference" "R14"
-			(at 50.8 217.1699 0)
+			(at 50.8 219.7099 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18386,7 +18693,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 50.8 219.7099 0)
+			(at 50.8 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18395,7 +18702,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 218.44 0)
+			(at 48.26 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,7 +18711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 218.44 0)
+			(at 48.26 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18720,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 218.44 0)
+			(at 48.26 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18437,17 +18744,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 149.86 229.87 0)
-		(unit 3)
+		(lib_id "Device:R_Small")
+		(at 118.11 210.82 90)
+		(mirror x)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da504d1c-ab0a-4af0-8bcf-92440f899428")
-		(property "Reference" "U11"
-			(at 148.59 228.5999 0)
+		(uuid "d97a980e-04fa-49e7-bd08-1b9f1da6242f")
+		(property "Reference" "R8"
+			(at 116.8399 213.36 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 119.3799 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,17 +18771,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA2365"
-			(at 148.59 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 149.86 229.87 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18473,8 +18780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 149.86 229.87 0)
+		(property "Datasheet" "~"
+			(at 118.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18482,44 +18789,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 149.86 229.87 0)
+		(property "Description" "Resistor, small symbol"
+			(at 118.11 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "8"
-			(uuid "2283a26f-7290-4e95-a4ff-2b18df7f01c6")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633645")
 		)
 		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282da")
+			(uuid "ae454df1-2321-4732-87aa-37cd9bd23ee4")
 		)
 		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d37227c")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655dc")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b1f")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0bb")
-		)
-		(pin "4"
-			(uuid "f05ffdfa-ab9b-439d-b1c2-e546f4830d9a")
+			(uuid "10fabcd1-c1e2-41af-a90d-34fcd80af4be")
 		)
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U11")
-					(unit 3)
+					(reference "R8")
+					(unit 1)
 				)
 			)
 		)
@@ -18550,7 +18839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm"
 			(at 40.64 55.88 0)
 			(effects
 				(font
@@ -18770,144 +19059,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 132.08 255.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df335201-8c61-4876-9be8-914c924962ff")
-		(property "Reference" "R23"
-			(at 132.08 260.35 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "33K"
-			(at 132.08 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af691d26-3eb5-4f44-8c88-5699b2f5407c")
-		)
-		(pin "1"
-			(uuid "3987e730-6585-41ad-a8ea-09c48554291b")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 198.12 255.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df8d03a2-4f99-4cd4-8ddd-ee9aca499f36")
-		(property "Reference" "R29"
-			(at 198.12 260.35 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "33K"
-			(at 198.12 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.12 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 198.12 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "731eef01-c154-45ff-9f27-eb5adfd6e9b0")
-		)
-		(pin "1"
-			(uuid "21e7185c-6509-437c-87da-d77836428aca")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
-		(at 74.93 217.17 0)
+		(at 53.34 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18916,7 +19069,7 @@
 		(fields_autoplaced yes)
 		(uuid "e10bc582-b818-45a3-bb3f-2d5b765c025f")
 		(property "Reference" "#PWR0106"
-			(at 74.93 220.98 0)
+			(at 53.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18925,7 +19078,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 74.93 212.09 0)
+			(at 53.34 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18933,7 +19086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 217.17 0)
+			(at 53.34 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18942,7 +19095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 217.17 0)
+			(at 53.34 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18951,7 +19104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 74.93 217.17 0)
+			(at 53.34 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19032,209 +19185,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 198.12 214.63 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e31fb504-953d-4a10-81f1-2a023b06c8a1")
-		(property "Reference" "R26"
-			(at 198.12 219.71 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "33K"
-			(at 198.12 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 198.12 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 198.12 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a37795b-d77d-4d6b-879e-fadbd68bc31b")
-		)
-		(pin "1"
-			(uuid "2fd5d0c7-acaf-4d65-ada1-da054c2f5abe")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3567c7d-8251-40d8-afed-7774e3fbcd85")
-		(property "Reference" "C34"
-			(at 180.34 251.4665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50-100pF"
-			(at 180.34 248.9265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7c42de5-afd9-4b5b-afb3-d8c5c014417b")
-		)
-		(pin "2"
-			(uuid "48439bd0-19b4-48b6-9dd0-8c01706ad9c2")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3de22b3-825f-40e0-8522-7a4745a20f9a")
-		(property "Reference" "#PWR0117"
-			(at 147.32 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c56e2cf2-3277-420f-83b5-cf1b58efe3f9")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -19443,6 +19393,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 161.29 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e885015f-2425-41bc-ac17-97832578e3b8")
+		(property "Reference" "#PWR0124"
+			(at 161.29 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca4b67fc-b178-485d-86db-59eb484ceb45")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19503,94 +19519,6 @@
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR054")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 215.9 229.87 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eab6add0-bc3b-4a70-81db-a99b688e0bac")
-		(property "Reference" "U12"
-			(at 214.63 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 214.63 231.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 215.9 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 215.9 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 215.9 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "c4bebfc0-8d1f-4731-8f25-1878ea54822f")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633646")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282db")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d37227d")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655dd")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b20")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0bc")
-		)
-		(pin "4"
-			(uuid "4a66cb14-6b5a-4e0e-9468-df60089cdd27")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U12")
-					(unit 3)
 				)
 			)
 		)
@@ -19659,6 +19587,74 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 109.22 219.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebf51659-90a0-442e-8cdd-0b8e036d3da5")
+		(property "Reference" "R13"
+			(at 109.22 224.79 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33K"
+			(at 109.22 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 109.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32a4a735-100d-4e62-9547-552b2ae61ce6")
+		)
+		(pin "1"
+			(uuid "4734e6c5-10d9-4ebc-8c97-eaebdca840b0")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19743,7 +19739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eca8b782-dd9b-4543-a8c7-d876dd0ad3b0")
-		(property "Reference" "C23"
+		(property "Reference" "C14"
 			(at 184.1435 31.75 0)
 			(effects
 				(font
@@ -19797,7 +19793,77 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C23")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 200.66 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed17cc11-02a6-4239-9484-c457b1264176")
+		(property "Reference" "C24"
+			(at 168.9035 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 171.4435 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfef4682-91b6-4143-b913-628eb94c19de")
+		)
+		(pin "2"
+			(uuid "4f5d00cb-4a72-4f71-8a89-ccbd5af13b49")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -19870,92 +19936,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 55.88 248.92 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f003295a-8582-4269-9d95-a0104a63c3f7")
-		(property "Reference" "U10"
-			(at 55.88 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2365"
-			(at 55.88 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 55.88 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 55.88 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 55.88 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "ef747471-6d0d-4a3f-8dc7-e0cc268e4f8c")
-		)
-		(pin "3"
-			(uuid "0ababf7f-a876-4824-b7f7-2e8197633647")
-		)
-		(pin "2"
-			(uuid "97e50c7f-23b1-4c46-8f95-d57970f282dc")
-		)
-		(pin "1"
-			(uuid "e7ce67d2-cc21-48bd-80ed-733f1d37227e")
-		)
-		(pin "5"
-			(uuid "ccb1ad14-a23a-4667-8724-7bb510c655de")
-		)
-		(pin "6"
-			(uuid "f62917f6-93af-48fc-87fd-3393ebb32b21")
-		)
-		(pin "7"
-			(uuid "584ee467-a0ee-4c96-a831-43d459eaf0bd")
-		)
-		(pin "4"
-			(uuid "d41552e0-e9c7-49bc-9a6c-77793bb02fd3")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "U10")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 287.02 29.21 270)
 		(mirror x)
@@ -19965,7 +19945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0852779-ab72-46fe-916d-818caf8fb778")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 285.7435 31.75 0)
 			(effects
 				(font
@@ -20019,7 +19999,77 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "C25")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 212.09 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2369dfe-5e39-4693-8c47-aa4e263387cc")
+		(property "Reference" "R9"
+			(at 179.0699 214.63 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 181.6099 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95113b81-1809-4b0b-ae4e-5b82384134be")
+		)
+		(pin "1"
+			(uuid "a9a60427-0340-4251-a6e6-9b4ed34add18")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20162,7 +20212,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 59.69 214.63 270)
+		(at 58.42 217.17 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20170,8 +20220,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3d8f0ea-a89f-4e38-ba2b-c05ac7c45c77")
-		(property "Reference" "R13"
-			(at 59.69 219.71 90)
+		(property "Reference" "R10"
+			(at 58.42 222.25 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -20179,7 +20229,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 59.69 217.17 90)
+			(at 58.42 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20187,7 +20237,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.69 214.63 0)
+			(at 58.42 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20196,7 +20246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 214.63 0)
+			(at 58.42 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20205,7 +20255,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 59.69 214.63 0)
+			(at 58.42 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20222,7 +20272,142 @@
 		(instances
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
-					(reference "R13")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 53.34 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f507166c-5493-489d-9628-19179a2656b7")
+		(property "Reference" "#PWR079"
+			(at 53.34 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 53.34 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 53.34 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08b0a5ae-55db-4229-99d3-5c3546d7e993")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6011940-cd64-4d6a-877a-76234069edc8")
+		(property "Reference" "C33"
+			(at 156.21 254.0065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50-100pF"
+			(at 156.21 251.4665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cffafd25-a3e7-4fde-83ef-651f17e154af")
+		)
+		(pin "2"
+			(uuid "74645f3a-4155-4b4d-9a11-4dcce6315320")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -20427,6 +20612,76 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 196.85 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff8fe797-f183-4694-ab22-43c4c4c86773")
+		(property "Reference" "C22"
+			(at 55.8735 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.4135 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 57.15 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abcdc817-e2b0-410e-88a3-c6ac79cf9315")
+		)
+		(pin "2"
+			(uuid "717ac036-8685-448d-a08a-7f0f81a3b601")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/ac32f68b-d7f7-4cd1-a249-e3b9ec61f205"
+					(reference "C22")
 					(unit 1)
 				)
 			)
