@@ -11855,48 +11855,6 @@
 		)
 	)
 	(sheet
-		(at 228.6 73.025)
-		(size 36.83 36.195)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "392cab32-2471-4047-a904-9ddff3b418e6")
-		(property "Sheetname" "OPAMP"
-			(at 228.6 72.3134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "OPAMP.kicad_sch"
-			(at 228.6 109.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 228.6 19.05)
 		(size 37.465 35.56)
 		(exclude_from_sim no)
