@@ -1299,6 +1299,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers
@@ -11428,6 +11553,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 139.7 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "161d660b-47c7-4c6a-95d6-83192850a4f9")
+		(property "Reference" "#PWR039"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b00a0e4-1dd9-450e-869e-a1c8edf986a9")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 54.61 0)
 		(unit 1)
@@ -13248,7 +13439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -14338,6 +14529,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 232.41 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412bff18-ac97-4a45-9d4e-b909f62c0254")
+		(property "Reference" "#PWR042"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd759dd-b69c-48ab-ac71-97b2a02f0d3f")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 379.73 196.85 0)
 		(unit 1)
@@ -14818,6 +15075,72 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 325.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bfd9098-430f-4ed7-b1ac-26e29153e91b")
+		(property "Reference" "#PWR045"
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 325.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 325.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a16b69-02db-472d-9a37-e05e2818d0ed")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15572,72 +15895,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 232.41 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6288f263-de40-425c-9657-a10225499226")
-		(property "Reference" "#PWR042"
-			(at 232.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 232.41 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 232.41 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b59040cd-1b9d-4ac3-9b3a-396b1e95f17a")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17326,7 +17583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 232.41 83.82 0)
 			(effects
 				(font
@@ -17781,73 +18038,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "SW30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 325.12 140.97 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b0b5b14-379b-4034-8688-2ba0f4318e04")
-		(property "Reference" "#PWR045"
-			(at 325.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 325.12 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 325.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61490857-cc21-47a7-ac21-bb6c5c7ebbde")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18403,6 +18593,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98571aa2-2c70-4b30-9cf8-d5105815fef3")
+		(property "Reference" "#PWR035"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 46.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a20fdf34-af5c-4e4d-901e-4d3aa1f0c7d9")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 314.96 144.78 0)
 		(unit 1)
@@ -18777,7 +19033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -19544,7 +19800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -21050,7 +21306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -21330,7 +21586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -21672,7 +21928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 270.51 83.82 0)
 			(effects
 				(font
@@ -21879,7 +22135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -22343,72 +22599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 139.7 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e897d4e6-4ff2-40ef-aafb-25f50e9e56cf")
-		(property "Reference" "#PWR039"
-			(at 139.7 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 139.7 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 139.7 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bce3f46c-2c3b-4330-8eb1-446748d44db5")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:HEF4067BTT")
 		(at 139.7 165.1 0)
 		(unit 1)
@@ -22820,73 +23010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 46.99 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eda8319a-ed4e-44ae-954e-db5e3dc0d504")
-		(property "Reference" "#PWR035"
-			(at 46.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 46.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "887091e2-ba44-4232-9396-716c0ee1fd55")
-		)
-		(instances
-			(project ""
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 190.5 0)
 		(mirror y)
@@ -22978,7 +23101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 181.61 30.48 0)
 			(effects
 				(font
@@ -23466,7 +23589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 238.76 30.48 0)
 			(effects
 				(font
