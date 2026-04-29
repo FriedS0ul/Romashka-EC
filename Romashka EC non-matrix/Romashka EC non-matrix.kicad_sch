@@ -4571,6 +4571,10 @@
 		(uuid "bae634dd-ab39-4e71-bc14-2471edf668a1")
 	)
 	(no_connect
+		(at 212.09 93.98)
+		(uuid "c132c599-b21d-493c-960d-995383090294")
+	)
+	(no_connect
 		(at 212.09 58.42)
 		(uuid "f13366dd-b509-4509-abdb-486b5400d395")
 	)
@@ -4731,16 +4735,6 @@
 			(type default)
 		)
 		(uuid "2dae7bce-b5d7-48a5-a4b3-b39ca8ae1fa1")
-	)
-	(wire
-		(pts
-			(xy 195.58 135.89) (xy 200.66 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbc276e-5ff5-415b-9aa6-59c9e1f25ce7")
 	)
 	(wire
 		(pts
@@ -5394,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 138.43) (xy 200.66 138.43)
+			(xy 189.23 135.89) (xy 200.66 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7170,6 +7164,7 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 189.23 143.51 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7498,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 190.5 138.43 0)
+		(at 189.23 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7512,7 +7507,7 @@
 		(fields_autoplaced yes)
 		(uuid "3109f935-50c2-48ef-997b-b0a401b26eac")
 		(property "Reference" "#PWR065"
-			(at 190.5 142.24 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7516,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 190.5 133.35 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +7976,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 205.74 143.51 0)
+		(at 205.74 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7990,7 +7986,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bc45d28-c778-497a-a5cb-f3477a02b8cb")
 		(property "Reference" "J4"
-			(at 208.28 143.5099 0)
+			(at 208.28 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +7995,7 @@
 			)
 		)
 		(property "Value" "SOICbite"
-			(at 208.28 146.0499 0)
+			(at 208.28 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8004,7 @@
 			)
 		)
 		(property "Footprint" "Kicad footprints:SOICbite_footprint"
-			(at 205.74 143.51 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 143.51 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8022,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 143.51 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,72 +9757,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8984025b-dc50-4c2d-8623-208165fd3596")
-		(property "Reference" "#PWR014"
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 195.58 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b2ae94a-5cf0-43b2-8631-8d17dc98d2b7")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
