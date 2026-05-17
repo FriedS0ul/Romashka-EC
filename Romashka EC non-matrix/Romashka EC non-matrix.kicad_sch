@@ -3267,6 +3267,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2P6"
 			(pin_names
 				(hide yes)
@@ -6034,22 +6117,22 @@
 	)
 	(global_label "DISCHARGE3"
 		(shape input)
-		(at 247.65 40.64 0)
+		(at 212.09 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2dd11f3c-a94e-48fd-827e-7007bd1bed68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3071 40.64 0)
+			(at 197.4329 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6078,7 +6161,7 @@
 	)
 	(global_label "DISCHARGE1"
 		(shape input)
-		(at 212.09 96.52 180)
+		(at 212.09 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6088,7 +6171,7 @@
 		)
 		(uuid "373feebe-91b5-4d50-bcc6-65ad671f37b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.4329 96.52 0)
+			(at 197.4329 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,22 +6273,22 @@
 	)
 	(global_label "ADC2"
 		(shape input)
-		(at 212.09 104.14 180)
+		(at 247.65 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "756ae1e8-fd7a-4167-a458-054256606c31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2667 104.14 0)
+			(at 255.4733 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6388,7 +6471,7 @@
 	)
 	(global_label "ADC1"
 		(shape input)
-		(at 212.09 99.06 180)
+		(at 212.09 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6398,7 +6481,7 @@
 		)
 		(uuid "9e020559-8c1a-47ea-8403-8f79609d8311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2667 99.06 0)
+			(at 204.2667 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,22 +6647,22 @@
 	)
 	(global_label "ADC3"
 		(shape input)
-		(at 247.65 43.18 0)
+		(at 212.09 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ced5e06b-57ba-4d80-b3e2-13d016c585a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4733 43.18 0)
+			(at 204.2667 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6630,7 +6713,7 @@
 	)
 	(global_label "ADC0"
 		(shape input)
-		(at 247.65 58.42 0)
+		(at 247.65 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6640,7 +6723,7 @@
 		)
 		(uuid "e4c3abf6-e73e-4d02-a767-d10261f847d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4733 58.42 0)
+			(at 255.4733 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,22 +6735,22 @@
 	)
 	(global_label "DISCHARGE2"
 		(shape input)
-		(at 212.09 101.6 180)
+		(at 247.65 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e6c9fe1d-c7ef-4146-9f0f-872a9e28ccfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.4329 101.6 0)
+			(at 262.3071 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7205,6 +7288,70 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe5a891-039f-4b1d-bcb5-3020c22a6620")
+		(property "Reference" "H6"
+			(at 157.48 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -8720,6 +8867,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "713cf7db-342f-4515-9a7a-fa52dbfdeec8")
+		(property "Reference" "H3"
+			(at 137.16 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 182.88 0)
 		(unit 1)
@@ -9185,6 +9396,70 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87309ddf-deda-4a9c-9341-8fc6195479da")
+		(property "Reference" "H1"
+			(at 137.16 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9986,6 +10261,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6987a53-e8af-46ae-9002-0428d79fc71c")
+		(property "Reference" "H4"
+			(at 157.48 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 260.35 30.48 0)
 		(unit 1)
@@ -10746,6 +11085,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf756b87-fc28-404b-b4f1-b267e3464dc0")
+		(property "Reference" "H2"
+			(at 157.48 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 201.93 26.67 0)
 		(mirror x)
@@ -11461,6 +11864,70 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8c1b8d-4e0c-47e1-b054-38a75044d5ea")
+		(property "Reference" "H5"
+			(at 137.16 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad footprints:m2 hole"
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H5")
 					(unit 1)
 				)
 			)
