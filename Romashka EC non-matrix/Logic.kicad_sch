@@ -9285,7 +9285,7 @@
 	)
 	(global_label "MUX2_D11"
 		(shape input)
-		(at 248.92 48.26 90)
+		(at 229.87 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9295,7 +9295,7 @@
 		)
 		(uuid "aaadbcae-aca1-41f5-b7ff-548006aadb89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 35.4173 90)
+			(at 229.87 35.4173 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10246,7 @@
 	)
 	(global_label "MUX2_D10"
 		(shape input)
-		(at 229.87 48.26 90)
+		(at 248.92 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10256,7 +10256,7 @@
 		)
 		(uuid "ff58bb51-e4fa-42dd-949d-eb48676a1783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 35.4173 90)
+			(at 248.92 35.4173 90)
 			(effects
 				(font
 					(size 1.27 1.27)
