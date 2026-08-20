@@ -1665,18 +1665,6 @@
 		(uuid "12978936-9243-4e88-9e28-8f39fcf4bac7")
 	)
 	(junction
-		(at 278.13 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15894e62-2b72-4f55-bb32-93efa45ffba9")
-	)
-	(junction
-		(at 276.86 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16522d5d-3ed5-43ee-9826-5d7f842c03b8")
-	)
-	(junction
 		(at 238.76 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3470,16 +3458,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 201.93) (xy 288.29 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce56a85-b16b-4fdb-9d7d-6db3a7a66e59")
-	)
-	(wire
-		(pts
 			(xy 76.2 53.34) (xy 88.9 53.34)
 		)
 		(stroke
@@ -4207,16 +4185,6 @@
 			(type default)
 		)
 		(uuid "67e7737f-0141-4254-9aaa-d26df79edf0e")
-	)
-	(wire
-		(pts
-			(xy 127 181.61) (xy 127 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a332ca-c2b5-4b21-9439-1de8fabc0a71")
 	)
 	(wire
 		(pts
@@ -5210,16 +5178,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 195.58) (xy 287.02 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c6bcf4-4227-4907-86d8-b533f407fa15")
-	)
-	(wire
-		(pts
 			(xy 248.92 153.67) (xy 245.11 153.67)
 		)
 		(stroke
@@ -5370,16 +5328,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 189.23) (xy 312.42 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be02901a-483d-4fea-953a-783a395223a9")
-	)
-	(wire
-		(pts
 			(xy 162.56 35.56) (xy 181.61 35.56)
 		)
 		(stroke
@@ -5470,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 201.93) (xy 278.13 201.93)
+			(xy 267.97 201.93) (xy 288.29 201.93)
 		)
 		(stroke
 			(width 0)
@@ -5807,16 +5755,6 @@
 			(type default)
 		)
 		(uuid "d57b9b2d-e8ec-4951-8358-a7a5fb49b6e7")
-	)
-	(wire
-		(pts
-			(xy 34.29 177.8) (xy 34.29 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c5c4a5-1554-4440-a532-a47d44dae783")
 	)
 	(wire
 		(pts
@@ -6300,7 +6238,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 195.58) (xy 276.86 195.58)
+			(xy 266.7 195.58) (xy 287.02 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6387,16 +6325,6 @@
 			(type default)
 		)
 		(uuid "f88f1584-3ac5-4a61-92f8-88e5460b8e7d")
-	)
-	(wire
-		(pts
-			(xy 219.71 185.42) (xy 219.71 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9445994-6053-4640-8811-a1a2742436cf")
 	)
 	(wire
 		(pts
@@ -7031,6 +6959,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_EN"
+		(shape input)
+		(at 127 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "178bd503-1438-48d1-879a-4f868dbce0a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5763 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8758,6 +8708,28 @@
 			)
 		)
 	)
+	(global_label "MUX_EN"
+		(shape input)
+		(at 219.71 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a9adfaf-ea79-41c8-a62f-0639016fa7c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.2863 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MUX1_D14"
 		(shape input)
 		(at 151.13 30.48 90)
@@ -9265,6 +9237,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_EN"
+		(shape input)
+		(at 34.29 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0630ea8-738f-4bd8-a260-87c5672912ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.8663 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9957,6 +9951,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_EN"
+		(shape input)
+		(at 312.42 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef67c6d0-ba88-484f-9bae-b9030ffb321c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.9963 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13226,146 +13242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 278.13 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3296cc7f-ffc3-4e83-aa37-8aaf86ce5dfd")
-		(property "Reference" "R74"
-			(at 280.67 198.1199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 280.67 200.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 278.13 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 278.13 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd2c1baf-b211-4e44-8700-8124ae7e5985")
-		)
-		(pin "1"
-			(uuid "aa35cbda-207d-441f-a025-3b3490218228")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 276.86 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "34028ebc-294d-4e13-9325-716d21edff6d")
-		(property "Reference" "R59"
-			(at 279.4 191.7699 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 279.4 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 276.86 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 276.86 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e73b8238-07c2-4bb6-a61c-6f7562c56b51")
-		)
-		(pin "1"
-			(uuid "f69ac05c-0b95-4381-a54a-852e09bdb3fd")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad symbols:EC_SW")
 		(at 260.35 48.26 0)
 		(unit 1)
@@ -15025,73 +14901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 219.71 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "511b52eb-1d2d-4474-af76-a582a267bf46")
-		(property "Reference" "#PWR053"
-			(at 219.71 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e71e84f5-4518-49ba-9320-0cc6daf83009")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 320.04 144.78 270)
 		(mirror x)
@@ -16679,73 +16488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 34.29 177.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80b61a05-6596-4772-92fc-4725b406f672")
-		(property "Reference" "#PWR068"
-			(at 34.29 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41362450-00e7-4bf6-badc-6d1170c6f0e4")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_stab")
 		(at 196.85 93.98 0)
 		(unit 1)
@@ -17014,73 +16756,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "SW40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 181.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85dd3fdb-fa81-4890-bb75-c0bba8beb4bf")
-		(property "Reference" "#PWR067"
-			(at 127 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8819d0f1-c256-46e2-97e6-8acd4fbdc8bd")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -19646,73 +19321,6 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 312.42 189.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbc9bc97-ee33-42d1-8383-a266db85945b")
-		(property "Reference" "#PWR052"
-			(at 312.42 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 312.42 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 312.42 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5e5019e-3653-406d-9bd2-f3ffeb76527b")
-		)
-		(instances
-			(project "Romashka EC non-matrix"
-				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
