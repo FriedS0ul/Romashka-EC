@@ -10714,7 +10714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 276.86 30.48 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -11125,7 +11125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 146.05 48.26 0)
 			(effects
 				(font
@@ -12146,7 +12146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -12629,7 +12629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 295.91 30.48 0)
 			(effects
 				(font
@@ -12844,7 +12844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -12982,7 +12982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_2.381_V3"
 			(at 368.3 35.56 0)
 			(effects
 				(font
@@ -13390,7 +13390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 260.35 48.26 0)
 			(effects
 				(font
@@ -13460,7 +13460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -13530,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 130.81 66.04 0)
 			(effects
 				(font
@@ -13668,7 +13668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_2.381_V3"
 			(at 105.41 83.82 0)
 			(effects
 				(font
@@ -13738,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -13808,7 +13808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_2.381_V3"
 			(at 388.62 35.56 0)
 			(effects
 				(font
@@ -13947,7 +13947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 373.38 67.31 0)
 			(effects
 				(font
@@ -14570,7 +14570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -14776,7 +14776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -15322,7 +15322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 162.56 30.48 0)
 			(effects
 				(font
@@ -15392,7 +15392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 149.86 66.04 0)
 			(effects
 				(font
@@ -15529,7 +15529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 251.46 83.82 0)
 			(effects
 				(font
@@ -15803,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 107.95 48.26 0)
 			(effects
 				(font
@@ -16081,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 284.48 48.26 0)
 			(effects
 				(font
@@ -16430,7 +16430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 245.11 66.04 0)
 			(effects
 				(font
@@ -16633,7 +16633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -16974,7 +16974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 232.41 83.82 0)
 			(effects
 				(font
@@ -17181,7 +17181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -17389,7 +17389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 207.01 66.04 0)
 			(effects
 				(font
@@ -17529,7 +17529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 283.21 66.04 0)
 			(effects
 				(font
@@ -17802,7 +17802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_2.381_V3"
 			(at 354.33 67.31 0)
 			(effects
 				(font
@@ -18288,7 +18288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -18707,7 +18707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 257.81 30.48 0)
 			(effects
 				(font
@@ -18778,7 +18778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_7.144_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_7.144_V3"
 			(at 393.7 100.33 0)
 			(effects
 				(font
@@ -19055,7 +19055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -20083,7 +20083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -20285,7 +20285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -20425,7 +20425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -20833,7 +20833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 270.51 83.82 0)
 			(effects
 				(font
@@ -20904,7 +20904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_hybrid_hotswap_2.381_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_hybrid_hotswap_2.381_V3"
 			(at 392.43 67.31 0)
 			(effects
 				(font
@@ -20974,7 +20974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -21045,7 +21045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -21185,7 +21185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 143.51 30.48 0)
 			(effects
 				(font
@@ -21255,7 +21255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -22007,7 +22007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 181.61 30.48 0)
 			(effects
 				(font
@@ -22147,7 +22147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 86.36 30.48 0)
 			(effects
 				(font
@@ -22217,7 +22217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 105.41 30.48 0)
 			(effects
 				(font
@@ -22287,7 +22287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -22358,7 +22358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 86.36 83.82 0)
 			(effects
 				(font
@@ -22495,7 +22495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3_switched_sides"
 			(at 238.76 30.48 0)
 			(effects
 				(font
@@ -22706,7 +22706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Kicad footprints:ecs_pad_1U_hybrid_hotswap_V3"
+		(property "Footprint" "FriedSoul_switches:ecs_pad_1U_hybrid_hotswap_V3"
 			(at 374.65 100.33 0)
 			(effects
 				(font
