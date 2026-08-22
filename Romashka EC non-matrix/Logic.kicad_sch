@@ -10283,7 +10283,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "S46")
 					(unit 1)
@@ -10559,7 +10559,7 @@
 			(uuid "89a6ae48-61f8-4e0f-b634-43e0bca9c274")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "R41")
 					(unit 1)
@@ -10906,7 +10906,7 @@
 			(uuid "264c6a54-c045-43bd-b749-28fd692d82f3")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "C9")
 					(unit 1)
@@ -11038,7 +11038,7 @@
 			(uuid "cd679eb0-4a53-4839-a0c5-916349c662fd")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "#PWR08")
 					(unit 1)
@@ -11517,7 +11517,7 @@
 			(uuid "c3a85ea1-2e01-49f2-a968-a7ac7b042a0d")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "U4")
 					(unit 1)
@@ -13927,7 +13927,7 @@
 			(uuid "764735ce-4c6b-4c62-91cf-be51b5bf42d8")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "R85")
 					(unit 1)
@@ -16682,7 +16682,7 @@
 			(uuid "f9585044-33b1-4464-a3be-c7fe903a6c77")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "C22")
 					(unit 1)
@@ -18282,7 +18282,7 @@
 			(uuid "e39aa5e1-d775-4021-9964-cb345c2fdf60")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "U8")
 					(unit 1)
@@ -21792,7 +21792,7 @@
 			(uuid "56ee01f3-cc62-4c7b-8d6e-977f9e5cd48f")
 		)
 		(instances
-			(project ""
+			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720/35a4b999-3692-42ec-a80e-1fafcd411d3b"
 					(reference "SW1")
 					(unit 1)
