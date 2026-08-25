@@ -6278,22 +6278,22 @@
 	)
 	(global_label "DISCHARGE1"
 		(shape input)
-		(at 212.09 68.58 180)
+		(at 247.65 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "373feebe-91b5-4d50-bcc6-65ad671f37b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.4329 68.58 0)
+			(at 262.3071 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6390,22 +6390,22 @@
 	)
 	(global_label "ADC2"
 		(shape input)
-		(at 247.65 48.26 0)
+		(at 212.09 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "756ae1e8-fd7a-4167-a458-054256606c31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4733 48.26 0)
+			(at 204.2667 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6566,22 +6566,22 @@
 	)
 	(global_label "ADC1"
 		(shape input)
-		(at 212.09 71.12 180)
+		(at 247.65 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9e020559-8c1a-47ea-8403-8f79609d8311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.2667 71.12 0)
+			(at 255.4733 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6808,7 +6808,7 @@
 	)
 	(global_label "ADC0"
 		(shape input)
-		(at 247.65 55.88 0)
+		(at 247.65 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6818,7 +6818,7 @@
 		)
 		(uuid "e4c3abf6-e73e-4d02-a767-d10261f847d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.4733 55.88 0)
+			(at 255.4733 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,22 +6830,22 @@
 	)
 	(global_label "DISCHARGE2"
 		(shape input)
-		(at 247.65 43.18 0)
+		(at 212.09 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e6c9fe1d-c7ef-4146-9f0f-872a9e28ccfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3071 43.18 0)
+			(at 197.4329 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6918,7 +6918,7 @@
 	)
 	(global_label "DISCHARGE0"
 		(shape input)
-		(at 247.65 53.34 0)
+		(at 247.65 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6928,7 +6928,7 @@
 		)
 		(uuid "f232daec-37fb-42a6-aa73-72d8b32a1c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3071 53.34 0)
+			(at 262.3071 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 154.94 31.75 0)
 			(effects
 				(font
@@ -8160,7 +8160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:SOICbite_footprint"
+		(property "Footprint" "FriesSoul_misc:SOICbite_footprint"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -8556,6 +8556,70 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6644de14-04f5-4e42-a68d-d882ca3398f3")
+		(property "Reference" "H7"
+			(at 137.16 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FriesSoul_misc:m2 hole"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -8973,6 +9037,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 134.62 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3e3c0d-4e10-4eb4-a768-c874165a1461")
+		(property "Reference" "H9"
+			(at 137.16 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 137.16 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FriesSoul_misc:m2 hole"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc6c8fb-1327-4ee0-9575-ebfcfd162b3b")
+		(property "Reference" "H8"
+			(at 157.48 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FriesSoul_misc:m2 hole"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 26.67 0)
 		(mirror x)
@@ -9070,7 +9262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 134.62 26.67 0)
 			(effects
 				(font
@@ -9539,7 +9731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 134.62 21.59 0)
 			(effects
 				(font
@@ -10399,7 +10591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -10496,6 +10688,70 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7eac31a-3c14-4b94-b9a7-a118a128a432")
+		(property "Reference" "H10"
+			(at 157.48 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FriesSoul_misc:m2 hole"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -11076,7 +11332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 154.94 21.59 0)
 			(effects
 				(font
@@ -11792,7 +12048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad footprints:m2 hole"
+		(property "Footprint" "FriesSoul_misc:m2 hole"
 			(at 134.62 31.75 0)
 			(effects
 				(font
