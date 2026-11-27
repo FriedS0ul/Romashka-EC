@@ -1,4 +1,4 @@
-27089143121699453
+27101685907579400
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60018,12 +60018,26 @@ H60 standard 60 with cutouts
 12
 1
 FriedSoul_outlines
+MM720
+
+
+0
+0
+0
+FriedSoul_outlines
 Standard 60 outline
 
 
 0
 3
 1
+FriedSoul_outlines
+Vastarmor deshroud pcb
+
+
+0
+0
+0
 FriedSoul_outlines
 lx60 + standard 60 outline
 
@@ -60053,12 +60067,33 @@ Button_Switch TS2306A
 2
 2
 FriedSoul_switches
+MSS23C02
+
+
+0
+8
+8
+FriedSoul_switches
 MX switch + 2u stab plate cutout
 
 
 0
 0
 0
+FriedSoul_switches
+Mouse_encoder
+SW-TH_EC10EXXXXXXX footprint
+SW-TH_EC10EXXXXXXX footprint C160889
+0
+5
+5
+FriedSoul_switches
+SW_MOUSE_SPDT
+1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXP-X.pdf
+SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1
+0
+3
+3
 FriedSoul_switches
 ec_sw_125_gap_4pin
 
@@ -60179,6 +60214,13 @@ DFN package size 1006 3 pins
 2
 2
 FriesSoul_misc
+PAW3395
+https://www.pixart.com/products-detail/129/PAW3395DM-T6QU
+optical mouse sensor
+0
+16
+16
+FriesSoul_misc
 SOICbite_footprint
 
 
@@ -60192,6 +60234,13 @@ WQFN-20_L4.0-W3.0-P0.50-BL-EP
 0
 21
 21
+FriesSoul_misc
+XIAO nRF54L15 DIP
+Footprint for Seeduino Xiao nRF52840 controllers, made for pin headers and pogo pins for the bottom pads
+
+0
+14
+14
 FriesSoul_misc
 m2 hole
 Mounting Hole 2.2mm, no annular, M2
