@@ -1116,6 +1116,392 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MCU_Puya:PY32F002AW15U"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.684 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PY32F002AW15U"
+				(at 12.446 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F002A_Datasheet_V0.2.pdf"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32-bit ARM Cortex-M0+ Microcontroller, 20 KB Flash, 3 KB SRAM, 24 MHz, 1.7V - 5.5V, 15 GPIO, WQFN-16"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MCU I2C SPI USART ADC SWD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*QFN*3x3mm*P0.5mm*EP1.7*x1.7*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PY32F002AW15U_1_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "PA13/SWD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "PA14/SWC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "PF2/~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2P6"
 			(pin_names
 				(hide yes)
@@ -3949,6 +4335,121 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Puya:PY32F002AW15U")
+		(at 251.46 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8f1de4-0584-4528-9929-6f90ab1cec09")
+		(property "Reference" "U5"
+			(at 253.6033 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PY32F002AW15U"
+			(at 253.6033 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F002A_Datasheet_V0.2.pdf"
+			(at 251.46 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32-bit ARM Cortex-M0+ Microcontroller, 20 KB Flash, 3 KB SRAM, 24 MHz, 1.7V - 5.5V, 15 GPIO, WQFN-16"
+			(at 251.46 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "78257371-3607-424f-940f-4f52c8659664")
+		)
+		(pin "4"
+			(uuid "9627b304-b7c2-4c18-a525-54d8418f8c96")
+		)
+		(pin "14"
+			(uuid "4dc1dc88-bfd1-4931-a3bf-482c6e89cb4d")
+		)
+		(pin "1"
+			(uuid "1116c872-2699-4f2f-9c51-ea17224a6266")
+		)
+		(pin "5"
+			(uuid "c988c026-c859-4516-a1cf-b251fab0bd44")
+		)
+		(pin "6"
+			(uuid "21a0687b-889f-4665-a212-043d2dc2d911")
+		)
+		(pin "8"
+			(uuid "4b7d9bfd-78a0-487b-904a-cf01ae90d622")
+		)
+		(pin "11"
+			(uuid "e8519a89-5820-41f7-b68b-5cfd3073c410")
+		)
+		(pin "13"
+			(uuid "b39c7d44-6000-468a-802a-b67cc7556ebe")
+		)
+		(pin "16"
+			(uuid "c404ba70-fe65-4a69-9fd7-b7486e863381")
+		)
+		(pin "2"
+			(uuid "d0fa93e8-ac17-4a28-858a-936c7c9da4f5")
+		)
+		(pin "10"
+			(uuid "4d48c181-7704-47bb-978b-52d68d195f5c")
+		)
+		(pin "17"
+			(uuid "4e4c7a87-2ca3-406d-8b36-cc16dd1efe02")
+		)
+		(pin "3"
+			(uuid "52528ed0-2a99-406b-a3a4-9f5dec654878")
+		)
+		(pin "12"
+			(uuid "61729cce-96c5-4bbb-8947-7436457ee0da")
+		)
+		(pin "9"
+			(uuid "eab13439-4d2d-47c2-9272-12d9161dafe3")
+		)
+		(pin "7"
+			(uuid "17664898-54ec-44d9-830d-10989b823720")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 107.95 0)
 		(mirror y)
@@ -4285,6 +4786,121 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Puya:PY32F002AW15U")
+		(at 193.04 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6106676-d363-4641-bea7-30391957d699")
+		(property "Reference" "U4"
+			(at 195.1833 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PY32F002AW15U"
+			(at 195.1833 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F002A_Datasheet_V0.2.pdf"
+			(at 193.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32-bit ARM Cortex-M0+ Microcontroller, 20 KB Flash, 3 KB SRAM, 24 MHz, 1.7V - 5.5V, 15 GPIO, WQFN-16"
+			(at 193.04 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "f14abadf-6bf1-4ed7-bafc-b4dd14a38a29")
+		)
+		(pin "4"
+			(uuid "79a29551-9c11-46ab-a996-a1f5798d60a7")
+		)
+		(pin "14"
+			(uuid "04232600-0995-48fb-b5e0-b35c5c8aef16")
+		)
+		(pin "1"
+			(uuid "b0e34677-7dd1-4343-bc88-03a447633712")
+		)
+		(pin "5"
+			(uuid "ceb7d4a8-f087-480a-bccc-f0bb936fef23")
+		)
+		(pin "6"
+			(uuid "0346700b-b5c1-43f7-8bd5-ca2db2063a37")
+		)
+		(pin "8"
+			(uuid "47a7603d-30e9-444e-bb59-d498d868485b")
+		)
+		(pin "11"
+			(uuid "4a87eecb-185c-4e48-9d75-d3c63fad4dcd")
+		)
+		(pin "13"
+			(uuid "eb5f3209-c2c1-49d6-a7b7-39b665372b5b")
+		)
+		(pin "16"
+			(uuid "3808e7e9-30af-4675-bc27-934cc1265b5f")
+		)
+		(pin "2"
+			(uuid "a1ef3879-c6f9-49b4-8ec6-340d764ef85f")
+		)
+		(pin "10"
+			(uuid "0356903a-4677-4357-a4cf-1fdd24e64218")
+		)
+		(pin "17"
+			(uuid "9d439041-3e59-4d31-b4d2-5de8483172a4")
+		)
+		(pin "3"
+			(uuid "3549d073-18ea-4f01-8ac4-c4a827d7815a")
+		)
+		(pin "12"
+			(uuid "6b2a89c9-ae09-47f1-82c0-e6b9d3e16eda")
+		)
+		(pin "9"
+			(uuid "e178c458-2281-489b-b5b1-1c32f08a0618")
+		)
+		(pin "7"
+			(uuid "76a4756a-ced6-46f9-b6dd-92d4b22c514f")
+		)
+		(instances
+			(project "Romashka EC non-matrix"
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 31.75 41.91 0)
 		(unit 1)
@@ -4392,6 +5008,121 @@
 			(project "Romashka EC non-matrix"
 				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Puya:PY32F002AW15U")
+		(at 135.89 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef9a41f6-ff12-4bcf-82c5-397999f31fed")
+		(property "Reference" "U1"
+			(at 138.0333 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PY32F002AW15U"
+			(at 138.0333 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm"
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F002A_Datasheet_V0.2.pdf"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32-bit ARM Cortex-M0+ Microcontroller, 20 KB Flash, 3 KB SRAM, 24 MHz, 1.7V - 5.5V, 15 GPIO, WQFN-16"
+			(at 135.89 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "9c254bb6-24dd-424c-a1db-d6ac294977fe")
+		)
+		(pin "4"
+			(uuid "636635d3-1652-4739-87d5-db40bc6a670d")
+		)
+		(pin "14"
+			(uuid "9272b814-7d14-4cc2-8214-9044c806ca88")
+		)
+		(pin "1"
+			(uuid "02672504-7de7-42df-8d01-40bd7649a7e8")
+		)
+		(pin "5"
+			(uuid "293642b1-5730-432b-aa41-29e9d1271cf5")
+		)
+		(pin "6"
+			(uuid "37083596-4885-4625-92ba-bec4c928e103")
+		)
+		(pin "8"
+			(uuid "c84d1abb-7aff-4102-b632-fcc6572b88f0")
+		)
+		(pin "11"
+			(uuid "013be233-3e33-4d41-b1e7-9fb6527e6dc3")
+		)
+		(pin "13"
+			(uuid "7085de70-91e6-43e1-8d52-391a376244b0")
+		)
+		(pin "16"
+			(uuid "36bc0fbd-3d17-4244-9e94-e9e487dd02ea")
+		)
+		(pin "2"
+			(uuid "f541926b-3cb1-4373-ac9c-3b3869bf68ae")
+		)
+		(pin "10"
+			(uuid "ae66e745-2538-4bf6-9f4b-b9a2c101b159")
+		)
+		(pin "17"
+			(uuid "e6acccda-9620-4a73-a9d0-85e32be10b7e")
+		)
+		(pin "3"
+			(uuid "3d438184-32dd-46ca-b1c4-12bb828a1521")
+		)
+		(pin "12"
+			(uuid "20e13978-28ce-4f15-8b4a-267da49786ac")
+		)
+		(pin "9"
+			(uuid "dfe0e6fc-d668-4a99-b31e-50314cafda4e")
+		)
+		(pin "7"
+			(uuid "1b2769ff-34ff-4264-8bd9-257730005b4d")
+		)
+		(instances
+			(project ""
+				(path "/69f48e55-4bf1-48a7-a2c4-b2689bdf9720"
+					(reference "U1")
 					(unit 1)
 				)
 			)
